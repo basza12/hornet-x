@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="discover_place_reactions_button">
+        <item quantity="other">%d τύποι</item>
+        <item quantity="one">1 τύπος</item>
+    </plurals>
+    <plurals name="feed_reactions_text_liked_by_me">
+        <item quantity="other">Εσείς και [%1$d τύποι] (/activities/%2$s/reactions) σαν αυτές</item>
+        <item quantity="one">Εσείς και [1 τύπος] (/activities/%2$s/reactions) σαν αυτές</item>
+    </plurals>
+    <plurals name="feed_reactions_text_not_liked_by_me">
+        <item quantity="other">[%1$d τύποι] (/activities/%2$s/reactions) τους αρέσει αυτό</item>
+        <item quantity="one">[1 τύπος] (/activities/%2$s/reactions) του αρέσει αυτό</item>
+    </plurals>
+    <plurals name="feet">
+        <item quantity="other">%1$d πόδια</item>
+        <item quantity="one">%1$d πόδι</item>
+    </plurals>
+    <plurals name="kilometer">
+        <item quantity="other">%1$d χιλιόμετρα</item>
+        <item quantity="one">%1$d χιλιόμετρο</item>
+    </plurals>
+    <plurals name="meter">
+        <item quantity="other">%1$d μέτρα</item>
+        <item quantity="one">%1$d μέτρο</item>
+    </plurals>
+    <plurals name="mile">
+        <item quantity="other">%1$d μίλια</item>
+        <item quantity="one">%1$d μίλι</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">Followers</item>
+        <item quantity="one">Follower</item>
+    </plurals>
+    <plurals name="profile_last_online_days_ago">
+        <item quantity="other">Online %d days ago</item>
+        <item quantity="one">Online %d day ago</item>
+    </plurals>
+    <plurals name="profile_last_online_hours_ago">
+        <item quantity="other">Online %d hours ago</item>
+        <item quantity="one">Online %d hour ago</item>
+    </plurals>
+    <plurals name="profile_last_online_minutes_ago">
+        <item quantity="other">Online %d minutes ago</item>
+        <item quantity="one">Online %d minute ago</item>
+    </plurals>
+    <plurals name="profile_photos_count">
+        <item quantity="other">Photos</item>
+        <item quantity="one">Photo</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_enough_credits">
+        <item quantity="other">Πρόκειται να εξαργυρώσετε %1$d πόντους πρόσκλησης. Θα πάρετε Δωρεάν %2$s σε αντάλλαγμα.</item>
+        <item quantity="one">Πρόκειται να εξαργυρώσετε %1$d πόντο πρόσκλησης. Θα πάρετε Δωρεάν %2$s σε αντάλλαγμα.</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_redeem_subtitle">
+        <item quantity="other">%d πόντοι</item>
+        <item quantity="one">%d πόντος</item>
+    </plurals>
+    <plurals name="story_likes_count">
+        <item quantity="other">Likes</item>
+        <item quantity="one">Like</item>
+    </plurals>
+</resources>

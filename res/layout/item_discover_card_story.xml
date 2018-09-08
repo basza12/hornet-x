@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="140.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_card_margin" android:layout_marginTop="0.0dip" android:layout_marginRight="@dimen/activity_card_margin" android:layout_marginBottom="@dimen/activity_card_margin" app:cardBackgroundColor="@color/activity_card_background" app:cardCornerRadius="@dimen/activity_card_corner_radius" app:cardElevation="@dimen/activity_card_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hornet.android.widget.ForegroundAwareLinearLayout android:orientation="vertical" android:id="@id/story_content" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:compatForeground="?android:selectableItemBackground">
+        <FrameLayout android:layout_width="140.0dip" android:layout_height="110.0dip">
+            <ImageView android:id="@id/story_header_image" android:layout_width="140.0dip" android:layout_height="110.0dip" android:scaleType="centerCrop" android:contentDescription="@string/discover_story_image_description" />
+            <android.support.design.widget.FloatingActionButton android:layout_gravity="end|center|top" android:id="@id/content_like_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" android:src="@drawable/ic_favorite_border_white_24dp" app:backgroundTint="@color/background_black_transparent_bf" app:backgroundTintMode="src_in" app:elevation="0.0px" app:fabSize="mini" app:rippleColor="@android:color/white" app:useCompatPadding="true" />
+        </FrameLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/body_text_1" android:ellipsize="end" android:id="@id/story_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_normal" android:layout_marginTop="@dimen/spacing_normal" android:layout_marginRight="@dimen/spacing_normal" android:layout_marginBottom="@dimen/spacing_normal" android:maxLines="4" android:lines="4" />
+    </com.hornet.android.widget.ForegroundAwareLinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.hornet.android.views.BezelImageView android:layout_gravity="center" android:id="@id/chatIncomingPhotoView" android:background="@drawable/bg_chat_incoming_text_single" android:layout_width="@dimen/chat_image_size" android:layout_height="@dimen/chat_image_size" app:maskDrawable="@drawable/bg_chat_incoming_text_single" />
+        <android.support.v4.widget.ContentLoadingProgressBar android:layout_gravity="center" android:id="@id/chatIncomingPhotoProgressView" android:background="@drawable/bg_circle_white" android:layout_width="36.0dip" android:layout_height="36.0dip" android:progressTint="@color/hornet_gui_cyan" style="?android:progressBarStyle" />
+        <ImageView android:layout_gravity="center" android:id="@id/chatIncomingPhotoRetryView" android:background="@drawable/bg_circle_white" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_restart_black_20dp" android:contentDescription="@string/global_retry" />
+    </FrameLayout>
+    <TextView android:textSize="11.0sp" android:textColor="@color/hornet_mid_grey" android:layout_gravity="start" android:id="@id/chatIncomingPhotoTimestampView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" />
+</LinearLayout>

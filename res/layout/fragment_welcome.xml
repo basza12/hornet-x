@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/button_back" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="22.0dip" android:src="@mipmap/back_arrow" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="#50000000" android:paddingLeft="44.0dip" android:paddingTop="20.0dip" android:paddingRight="44.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:theme="@style/AppTheme.RaisedButtonStyleColoredHornetCyan" android:id="@id/button_signup" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/global_sign_up_for_free" />
+        <Button android:theme="@style/AppTheme.RaisedButtonStyleColoredHornetOrange" android:id="@id/button_login" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" android:text="@string/button_login" />
+        <Button android:textColor="@android:color/white" android:id="@id/later" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/button_create_later" style="?android:borderlessButtonStyle" />
+    </LinearLayout>
+</RelativeLayout>

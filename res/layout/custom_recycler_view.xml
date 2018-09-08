@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hornet.android.widget.ContentLoadingProgressView android:id="@id/contentLoadingProgressIndicatorView" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4.0dip" app:hideWithInvisibility="false">
+        <ProgressBar android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="4.0dip" android:indeterminate="true" style="?android:progressBarStyleHorizontal" />
+    </com.hornet.android.widget.ContentLoadingProgressView>
+    <android.support.v7.widget.RecyclerView android:id="@id/rv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/contentLoadingProgressIndicatorView" android:overScrollMode="never" />
+</merge>

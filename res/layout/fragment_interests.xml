@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="20.0sp" android:textColor="@color/text_gray" android:id="@id/interestsTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_thick" android:layout_marginTop="100.0dip" android:layout_marginRight="@dimen/spacing_thick" android:layout_marginBottom="20.0dip" android:lineSpacingMultiplier="1.15" android:fontFamily="sans-serif-light" />
+        <android.support.v7.widget.RecyclerView android:id="@id/interests_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/spacing_thick" android:layout_marginRight="@dimen/spacing_thick" android:layout_below="@id/interestsTitle" android:overScrollMode="never" />
+        <ProgressBar android:id="@id/interestsLoader" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerInParent="true" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/text_gray" android:id="@id/interestsRetry" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/global_retry" android:layout_centerInParent="true" android:textAllCaps="true" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/continueLayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_alignParentBottom="true" android:translationY="64.0dip">
+            <View android:background="@color/hornet_almost_white" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <Button android:theme="@style/AppTheme.RaisedButtonStyleColoredHornetOrange" android:id="@id/continueButton" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/padding_thin" android:layout_marginRight="@dimen/padding_thin" android:text="@string/continue_label" android:textAllCaps="false" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/interestsCompleteLayout" android:background="@color/hornet_background_default" android:layout_width="fill_parent" android:layout_height="fill_parent" app:behavior_hideable="true" app:behavior_peekHeight="0.0dip" app:layout_behavior="com.hornet.android.utils.behaviour.UserLockBottomSheetBehavior">
+        <com.hornet.android.views.BezelImageView android:id="@id/myProfilePhotoView" android:layout_width="160.0dip" android:layout_height="160.0dip" app:maskDrawable="@drawable/rounded_edge_mask" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/text_gray" android:gravity="center" android:id="@id/interestsTitleComplete" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_thick" android:layout_marginTop="25.0dip" android:layout_marginRight="@dimen/spacing_thick" android:layout_marginBottom="20.0dip" android:lineSpacingMultiplier="1.15" android:fontFamily="sans-serif-light" />
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/padding_normal" android:weightSum="1.0">
+            <Button android:theme="@style/AppTheme.RaisedButtonStyleColoredHornetOrange" android:id="@id/doneButton" android:layout_width="0.0dip" android:layout_height="64.0dip" android:text="@string/done_label" android:layout_weight="0.5" android:textAllCaps="false" />
+        </LinearLayout>
+        <Button android:theme="@style/AppTheme.RaisedButtonStyleColoredHornetGrey" android:id="@id/editButton" android:background="@drawable/bg_button_disabled" android:paddingLeft="@dimen/padding_thick" android:paddingRight="@dimen/padding_thick" android:layout_width="wrap_content" android:layout_height="32.0dip" android:text="@string/edit_interests_label" android:textAllCaps="false" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

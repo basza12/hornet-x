@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="house_ad_ctas">
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+    </string-array>
+    <string-array name="house_ad_titles">
+        <item>試試看付費會員篩選器</item>
+        <item>誰看過我</item>
+        <item>擺脫廣告，成為付費會員</item>
+        <item>讓你可以隱身</item>
+    </string-array>
+</resources>

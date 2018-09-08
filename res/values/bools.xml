@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_allow_stacked_button_bar">false</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="animate_layout_changes_in_notifications_and_sounds">true</bool>
+    <bool name="io_branch_sdk_test_mode">false</bool>
+    <bool name="tablet">false</bool>
+    <bool name="wide_dialogs">false</bool>
+</resources>

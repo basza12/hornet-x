@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.FixedCoordinatorLayout android:id="@id/rootView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/swipeRefreshLayout" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <android.support.v7.widget.RecyclerView android:id="@id/storyContent" android:background="#ffeaeaea" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="LinearLayoutManager" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <android.support.v4.widget.ContentLoadingProgressBar android:layout_gravity="top" android:id="@id/progressIndicatorView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="?actionBarSize" style="?android:progressBarStyleHorizontal" />
+    <android.support.design.widget.FloatingActionButton android:id="@id/followFab" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/ic_show_page_follow_24dp" app:backgroundTint="@android:color/white" app:elevation="2.0dip" app:fabSize="normal" app:layout_anchor="@id/storyContent" app:layout_anchorGravity="end|bottom|center" app:layout_behavior="com.hornet.android.widget.FullBoundsFloatingActionButtonBehavior" app:pressedTranslationZ="6.0dip" app:rippleColor="@color/foreground_grey_tint" app:useCompatPadding="true" />
+</android.support.design.widget.FixedCoordinatorLayout>

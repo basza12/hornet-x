@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="house_ad_ctas">
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+    </string-array>
+    <string-array name="house_ad_titles">
+        <item>قم بتجربة مرشحات الاشتراك المميز</item>
+        <item>اعرف من استعرض صفحتك الشخصية</item>
+        <item>تخلص من الإعلانات، احصل على المميز</item>
+        <item>اصبح غير مرئي.</item>
+    </string-array>
+</resources>

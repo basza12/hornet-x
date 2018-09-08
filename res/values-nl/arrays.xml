@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="house_ad_ctas">
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+    </string-array>
+    <string-array name="house_ad_titles">
+        <item>Probeer Premium Filters</item>
+        <item>Zie wie je bekeken heeft</item>
+        <item>Verwijder alle advertenties, neem premium</item>
+        <item>Wordt onzichtbaar.</item>
+    </string-array>
+</resources>

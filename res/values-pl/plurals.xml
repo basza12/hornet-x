@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="discover_place_reactions_button">
+        <item quantity="other">%d guys</item>
+        <item quantity="one">1 guy</item>
+        <item quantity="few">%d guys</item>
+        <item quantity="many">%d guys</item>
+    </plurals>
+    <plurals name="feed_reactions_text_liked_by_me">
+        <item quantity="other">You and [%1$d guys](/activities/%2$s/reactions) like this</item>
+        <item quantity="one">You and [1 guy](/activities/%2$s/reactions) like this</item>
+        <item quantity="few">You and [%1$d guys](/activities/%2$s/reactions) like this</item>
+        <item quantity="many">You and [%1$d guys](/activities/%2$s/reactions) like this</item>
+    </plurals>
+    <plurals name="feed_reactions_text_not_liked_by_me">
+        <item quantity="other">[%1$d guys](/activities/%2$s/reactions) like this</item>
+        <item quantity="one">[1 guy](/activities/%2$s/reactions) likes this</item>
+        <item quantity="few">[%1$d guys](/activities/%2$s/reactions) like this</item>
+        <item quantity="many">[%1$d guys](/activities/%2$s/reactions) like this</item>
+    </plurals>
+    <plurals name="feet">
+        <item quantity="other">%1$d feet</item>
+        <item quantity="one">%1$d foot</item>
+        <item quantity="few">%1$d feet</item>
+        <item quantity="many">%1$d feet</item>
+    </plurals>
+    <plurals name="kilometer">
+        <item quantity="other">%1$d kilometers</item>
+        <item quantity="one">%1$d kilometer</item>
+        <item quantity="few">%1$d kilometers</item>
+        <item quantity="many">%1$d kilometers</item>
+    </plurals>
+    <plurals name="meter">
+        <item quantity="other">%1$d meters</item>
+        <item quantity="one">%1$d meter</item>
+        <item quantity="few">%1$d meters</item>
+        <item quantity="many">%1$d meters</item>
+    </plurals>
+    <plurals name="mile">
+        <item quantity="other">%1$d miles</item>
+        <item quantity="one">%1$d mile</item>
+        <item quantity="few">%1$d miles</item>
+        <item quantity="many">%1$d miles</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">Followers</item>
+        <item quantity="one">Follower</item>
+        <item quantity="few">Followers</item>
+        <item quantity="many">Followers</item>
+    </plurals>
+    <plurals name="profile_last_online_days_ago">
+        <item quantity="other">Online %d days ago</item>
+        <item quantity="one">Online %d day ago</item>
+        <item quantity="few">Online %d days ago</item>
+        <item quantity="many">Online %d days ago</item>
+    </plurals>
+    <plurals name="profile_last_online_hours_ago">
+        <item quantity="other">Online %d hours ago</item>
+        <item quantity="one">Online %d hour ago</item>
+        <item quantity="few">Online %d hours ago</item>
+        <item quantity="many">Online %d hours ago</item>
+    </plurals>
+    <plurals name="profile_last_online_minutes_ago">
+        <item quantity="other">Online %d minutes ago</item>
+        <item quantity="one">Online %d minute ago</item>
+        <item quantity="few">Online %d minutes ago</item>
+        <item quantity="many">Online %d minutes ago</item>
+    </plurals>
+    <plurals name="profile_photos_count">
+        <item quantity="other">Photos</item>
+        <item quantity="one">Photo</item>
+        <item quantity="few">Photos</item>
+        <item quantity="many">Photos</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_enough_credits">
+        <item quantity="other">Zamierzasz wymienić %1$d kredytów z zaproszeń. W zamian dostaniesz darmowe %2$s.</item>
+        <item quantity="one">Zamierzasz wymienić %1$d kredyt z zaproszeń. W zamian dostaniesz darmowe %2$s.</item>
+        <item quantity="few">Zamierzasz wymienić %1$d kredytów z zaproszeń. W zamian dostaniesz darmowe %2$s.</item>
+        <item quantity="many">You are about to redeem %1$d invite credits. You will get Free %2$s in exchange.</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_redeem_subtitle">
+        <item quantity="other">%d punktów</item>
+        <item quantity="one">%d punkt</item>
+        <item quantity="few">%d punktów</item>
+        <item quantity="many">%d credits</item>
+    </plurals>
+    <plurals name="story_likes_count">
+        <item quantity="other">Likes</item>
+        <item quantity="one">Like</item>
+        <item quantity="few">Likes</item>
+        <item quantity="many">Likes</item>
+    </plurals>
+</resources>

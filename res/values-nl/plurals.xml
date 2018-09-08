@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="discover_place_reactions_button">
+        <item quantity="other">1 man</item>
+        <item quantity="one">1 man</item>
+    </plurals>
+    <plurals name="feed_reactions_text_liked_by_me">
+        <item quantity="other">Jij en [%1$d anderen](/activities/%2$s/reactions) vinden dit leuk</item>
+        <item quantity="one">Jij en [1 ander](/activities/%2$s/reactions) vinden dit leuk</item>
+    </plurals>
+    <plurals name="feed_reactions_text_not_liked_by_me">
+        <item quantity="other">[%1$d mannen](/activities/%2$s/reactions) vinden dit leuk</item>
+        <item quantity="one">[1 iemand](/activities/%2$s/reactions) vind dit leuk</item>
+    </plurals>
+    <plurals name="feet">
+        <item quantity="other">%1$d voeten</item>
+        <item quantity="one">%1$d voet</item>
+    </plurals>
+    <plurals name="kilometer">
+        <item quantity="other">%1$d kilometer</item>
+        <item quantity="one">%1$d kilometer</item>
+    </plurals>
+    <plurals name="meter">
+        <item quantity="other">%1$d meters</item>
+        <item quantity="one">%1$d meter</item>
+    </plurals>
+    <plurals name="mile">
+        <item quantity="other">%1$d mijlen</item>
+        <item quantity="one">%1$d mijl</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">Volgers</item>
+        <item quantity="one">Volgers</item>
+    </plurals>
+    <plurals name="profile_last_online_days_ago">
+        <item quantity="other">Online %d dagen geleden</item>
+        <item quantity="one">Online %d dagen geleden</item>
+    </plurals>
+    <plurals name="profile_last_online_hours_ago">
+        <item quantity="other">Online %d uur geleden</item>
+        <item quantity="one">Online %d uur geleden</item>
+    </plurals>
+    <plurals name="profile_last_online_minutes_ago">
+        <item quantity="other">Online %d minuten geleden</item>
+        <item quantity="one">Online %d minuten geleden</item>
+    </plurals>
+    <plurals name="profile_photos_count">
+        <item quantity="other">Foto</item>
+        <item quantity="one">Foto</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_enough_credits">
+        <item quantity="other">Je staat op het punt %1$d uitnodigingskrediet in te wisselen. Je krijgt hiervoor gratis %2$s in ruil.</item>
+        <item quantity="one">Je staat op het punt %1$d uitnodigingskrediet in te wisselen. Je krijgt hiervoor gratis %2$s in ruil.</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_redeem_subtitle">
+        <item quantity="other">%d credit</item>
+        <item quantity="one">%d credit</item>
+    </plurals>
+    <plurals name="story_likes_count">
+        <item quantity="other">Leuk</item>
+        <item quantity="one">Leuk</item>
+    </plurals>
+</resources>

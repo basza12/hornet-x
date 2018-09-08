@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/searchMasterRootView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" android:layout_weight="0.0" />
+    <com.hornet.android.widget.ContentLoadingProgressView android:id="@id/contentLoadingProgressIndicatorView" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_weight="0.0" app:hideWithInvisibility="true">
+        <ProgressBar android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="4.0dip" android:indeterminate="true" style="?android:progressBarStyleHorizontal" />
+    </com.hornet.android.widget.ContentLoadingProgressView>
+    <android.support.v7.widget.RecyclerView android:orientation="vertical" android:id="@id/searchMasterListView" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:layoutManager="LinearLayoutManager" />
+</LinearLayout>

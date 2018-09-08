@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="discover_place_reactions_button">
+        <item quantity="other">%d erkek</item>
+        <item quantity="one">1 erkek</item>
+    </plurals>
+    <plurals name="feed_reactions_text_liked_by_me">
+        <item quantity="other">Siz ve [%1$d erkek](/activities/%2$s/reactions) bunu beğendi</item>
+        <item quantity="one">Siz ve [1 erkek](/activities/%2$s/reactions) bunu beğendi</item>
+    </plurals>
+    <plurals name="feed_reactions_text_not_liked_by_me">
+        <item quantity="other">[%1$d erkek](/activities/%2$s/reactions) bunu beğendi</item>
+        <item quantity="one">[1 erkek](/activities/%2$s/reactions) bunu beğendi</item>
+    </plurals>
+    <plurals name="feet">
+        <item quantity="other">ayak</item>
+        <item quantity="one">ayak</item>
+    </plurals>
+    <plurals name="kilometer">
+        <item quantity="other">%1$d kilometre</item>
+        <item quantity="one">%1$d kilometre</item>
+    </plurals>
+    <plurals name="meter">
+        <item quantity="other">%1$d metre</item>
+        <item quantity="one">%1$d metre</item>
+    </plurals>
+    <plurals name="mile">
+        <item quantity="other">%1$d mil</item>
+        <item quantity="one">%1$d mil</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">Takipçi</item>
+        <item quantity="one">Takipçi</item>
+    </plurals>
+    <plurals name="profile_last_online_days_ago">
+        <item quantity="other">%d gün önce çevrimiçi oldu</item>
+        <item quantity="one">%d gün önce çevrimiçi oldu</item>
+    </plurals>
+    <plurals name="profile_last_online_hours_ago">
+        <item quantity="other">%d saat önce çevrimiçi oldu</item>
+        <item quantity="one">%d saat önce çevrimiçi oldu</item>
+    </plurals>
+    <plurals name="profile_last_online_minutes_ago">
+        <item quantity="other">%d dakika önce çevrimiçi oldu</item>
+        <item quantity="one">%d dakika önce çevrimiçi oldu</item>
+    </plurals>
+    <plurals name="profile_photos_count">
+        <item quantity="other">Fotoğraf</item>
+        <item quantity="one">Fotoğraf</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_enough_credits">
+        <item quantity="other">%1$d davet kredisi kullanmak üzeresiniz. Karşılığında ücretsiz %2$s kazanacaksınız.</item>
+        <item quantity="one">%1$d davet kredisi kullanmak üzeresiniz. Karşılığında ücretsiz %2$s kazanacaksınız.</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_redeem_subtitle">
+        <item quantity="other">%d kredi</item>
+        <item quantity="one">%d kredi</item>
+    </plurals>
+    <plurals name="story_likes_count">
+        <item quantity="other">Beğeni</item>
+        <item quantity="one">Beğeni</item>
+    </plurals>
+</resources>

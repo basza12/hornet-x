@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/filters_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_age" style="@style/AppTheme.SettingsSubtitleStyle" />
+        <Button android:id="@id/profile_edit_age" android:nextFocusUp="@id/profile_edit_about" android:nextFocusDown="@id/profile_edit_weight" android:text="@string/profile_age_hint" android:nextFocusForward="@id/profile_edit_height" style="@style/AppTheme.SettingsTextButtonStyle" />
+        <View android:background="@color/filters_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_height" style="@style/AppTheme.SettingsSubtitleStyle" />
+        <Button android:id="@id/profile_edit_height" android:nextFocusUp="@id/profile_edit_about" android:nextFocusDown="@id/profile_edit_looking_for" android:text="@string/profile_height_hint" android:nextFocusForward="@id/profile_edit_weight" style="@style/AppTheme.SettingsTextButtonStyle" />
+        <View android:background="@color/filters_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_weight" style="@style/AppTheme.SettingsSubtitleStyle" />
+        <Button android:id="@id/profile_edit_weight" android:nextFocusUp="@id/profile_edit_age" android:nextFocusDown="@id/profile_edit_ethnicity" android:text="@string/profile_weight_hint" android:nextFocusForward="@id/profile_edit_looking_for" style="@style/AppTheme.SettingsTextButtonStyle" />
+        <View android:background="@color/filters_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_looking_for" style="@style/AppTheme.SettingsSubtitleStyle" />
+        <Button android:id="@id/profile_edit_looking_for" android:nextFocusUp="@id/profile_edit_height" android:nextFocusDown="@id/profile_edit_relationship_status" android:text="@string/profile_looking_for_hint" android:maxLines="5" android:singleLine="false" style="@style/AppTheme.SettingsTextButtonStyle" />
+        <View android:background="@color/filters_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_ethnicity" style="@style/AppTheme.SettingsSubtitleStyle" />
+        <Button android:id="@id/profile_edit_ethnicity" android:nextFocusUp="@id/profile_edit_weight" android:text="@string/profile_ethnicity_hint" android:nextFocusForward="@id/profile_edit_relationship_status" style="@style/AppTheme.SettingsTextButtonStyle" />
+        <View android:background="@color/filters_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_relationship_status" style="@style/AppTheme.SettingsSubtitleStyle" />
+        <Button android:id="@id/profile_edit_relationship_status" android:nextFocusUp="@id/profile_edit_looking_for" android:nextFocusDown="@id/profile_edit_identity" android:text="@string/profile_relationship_hint" style="@style/AppTheme.SettingsTextButtonStyle" />
+        <View android:background="@color/filters_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_identity" style="@style/AppTheme.SettingsSubtitleStyle" />
+        <Button android:id="@id/profile_edit_identity" android:nextFocusUp="@id/profile_edit_relationship_status" android:text="@string/profile_identity_hint" style="@style/AppTheme.SettingsTextButtonStyle" />
+        <View android:background="@color/filters_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+    </LinearLayout>
+</merge>

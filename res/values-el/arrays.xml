@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="house_ad_ctas">
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+    </string-array>
+    <string-array name="house_ad_titles">
+        <item>Δοκιμάστε τα premium φίλτρα</item>
+        <item>Δείτε ποιος σας τσέκαρε</item>
+        <item>Ξεχάστε τις διαφημίσεις, πάρτε το premium</item>
+        <item>Γίνετε αόρατοι.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="discover_place_reactions_button">
+        <item quantity="other">%d kluků</item>
+        <item quantity="one">1 kluk</item>
+        <item quantity="few">%d kluci</item>
+        <item quantity="many">%d kluků</item>
+    </plurals>
+    <plurals name="feed_reactions_text_liked_by_me">
+        <item quantity="other">Tobě a [%1$d klukům](/activities/%2$s/reactions) se to líbí</item>
+        <item quantity="one">Tobě a [1 klukovi](/activities/%2$s/reactions) se to líbí</item>
+        <item quantity="few">Tobě a [%1$d klukům](/activities/%2$s/reactions) se to líbí</item>
+        <item quantity="many">Tobě a [%1$d klukům](/activities/%2$s/reactions) se to líbí</item>
+    </plurals>
+    <plurals name="feed_reactions_text_not_liked_by_me">
+        <item quantity="other">[%1$d klukům](/activities/%2$s/reactions) se to líbí</item>
+        <item quantity="one">[1 klukovi](/activities/%2$s/reactions) se to líbí</item>
+        <item quantity="few">[%1$d klukům](/activities/%2$s/reactions) se to líbí</item>
+        <item quantity="many">[%1$d klukům](/activities/%2$s/reactions) se to líbí</item>
+    </plurals>
+    <plurals name="feet">
+        <item quantity="other">%1$d stop</item>
+        <item quantity="one">%1$d stopa</item>
+        <item quantity="few">%1$d stopy</item>
+        <item quantity="many">%1$d stop</item>
+    </plurals>
+    <plurals name="kilometer">
+        <item quantity="other">%1$d kilometrů</item>
+        <item quantity="one">%1$d kilometr</item>
+        <item quantity="few">%1$d kilometry</item>
+        <item quantity="many">%1$d kilometrů</item>
+    </plurals>
+    <plurals name="meter">
+        <item quantity="other">%1$d metrů</item>
+        <item quantity="one">%1$d metr</item>
+        <item quantity="few">%1$d metry</item>
+        <item quantity="many">%1$d metrů</item>
+    </plurals>
+    <plurals name="mile">
+        <item quantity="other">%1$d mílí</item>
+        <item quantity="one">%1$d míle</item>
+        <item quantity="few">%1$d míle</item>
+        <item quantity="many">%1$d mílí</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">Sledujících</item>
+        <item quantity="one">Sledující</item>
+        <item quantity="few">Sledující</item>
+        <item quantity="many">Sledujících</item>
+    </plurals>
+    <plurals name="profile_last_online_days_ago">
+        <item quantity="other">Online před %d dny</item>
+        <item quantity="one">Online před %d dnem</item>
+        <item quantity="few">Online před %d dny</item>
+        <item quantity="many">Online před %d dny</item>
+    </plurals>
+    <plurals name="profile_last_online_hours_ago">
+        <item quantity="other">Online před %d hodinami</item>
+        <item quantity="one">Online před %d hodinou</item>
+        <item quantity="few">Online před %d hodinami</item>
+        <item quantity="many">Online před %d hodinami</item>
+    </plurals>
+    <plurals name="profile_last_online_minutes_ago">
+        <item quantity="other">Online před %d minutami</item>
+        <item quantity="one">Online před %d minutou</item>
+        <item quantity="few">Online před %d minutami</item>
+        <item quantity="many">Online před %d minutami</item>
+    </plurals>
+    <plurals name="profile_photos_count">
+        <item quantity="other">Fotek</item>
+        <item quantity="one">Fotka</item>
+        <item quantity="few">Fotky</item>
+        <item quantity="many">Fotek</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_enough_credits">
+        <item quantity="other">Uplatnil si %1$d zvacích kreditů. Budeš mít zdarma %2$s v změnárně.</item>
+        <item quantity="one">Uplatnil si %1$d zvací kredit. Budeš mít zdarma %2$s v změnárně.</item>
+        <item quantity="few">Uplatnil si %1$d zvací kredity. Budeš mít zdarma %2$s v změnárně.</item>
+        <item quantity="many">Uplatnil si %1$d zvacích kreditů. Budeš mít zdarma %2$s v změnárně.</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_redeem_subtitle">
+        <item quantity="other">%d kredity</item>
+        <item quantity="one">%d kredit</item>
+        <item quantity="few">%d kredity</item>
+        <item quantity="many">%d kreditů</item>
+    </plurals>
+    <plurals name="story_likes_count">
+        <item quantity="other">Líbí</item>
+        <item quantity="one">Lajk</item>
+        <item quantity="few">Lajky</item>
+        <item quantity="many">Lajků</item>
+    </plurals>
+</resources>

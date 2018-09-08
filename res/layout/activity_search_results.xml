@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/rootView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.FixedCoordinatorLayout android:id="@id/coordinator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.design.widget.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="?actionBarSize" app:layout_scrollFlags="enterAlways|scroll" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </android.support.design.widget.AppBarLayout>
+        <FrameLayout android:id="@id/list_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <android.support.v7.widget.RecyclerView android:theme="@style/SearchViewTheme" android:orientation="vertical" android:id="@id/search_results" android:paddingTop="@dimen/spacing_normal" android:paddingBottom="@dimen/spacing_normal" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="LinearLayoutManager" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:id="@id/empty_results" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/search_empty_text" />
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:id="@id/progress_container" android:fitsSystemWindows="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+        </FrameLayout>
+        <android.support.design.widget.FloatingActionButton android:id="@id/fab" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:src="@drawable/ic_bookmark_border_black_24dp" android:tint="@color/hornet_gui_cyan" app:backgroundTint="@android:color/white" app:elevation="6.0dip" app:fabSize="normal" app:layout_anchor="@id/list_container" app:layout_anchorGravity="end|bottom|center" app:layout_behavior="com.hornet.android.widget.ScrollAwareFloatingActionButtonBehavior" app:pressedTranslationZ="6.0dip" app:rippleColor="@color/hornet_gui_cyan" />
+    </android.support.design.widget.FixedCoordinatorLayout>
+    <LinearLayout android:layout_gravity="end" android:orientation="vertical" android:background="@android:color/white" android:layout_width="300.0dip" android:layout_height="fill_parent">
+        <android.support.v7.widget.Toolbar android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/bookmarks_toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:navigationIcon="@drawable/ic_collections_bookmark_white_24dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:title="@string/search_bookmarks" />
+        <android.support.v7.widget.RecyclerView android:orientation="vertical" android:id="@id/bookmarks_list" android:paddingTop="@dimen/spacing_normal" android:paddingBottom="@dimen/spacing_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="LinearLayoutManager" />
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

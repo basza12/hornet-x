@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="base_grid_span">4</integer>
+    <integer name="paging_items_per_page_in_grids">32</integer>
+    <integer name="paging_items_per_page_in_lists">14</integer>
+    <integer name="sticker_grid_span">5</integer>
+</resources>

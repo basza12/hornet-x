@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.hornet.android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <permission android:name="com.hornet.android.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.hornet.android.permission.C2D_MESSAGE"/>
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="com.hornet.android.HornetApplication" android:supportsRtl="true">
+        <meta-data android:name="asset_statements" android:resource="@string/asset_statements"/>
+        <activity android:label="@string/app_name" android:name="com.hornet.android.activity.SplashActivity_" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar.Transparent.Splash" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:host="open" android:scheme="com.hornet.android"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="hrnt"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="viewed_me"/>
+                <data android:host="recent"/>
+                <data android:host="recommendations"/>
+                <data android:host="explore"/>
+                <data android:host="nearby"/>
+                <data android:host="favorites"/>
+                <data android:host="fans"/>
+                <data android:host="matches"/>
+                <data android:host="chats"/>
+                <data android:host="search"/>
+                <data android:host="profiles"/>
+                <data android:host="profile"/>
+                <data android:host="settings"/>
+                <data android:host="photos"/>
+                <data android:host="purchases"/>
+                <data android:host="invites"/>
+                <data android:host="members"/>
+                <data android:host="notifications"/>
+                <data android:host="feed"/>
+                <data android:host="activities"/>
+                <data android:host="discover"/>
+                <data android:host="inbox"/>
+                <data android:host="premium"/>
+                <data android:host="purchases"/>
+                <data android:host="kys"/>
+                <data android:host="stories"/>
+                <data android:host="privacy-policy"/>
+                <data android:host="terms-of-service"/>
+                <data android:host="know-your-status"/>
+                <data android:host="interests"/>
+                <data android:host="privacy-policy"/>
+                <data android:host="terms-of-service"/>
+                <data android:host="know-your-status"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="hornetapp.com"/>
+                <data android:pathPrefix="/viewed_me"/>
+                <data android:pathPrefix="/recent"/>
+                <data android:pathPrefix="/recommendations"/>
+                <data android:pathPrefix="/explore"/>
+                <data android:pathPrefix="/nearby"/>
+                <data android:pathPrefix="/favorites"/>
+                <data android:pathPrefix="/fans"/>
+                <data android:pathPrefix="/matches"/>
+                <data android:pathPrefix="/chats"/>
+                <data android:pathPrefix="/search"/>
+                <data android:pathPrefix="/profiles"/>
+                <data android:pathPrefix="/profile"/>
+                <data android:pathPrefix="/settings"/>
+                <data android:pathPrefix="/photos"/>
+                <data android:pathPrefix="/purchases"/>
+                <data android:pathPrefix="/invites"/>
+                <data android:pathPrefix="/members"/>
+                <data android:pathPrefix="/notifications"/>
+                <data android:pathPrefix="/feed"/>
+                <data android:pathPrefix="/activities"/>
+                <data android:pathPrefix="/discover"/>
+                <data android:pathPrefix="/inbox"/>
+                <data android:pathPrefix="/premium"/>
+                <data android:pathPrefix="/purchases"/>
+                <data android:pathPrefix="/kys"/>
+                <data android:pathPrefix="/stories"/>
+                <data android:pathPrefix="/interests"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="hornet.com"/>
+                <data android:pathPrefix="/viewed_me"/>
+                <data android:pathPrefix="/recent"/>
+                <data android:pathPrefix="/recommendations"/>
+                <data android:pathPrefix="/explore"/>
+                <data android:pathPrefix="/nearby"/>
+                <data android:pathPrefix="/favorites"/>
+                <data android:pathPrefix="/fans"/>
+                <data android:pathPrefix="/matches"/>
+                <data android:pathPrefix="/chats"/>
+                <data android:pathPrefix="/search"/>
+                <data android:pathPrefix="/profiles"/>
+                <data android:pathPrefix="/profile"/>
+                <data android:pathPrefix="/settings"/>
+                <data android:pathPrefix="/photos"/>
+                <data android:pathPrefix="/purchases"/>
+                <data android:pathPrefix="/invites"/>
+                <data android:pathPrefix="/members"/>
+                <data android:pathPrefix="/notifications"/>
+                <data android:pathPrefix="/feed"/>
+                <data android:pathPrefix="/activities"/>
+                <data android:pathPrefix="/discover"/>
+                <data android:pathPrefix="/inbox"/>
+                <data android:pathPrefix="/premium"/>
+                <data android:pathPrefix="/purchases"/>
+                <data android:pathPrefix="/kys"/>
+                <data android:pathPrefix="/stories"/>
+                <data android:pathPrefix="/static"/>
+                <data android:pathPrefix="/interests"/>
+                <data android:pathPrefix="/static"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:icon="@drawable/ic_hornet_paddingless_logo_white" android:launchMode="singleTop" android:name="com.hornet.android.discover.DiscoverHubActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:icon="@drawable/ic_hornet_paddingless_logo_white" android:launchMode="singleTop" android:name="com.hornet.android.chat.InboxActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:icon="@drawable/ic_hornet_paddingless_logo_white" android:launchMode="singleTop" android:name="com.hornet.android.profile.MyProfileHubActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:icon="@drawable/ic_hornet_paddingless_logo_white" android:launchMode="singleTop" android:name="com.hornet.android.activity.ActivityHubActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/global_profile" android:launchMode="singleTop" android:name="com.hornet.android.discover.guys.GuyPreviewsPagerActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar.Transparent" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/global_profile" android:launchMode="standard" android:name="com.hornet.android.discover.guys.GuyShowActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/discover_stories_title" android:launchMode="singleTop" android:name="com.hornet.android.discover.stories.StoryShowPagerActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar.Transparent" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/discover_story_title" android:launchMode="standard" android:name="com.hornet.android.discover.stories.StoryShowActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/global_discover_places" android:launchMode="singleTop" android:name="com.hornet.android.discover.places.PlacePreviewsPagerActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar.Transparent" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/discover_place_title" android:launchMode="standard" android:name="com.hornet.android.discover.places.PlaceShowActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:label="@string/global_settings" android:launchMode="singleTop" android:name="com.hornet.android.activity.settings.SettingsActivity_" android:parentActivityName="com.hornet.android.profile.MyProfileHubActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.hornet.android.profile.MyProfileHubActivity"/>
+            <intent-filter>
+                <data android:scheme="hrnt"/>
+                <data android:host="profile"/>
+                <data android:host="settings"/>
+                <data android:host="photos"/>
+                <data android:host="purchases"/>
+                <data android:host="invites"/>
+                <data android:host="account"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/global_profile" android:launchMode="singleTop" android:name="com.hornet.android.activity.settings.ProfileSettingsActivity_" android:parentActivityName="com.hornet.android.activity.settings.SettingsActivity_" android:screenOrientation="portrait" android:theme="@style/AppTheme.TranslucentStatusBar" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.hornet.android.activity.settings.SettingsActivity_"/>
+        </activity>
+        <activity android:label="@string/global_profile" android:launchMode="singleTop" android:name="com.hornet.android.activity.settings.ProfileWalkthroughActivity_" android:parentActivityName="com.hornet.android.discover.DiscoverHubActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar.Transparent" android:windowSoftInputMode="adjustPan">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.hornet.android.discover.DiscoverHubActivity"/>
+        </activity>
+        <activity android:configChanges="keyboard|screenSize" android:label="@string/global_profile" android:launchMode="singleTop" android:name="com.hornet.android.activity.settings.ProfileWalkthroughPhotoActivity_" android:parentActivityName="com.hornet.android.activity.settings.ProfileWalkthroughActivity_" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustNothing">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.hornet.android.activity.settings.ProfileWalkthroughActivity_"/>
+        </activity>
+        <activity android:configChanges="keyboard|screenSize" android:label="@string/feed_upload_feed_photo" android:launchMode="singleTop" android:name="com.hornet.android.activity.feeds.FeedPhotoCropActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:configChanges="keyboard|screenSize" android:label="@string/feed_upload_feed_moment" android:launchMode="singleTop" android:name="com.hornet.android.activity.feeds.FeedPostMomentActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|screenSize" android:label="@string/settings_photos_title" android:launchMode="singleTop" android:name="com.hornet.android.activity.settings.PhotoSettingsActivity_" android:parentActivityName="com.hornet.android.activity.settings.ProfileSettingsActivity_" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.hornet.android.activity.settings.ProfileSettingsActivity_"/>
+        </activity>
+        <activity android:label="@string/global_chats" android:launchMode="singleTop" android:name="com.hornet.android.chat.ChatHubActivity" android:parentActivityName="com.hornet.android.chat.InboxActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.hornet.android.chat.InboxActivity"/>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="com.hornet.android.activity.ImageViewerActivity_" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:label="@string/guys_search_title" android:launchMode="singleTop" android:name="com.hornet.android.discover.guys.search.SearchGuysActivity" android:theme="@style/Theme.Hornet.SearchActivity" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+        </activity>
+        <activity android:label="@string/settings_premium_title" android:launchMode="singleTop" android:name="com.hornet.android.activity.settings.PremiumMembershipSettingsActivity_" android:parentActivityName="com.hornet.android.activity.settings.SettingsActivity_" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar.Transparent" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.hornet.android.activity.settings.SettingsActivity_"/>
+        </activity>
+        <activity android:exported="false" android:label="@string/profile_followers" android:launchMode="singleTop" android:name="com.hornet.android.discover.guys.index.StandaloneMembersGridFrameActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:label="@string/activity_title" android:launchMode="standard" android:name="com.hornet.android.activity.feeds.SingleActivityActivity" android:parentActivityName="com.hornet.android.activity.ActivityHubActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.hornet.android.activity.ActivityHubActivity"/>
+        </activity>
+        <activity android:launchMode="singleTop" android:name="com.hornet.android.activity.ProfileGalleryActivity_" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden"/>
+        <activity android:launchMode="singleTop" android:name="com.hornet.android.activity.ProfilePrivateGalleryActivity_" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden"/>
+        <activity android:label="" android:launchMode="singleTop" android:name="com.hornet.android.activity.FullScreenImageActivity_" android:screenOrientation="portrait" android:theme="@style/AppTheme.TranslucentStatusAndNavigationBar" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden"/>
+        <activity android:label="@string/global_profile" android:launchMode="singleTop" android:name="com.hornet.android.onboarding.OnboardingInterestsActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar.Transparent" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.hornet.android.special_purpose_activity.PhoenixActivity" android:process=":phoenix" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.hornet.android.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_provider_paths"/>
+        </provider>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="@string/map_api_v2_key"/>
+        <receiver android:exported="true" android:name="com.appsflyer.SingleInstallBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.amazonaws.mobileconnectors.pinpoint.targeting.notification.PinpointNotificationReceiver">
+            <intent-filter>
+                <action android:name="com.amazonaws.intent.fcm.NOTIFICATION_OPEN"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.hornet.android.services.FCMListenerService$NotificationDismissedReceiver"/>
+        <meta-data android:name="io.fabric.ApiKey" android:value="aa3d48fc4a85ead604c19918cb419d720f4f127a"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.mobileads.RewardedMraidActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <service android:exported="false" android:name="com.hornet.android.services.FCMRegistrationService"/>
+        <service android:name="com.hornet.android.services.FCMListenerService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.hornet.android.services.InstanceIDListener">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/ic_notif"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/hornet_gui_orange"/>
+        <provider android:authorities="com.hornet.android.crashlyticsinitprovider" android:exported="false" android:initOrder="100" android:name="com.crashlytics.android.CrashlyticsInitProvider"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:name="com.facebook.FacebookActivity" android:theme="@style/com_facebook_activity_theme"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.facebook.ads.AudienceNetworkActivity"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"/>
+        <service android:exported="true" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.hornet.android"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.hornet.android.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <provider android:authorities="com.hornet.android.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+        <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.mobileads.MoPubActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.mobileads.MraidActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.common.MoPubBrowser"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.mobileads.MraidVideoPlayerActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.common.privacy.ConsentDialogActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.flurry.android.FlurryFullscreenTakeoverActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name="com.intentsoftware.addapptr.ad.fullscreens.PromoHouseFullscreenActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize" android:name="com.intentsoftware.addapptr.ad.fullscreens.SmartAdServerFullscreenActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:name="com.intentsoftware.addapptr.ad.fullscreens.NexageFullscreenActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize" android:name="com.intentsoftware.addapptr.ad.fullscreens.CriteoFullscreenActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <meta-data android:name="applovin.sdk.key" android:value="3aDrZq32AweqJ-omTIS06ckunsd3HNkKzy9WnDZx8DlSCXClqemwGUp2KR5bpqxnn5HXIsSR3CuFk5_TllS0DG"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.applovin.adview.AppLovinInterstitialActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.applovin.adview.AppLovinConfirmationActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.amazon.device.ads.AdActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.smartadserver.android.library.rewarded.SASRewardedVideoActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="rm.com.android.sdk.RmInterstitial"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.smaato.soma.interstitial.InterstitialActivity" android:resizeableActivity="false"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.smaato.soma.video.VASTAdActivity" android:resizeableActivity="false"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.smaato.soma.ExpandedBannerActivity" android:resizeableActivity="false"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.inneractive.api.ads.sdk.InneractiveInternalBrowserActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.inneractive.api.ads.sdk.InneractiveInterstitialAdActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.inneractive.api.ads.sdk.InneractiveRichMediaVideoPlayerActivity"/>
+    </application>
+</manifest>

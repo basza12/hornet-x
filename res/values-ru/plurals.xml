@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="discover_place_reactions_button">
+        <item quantity="other">%d парней</item>
+        <item quantity="one">1 парень</item>
+        <item quantity="few">%d парня</item>
+        <item quantity="many">%d парней</item>
+    </plurals>
+    <plurals name="feed_reactions_text_liked_by_me">
+        <item quantity="other">Вам и [%1$d парням](/activities/%2$s/reactions) нравится это</item>
+        <item quantity="one">Вам и [1 парню](/activities/%2$s/reactions) нравится это</item>
+        <item quantity="few">Вам и [%1$d парням](/activities/%2$s/reactions) нравится это</item>
+        <item quantity="many">Вам и [%1$d парням](/activities/%2$s/reactions) нравится это</item>
+    </plurals>
+    <plurals name="feed_reactions_text_not_liked_by_me">
+        <item quantity="other">[%1$d парням](/activities/%2$s/reactions) нравится это</item>
+        <item quantity="one">[1 парню](/activities/%2$s/reactions) нравится это</item>
+        <item quantity="few">[%1$d парням](/activities/%2$s/reactions) нравится это</item>
+        <item quantity="many">[%1$d парням](/activities/%2$s/reactions) нравится это</item>
+    </plurals>
+    <plurals name="feet">
+        <item quantity="other">%1$d футов</item>
+        <item quantity="one">%1$d фут</item>
+        <item quantity="few">%1$d фута</item>
+        <item quantity="many">%1$d футов</item>
+    </plurals>
+    <plurals name="kilometer">
+        <item quantity="other">%1$d км</item>
+        <item quantity="one">%1$d км</item>
+        <item quantity="few">%1$d км</item>
+        <item quantity="many">%1$d км</item>
+    </plurals>
+    <plurals name="meter">
+        <item quantity="other">%1$d метров</item>
+        <item quantity="one">%1$d метр</item>
+        <item quantity="few">%1$d метра</item>
+        <item quantity="many">%1$d метров</item>
+    </plurals>
+    <plurals name="mile">
+        <item quantity="other">%1$d миль</item>
+        <item quantity="one">%1$d миля</item>
+        <item quantity="few">%1$d мили</item>
+        <item quantity="many">%1$d миль</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">Подписчиков</item>
+        <item quantity="one">Подписчик</item>
+        <item quantity="few">Подписчика</item>
+        <item quantity="many">Подписчиков</item>
+    </plurals>
+    <plurals name="profile_last_online_days_ago">
+        <item quantity="other">Был онлайн %d дней назад</item>
+        <item quantity="one">Был онлайн %d день назад</item>
+        <item quantity="few">Был онлайн %d дней назад</item>
+        <item quantity="many">Был онлайн %d дней назад</item>
+    </plurals>
+    <plurals name="profile_last_online_hours_ago">
+        <item quantity="other">Был онлайн %d часа назад</item>
+        <item quantity="one">Был онлайн %d час назад</item>
+        <item quantity="few">Был онлайн %d часов назад</item>
+        <item quantity="many">Был онлайн %d часов назад</item>
+    </plurals>
+    <plurals name="profile_last_online_minutes_ago">
+        <item quantity="other">Был онлайн %d минут назад</item>
+        <item quantity="one">Был онлайн %d минуту назад</item>
+        <item quantity="few">Был онлайн %d минут назад</item>
+        <item quantity="many">Был онлайн %d минут назад</item>
+    </plurals>
+    <plurals name="profile_photos_count">
+        <item quantity="other">Фото</item>
+        <item quantity="one">Фото</item>
+        <item quantity="few">Фото</item>
+        <item quantity="many">Фото</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_enough_credits">
+        <item quantity="other">Ты собираешься обменять %1$d бонусов за приглашения. Взамен ты получишь %2$s.</item>
+        <item quantity="one">Ты собираешься обменять %1$d бонус за приглашение. Взамен, ты Бесплатно получишь %2$s.</item>
+        <item quantity="few">Ты собираешься обменять %1$d бонуса за приглашения. Взамен ты получишь %2$s.</item>
+        <item quantity="many">Ты собираешься обменять %1$d бонусов за приглашения. Взамен, ты бесплатно получишь %2$s.</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_redeem_subtitle">
+        <item quantity="other">%d кредитов</item>
+        <item quantity="one">%d кредит</item>
+        <item quantity="few">%d кредита</item>
+        <item quantity="many">%d кредитов</item>
+    </plurals>
+    <plurals name="story_likes_count">
+        <item quantity="other">Понравилось</item>
+        <item quantity="one">Нравится</item>
+        <item quantity="few">Понравилось</item>
+        <item quantity="many">Понравилось</item>
+    </plurals>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="discover_place_reactions_button">
+        <item quantity="other">%d คน</item>
+    </plurals>
+    <plurals name="feed_reactions_text_liked_by_me">
+        <item quantity="other">คุณและ [คนอื่นอีก %1$d คน] (/ activities / %2$s / reactions) ชอบสิ่งนี้</item>
+    </plurals>
+    <plurals name="feed_reactions_text_not_liked_by_me">
+        <item quantity="other">คุณและ [คนอื่นอีก %1$d คน] (/ activities / %2$s / reactions) ชอบสิ่งนี้</item>
+    </plurals>
+    <plurals name="feet">
+        <item quantity="other">%1$d ฟุต</item>
+    </plurals>
+    <plurals name="kilometer">
+        <item quantity="other">%1$d กิโลเมตร</item>
+    </plurals>
+    <plurals name="meter">
+        <item quantity="other">%1$d เมตร</item>
+    </plurals>
+    <plurals name="mile">
+        <item quantity="other">%1$d ไมล์</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">ผู้ติดตาม</item>
+    </plurals>
+    <plurals name="profile_last_online_days_ago">
+        <item quantity="other">ออนไลน์ %d วันที่ผ่านมา</item>
+    </plurals>
+    <plurals name="profile_last_online_hours_ago">
+        <item quantity="other">ออนไลน์ %d ชั่วโมงที่แล้ว</item>
+    </plurals>
+    <plurals name="profile_last_online_minutes_ago">
+        <item quantity="other">ออนไลน์ %d นาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="profile_photos_count">
+        <item quantity="other">รูปภาพ</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_enough_credits">
+        <item quantity="other">คุณกำลังจะแลกเครดิตเชิญจำนวน %1$d โดยคุณจะได้รับ %2$s ฟรีเป็นการตอบแทน</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_redeem_subtitle">
+        <item quantity="other">เครดิต</item>
+    </plurals>
+    <plurals name="story_likes_count">
+        <item quantity="other">ถูกใจ</item>
+    </plurals>
+</resources>

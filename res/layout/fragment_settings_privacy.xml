@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_card_margin" android:layout_marginBottom="@dimen/activity_card_margin">
+        <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_card_margin" android:layout_marginBottom="@dimen/activity_card_margin" app:cardBackgroundColor="@color/activity_card_background" app:cardCornerRadius="0.0dip" app:cardElevation="@dimen/activity_card_elevation">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip">
+                <TextView android:layout_gravity="start" android:id="@id/settings_privacy_activities_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_privacy_activities_title" style="@style/AppTheme.SettingsSubtitleStyle" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="?android:listPreferredItemPaddingRight">
+                    <TextView android:id="@id/settings_privacy_activities_share_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_privacy_activities_share_title" android:layout_toLeftOf="@id/settings_privacy_activities_share_wrapper" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/AppTheme.SettingsLabelStyle" />
+                    <FrameLayout android:id="@id/settings_privacy_activities_share_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_thin" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                        <android.support.v7.widget.SwitchCompat android:id="@id/settings_privacy_activities_share_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </FrameLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_card_margin" android:layout_marginBottom="@dimen/activity_card_margin" app:cardBackgroundColor="@color/activity_card_background" app:cardCornerRadius="0.0dip" app:cardElevation="@dimen/activity_card_elevation">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip">
+                <TextView android:layout_gravity="start" android:id="@id/settings_privacy_location_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_privacy_location_title" style="@style/AppTheme.SettingsSubtitleStyle" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="?android:listPreferredItemPaddingRight">
+                    <TextView android:id="@id/settings_privacy_location_show_distance_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_privacy_location_show_distance_title" android:layout_toLeftOf="@id/settings_privacy_location_show_distance_wrapper" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/AppTheme.SettingsLabelStyle" />
+                    <FrameLayout android:id="@id/settings_privacy_location_show_distance_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_thin" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                        <android.support.v7.widget.SwitchCompat android:id="@id/settings_privacy_location_show_distance_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </FrameLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_card_margin" android:layout_marginBottom="@dimen/activity_card_margin" app:cardBackgroundColor="@color/activity_card_background" app:cardCornerRadius="0.0dip" app:cardElevation="@dimen/activity_card_elevation">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip">
+                <TextView android:layout_gravity="start" android:id="@id/settings_privacy_profile_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_privacy_profile_title" style="@style/AppTheme.SettingsSubtitleStyle" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="?android:listPreferredItemPaddingRight" android:layout_marginBottom="16.0dip">
+                    <TextView android:id="@id/settings_privacy_profile_invisible_profile_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_privacy_profile_invisible" android:drawableLeft="@drawable/profile_invisible" android:drawablePadding="15.0dip" android:layout_toLeftOf="@id/invisible_profile_wrapper" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:drawableStart="@drawable/profile_invisible" style="@style/AppTheme.SettingsLabelStyle" />
+                    <FrameLayout android:id="@id/invisible_profile_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_thin" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                        <android.support.v7.widget.SwitchCompat android:id="@id/settings_privacy_profile_invisible_profile_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/settings_privacy_profile_invisible_profile_switch_off" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_premium_crown_yellow" android:contentDescription="@string/settings_premium" />
+                    </FrameLayout>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="?android:listPreferredItemPaddingRight">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_privacy_profile_edit_share_profile" android:layout_toLeftOf="@id/settings_privacy_profile_share_profile_switch" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/AppTheme.SettingsLabelStyle" />
+                    <android.support.v7.widget.SwitchCompat android:id="@id/settings_privacy_profile_share_profile_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="?android:listPreferredItemPaddingRight" android:layout_marginBottom="16.0dip">
+                    <TextView android:id="@id/settings_privacy_profile_personal_data_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_privacy_profile_personal_data" android:drawableLeft="@drawable/ic_request_my_personal_data" android:drawablePadding="15.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:drawableStart="@drawable/ic_request_my_personal_data" style="@style/AppTheme.SettingsLabelStyle" />
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_card_margin" android:layout_marginBottom="@dimen/activity_card_margin" app:cardBackgroundColor="@color/activity_card_background" app:cardCornerRadius="0.0dip" app:cardElevation="@dimen/activity_card_elevation">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip">
+                <TextView android:layout_gravity="start" android:id="@id/settings_privacy_email_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_privacy_email_title" style="@style/AppTheme.SettingsSubtitleStyle" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="?android:listPreferredItemPaddingRight">
+                    <TextView android:id="@id/settings_privacy_email_newsletter_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_privacy_email_newsletter_title" android:layout_toLeftOf="@id/settings_privacy_email_newsletter_wrapper" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/AppTheme.SettingsLabelStyle" />
+                    <FrameLayout android:id="@id/settings_privacy_email_newsletter_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_thin" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                        <android.support.v7.widget.SwitchCompat android:id="@id/settings_privacy_email_newsletter_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </FrameLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="100.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hornet_logo_white" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="discover_place_reactions_button">
+        <item quantity="other">%d chalani</item>
+        <item quantity="one">1 chalan</item>
+        <item quantity="few">%d chalani</item>
+        <item quantity="many">%d chalani</item>
+    </plurals>
+    <plurals name="feed_reactions_text_liked_by_me">
+        <item quantity="other">Tebe a [%1$d chalanom](/activities/%2$s/reactions) sa to páči</item>
+        <item quantity="one">Tebe a [1 chalanovi](/activities/%2$s/reactions) sa to páči</item>
+        <item quantity="few">Tebe a [%1$d chalanom](/activities/%2$s/reactions) sa to páči</item>
+        <item quantity="many">Tebe a [%1$d chalanom](/activities/%2$s/reactions) sa to páči</item>
+    </plurals>
+    <plurals name="feed_reactions_text_not_liked_by_me">
+        <item quantity="other">[%1$d chalanom](/activities/%2$s/reactions) sa to páči</item>
+        <item quantity="one">[1 chalanovi](/activities/%2$s/reactions) sa to páči</item>
+        <item quantity="few">[%1$d chalanom](/activities/%2$s/reactions) sa to páči</item>
+        <item quantity="many">[%1$d chalanom](/activities/%2$s/reactions) sa to páči</item>
+    </plurals>
+    <plurals name="feet">
+        <item quantity="other">%1$d stôp</item>
+        <item quantity="one">%1$d stopa</item>
+        <item quantity="few">%1$d stopy</item>
+        <item quantity="many">%1$d stôp</item>
+    </plurals>
+    <plurals name="kilometer">
+        <item quantity="other">%1$d kilometrov</item>
+        <item quantity="one">%1$d kilometer</item>
+        <item quantity="few">%1$d kilometry</item>
+        <item quantity="many">%1$d kilometrov</item>
+    </plurals>
+    <plurals name="meter">
+        <item quantity="other">%1$d metrov</item>
+        <item quantity="one">%1$d meter</item>
+        <item quantity="few">%1$d metry</item>
+        <item quantity="many">%1$d metrov</item>
+    </plurals>
+    <plurals name="mile">
+        <item quantity="other">%1$d míľ</item>
+        <item quantity="one">%1$d míľa</item>
+        <item quantity="few">%1$d míle</item>
+        <item quantity="many">%1$d míľ</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">Sledujúcich</item>
+        <item quantity="one">Sledujúci</item>
+        <item quantity="few">Sledujúci</item>
+        <item quantity="many">Sledujúcich</item>
+    </plurals>
+    <plurals name="profile_last_online_days_ago">
+        <item quantity="other">Online pred %d dňami</item>
+        <item quantity="one">Online pred %d dňom</item>
+        <item quantity="few">Online pred %d dňami</item>
+        <item quantity="many">Online pred %d dňami</item>
+    </plurals>
+    <plurals name="profile_last_online_hours_ago">
+        <item quantity="other">Online pred %d hodinami</item>
+        <item quantity="one">Online pred %d hodinou</item>
+        <item quantity="few">Online pred %d hodinami</item>
+        <item quantity="many">Online pred %d hodinami</item>
+    </plurals>
+    <plurals name="profile_last_online_minutes_ago">
+        <item quantity="other">Online pred %d minútami</item>
+        <item quantity="one">Online pred %d minútou</item>
+        <item quantity="few">Online pred %d minútami</item>
+        <item quantity="many">Online pred %d minútami</item>
+    </plurals>
+    <plurals name="profile_photos_count">
+        <item quantity="other">Fotiek</item>
+        <item quantity="one">Fotka</item>
+        <item quantity="few">Fotky</item>
+        <item quantity="many">Fotiek</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_enough_credits">
+        <item quantity="other">Uplatnil si %1$d pozvánkových kreditov. Získaš zadarmo %2$s na výmenu.</item>
+        <item quantity="one">Uplatnil si %1$d pozvánkový kredit. Získaš zadarmo %2$s na výmenu.</item>
+        <item quantity="few">Uplatnil si %1$d pozvánkové kredity. Získaš zadarmo %2$s na výmenu.</item>
+        <item quantity="many">Uplatnil si %1$d pozvánkových kreditov. Získaš zadarmo %2$s na výmenu.</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_redeem_subtitle">
+        <item quantity="other">%d kreditov</item>
+        <item quantity="one">%d kredit</item>
+        <item quantity="few">%d kredity</item>
+        <item quantity="many">%d kreditov</item>
+    </plurals>
+    <plurals name="story_likes_count">
+        <item quantity="other">Páči</item>
+        <item quantity="one">Páči</item>
+        <item quantity="few">Páči</item>
+        <item quantity="many">Páči</item>
+    </plurals>
+</resources>

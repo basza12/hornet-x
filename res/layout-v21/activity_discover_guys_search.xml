@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.FixedCoordinatorLayout android:id="@id/rootView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.Toolbar android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:gravity="center_vertical" android:id="@id/searchToolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_weight="0.0" android:elevation="4.0dip" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        <View android:background="@color/search_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" android:layout_weight="0.0" />
+        <FrameLayout android:id="@id/searchMasterContentView" android:background="@android:color/white" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</android.support.design.widget.FixedCoordinatorLayout>

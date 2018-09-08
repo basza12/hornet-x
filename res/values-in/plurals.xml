@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="discover_place_reactions_button">
+        <item quantity="other">%d orang</item>
+    </plurals>
+    <plurals name="feed_reactions_text_liked_by_me">
+        <item quantity="other">Anda dan [%1$d guys](/activities/%2$s/reactions) menyukai ini</item>
+    </plurals>
+    <plurals name="feed_reactions_text_not_liked_by_me">
+        <item quantity="other">[%1$d guys](/activities/%2$s/reactions) menyukai ini</item>
+    </plurals>
+    <plurals name="feet">
+        <item quantity="other">%1$d kaki</item>
+    </plurals>
+    <plurals name="kilometer">
+        <item quantity="other">%1$d kilometer</item>
+    </plurals>
+    <plurals name="meter">
+        <item quantity="other">%1$d meter</item>
+    </plurals>
+    <plurals name="mile">
+        <item quantity="other">%1$d miles</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">Pengikut</item>
+    </plurals>
+    <plurals name="profile_last_online_days_ago">
+        <item quantity="other">Online %d hari yang lalu</item>
+    </plurals>
+    <plurals name="profile_last_online_hours_ago">
+        <item quantity="other">Online %d jam yang lalu</item>
+    </plurals>
+    <plurals name="profile_last_online_minutes_ago">
+        <item quantity="other">Online %d menit yang lalu</item>
+    </plurals>
+    <plurals name="profile_photos_count">
+        <item quantity="other">Foto</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_enough_credits">
+        <item quantity="other">Anda akan menebus %1$d mengundang kredit. Anda akan mendapatkan gratis %2$s di exchange.</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_redeem_subtitle">
+        <item quantity="other">%d kredit</item>
+    </plurals>
+    <plurals name="story_likes_count">
+        <item quantity="other">Suka</item>
+    </plurals>
+</resources>

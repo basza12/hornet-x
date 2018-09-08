@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_share_white_24dp" android:id="@id/action_share" android:title="@string/profile_share" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_create_white_24dp" android:id="@id/action_suggest_edit" android:title="@string/discover_place_suggest_edit" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_vpn_key_black_24dp" android:id="@id/action_claim_as_owner" android:title="@string/discover_place_claim_as_owner" app:showAsAction="never" />
+</menu>

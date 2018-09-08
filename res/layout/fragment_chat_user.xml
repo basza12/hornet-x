@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/hornet_background_grey" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/footer" android:background="@color/hornet_background_grey" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/chatBar" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:animateLayoutChanges="true">
+            <ImageView android:layout_gravity="bottom" android:id="@id/addAttachmentsButton" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_chat_add_attachment" android:scaleType="center" android:layout_weight="0.0" />
+            <EditText android:textSize="15.0sp" android:textColor="@android:color/black" android:textColorHint="@color/text_gray" android:gravity="center_vertical" android:id="@id/messageEditorTextView" android:background="@drawable/bg_chat_message_editor" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="7.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:minHeight="36.0dip" android:hint="@string/chat_type_message" android:maxLines="5" android:layout_weight="1.0" android:inputType="textCapSentences|textMultiLine|textShortMessage" android:imeOptions="actionSend" />
+            <FrameLayout android:layout_gravity="bottom" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="0.0">
+                <ImageView android:id="@id/stickersButton" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_chat_smiley_inactive" android:scaleType="center" />
+                <ImageView android:id="@id/sendMessageButton" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_chat_send" android:scaleType="center" />
+            </FrameLayout>
+        </LinearLayout>
+        <include android:id="@id/verificationCard" android:visibility="gone" layout="@layout/chat_validate_email_card" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/conversationLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/footer">
+        <android.support.v7.widget.RecyclerView android:orientation="vertical" android:id="@id/conversationRecyclerView" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.hornet.android.widget.ContentLoadingProgressView android:layout_gravity="top" android:id="@id/contentLoadingProgressIndicatorView" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4.0dip" app:hideWithInvisibility="false">
+            <ProgressBar android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="4.0dip" android:indeterminate="true" style="?android:progressBarStyleHorizontal" />
+        </com.hornet.android.widget.ContentLoadingProgressView>
+    </FrameLayout>
+</RelativeLayout>

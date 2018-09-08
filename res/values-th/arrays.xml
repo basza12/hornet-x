@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="house_ad_ctas">
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+    </string-array>
+    <string-array name="house_ad_titles">
+        <item>ลองใช้ตัวกรองแบบพรีเมียม</item>
+        <item>ตรวจสอบว่าใครเข้ามาดูโปรไฟล์ของคุณ</item>
+        <item>สมัครสมาชิกเพื่อลบโฆษณา</item>
+        <item>เปลี่ยนสถานะเป็นซ่อนตัว</item>
+    </string-array>
+</resources>

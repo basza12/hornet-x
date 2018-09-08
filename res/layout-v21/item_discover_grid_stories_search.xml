@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner android:layout_gravity="center_vertical" android:id="@id/storiesSearchSpinner" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_normal" android:layout_marginTop="@dimen/spacing_thin" android:layout_marginRight="@dimen/spacing_normal" android:layout_marginBottom="@dimen/spacing_thin" android:minHeight="48.0dip" android:layout_weight="1.0" android:spinnerMode="dropdown" android:layout_marginStart="@dimen/spacing_normal" android:layout_marginEnd="@dimen/spacing_normal" />
+    <ImageView android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="32.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/ic_filter_list_black_24dp" android:layout_weight="0.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+</FrameLayout>

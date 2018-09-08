@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="discover_place_reactions_button">
+        <item quantity="other">%d killar</item>
+        <item quantity="one">1 kille</item>
+    </plurals>
+    <plurals name="feed_reactions_text_liked_by_me">
+        <item quantity="other">Du och [1 guy](/activities/%2$s/reactions) gillar detta</item>
+        <item quantity="one">Du och [1 guy](/activities/%2$s/reactions) gillar detta</item>
+    </plurals>
+    <plurals name="feed_reactions_text_not_liked_by_me">
+        <item quantity="other">[1 guy](/activities/%2$s/reactions) gillar detta</item>
+        <item quantity="one">[1 guy](/activities/%2$s/reactions) gillar detta</item>
+    </plurals>
+    <plurals name="feet">
+        <item quantity="other">%1$d fot</item>
+        <item quantity="one">%1$d fot</item>
+    </plurals>
+    <plurals name="kilometer">
+        <item quantity="other">%1$d kilometer</item>
+        <item quantity="one">%1$d kilometer</item>
+    </plurals>
+    <plurals name="meter">
+        <item quantity="other">%1$d kilometer</item>
+        <item quantity="one">%1$d kilometer</item>
+    </plurals>
+    <plurals name="mile">
+        <item quantity="other">%1$d engelska mil</item>
+        <item quantity="one">%1$d engelska mil</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">Följare</item>
+        <item quantity="one">Följare</item>
+    </plurals>
+    <plurals name="profile_last_online_days_ago">
+        <item quantity="other">Online för %d dagar sedan</item>
+        <item quantity="one">Online för %d dag sedan</item>
+    </plurals>
+    <plurals name="profile_last_online_hours_ago">
+        <item quantity="other">Online för %d timmar sedan</item>
+        <item quantity="one">Online för %d timme sedan</item>
+    </plurals>
+    <plurals name="profile_last_online_minutes_ago">
+        <item quantity="other">Online för %d minuter sedan</item>
+        <item quantity="one">Online för %d minuter sedan</item>
+    </plurals>
+    <plurals name="profile_photos_count">
+        <item quantity="other">Foto</item>
+        <item quantity="one">Foto</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_enough_credits">
+        <item quantity="other">Du håller på att lösa in din inbjudningskredit. I utbyte får du Premium.</item>
+        <item quantity="one">Du håller på att lösa in din inbjudningskredit. I utbyte får du Premium.</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_redeem_subtitle">
+        <item quantity="other">krediter</item>
+        <item quantity="one">%d kredit</item>
+    </plurals>
+    <plurals name="story_likes_count">
+        <item quantity="other">Gilla-markeringar</item>
+        <item quantity="one">Gilla-markering</item>
+    </plurals>
+</resources>

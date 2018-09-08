@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/global_username" style="@style/AppTheme.SettingsSubtitleStyle" />
+        <View android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        <EditText android:textSize="16.0sp" android:id="@id/account_edit_username" android:paddingLeft="?android:listPreferredItemPaddingLeft" android:paddingRight="?android:listPreferredItemPaddingRight" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="15" android:inputType="textCapWords" />
+        <Button android:id="@id/account_public_profile_link" android:visibility="gone" style="@style/AppTheme.SettingsTextButtonStyle" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/global_email" style="@style/AppTheme.SettingsSubtitleStyle" />
+        <EditText android:textSize="16.0sp" android:id="@id/account_edit_email" android:paddingLeft="?android:listPreferredItemPaddingLeft" android:paddingRight="?android:listPreferredItemPaddingRight" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" />
+        <LinearLayout android:orientation="vertical" android:id="@id/debug_account_settings" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Firebase Device ID" style="@style/AppTheme.SettingsSubtitleStyle" />
+            <EditText android:textSize="16.0sp" android:id="@id/firebase_id" android:paddingLeft="?android:listPreferredItemPaddingLeft" android:paddingRight="?android:listPreferredItemPaddingRight" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="text" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

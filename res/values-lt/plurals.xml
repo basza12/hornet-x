@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="discover_place_reactions_button">
+        <item quantity="other">%d vaikinų</item>
+        <item quantity="one">1 vaikinas</item>
+        <item quantity="few">%d vaikinai</item>
+        <item quantity="many">%d guys</item>
+    </plurals>
+    <plurals name="feed_reactions_text_liked_by_me">
+        <item quantity="other">Jūs ir [%1$d vaikinų](/activities/%2$s/reactions) tai mėgsta</item>
+        <item quantity="one">Jūs ir [1 vaikinas](/activities/%2$s/reactions) tai mėgsta</item>
+        <item quantity="few">Jūs ir [%1$d vaikinai](/activities/%2$s/reactions) tai mėgsta</item>
+        <item quantity="many">You and [%1$d guys](/activities/%2$s/reactions) like this</item>
+    </plurals>
+    <plurals name="feed_reactions_text_not_liked_by_me">
+        <item quantity="other">[%1$d vaikinų](/activities/%2$s/reactions) tai mėgsta</item>
+        <item quantity="one">[1 vaikinas](/activities/%2$s/reactions) tai mėgsta</item>
+        <item quantity="few">[%1$d vaikinai](/activities/%2$s/reactions) tai mėgsta</item>
+        <item quantity="many">[%1$d guys](/activities/%2$s/reactions) like this</item>
+    </plurals>
+    <plurals name="feet">
+        <item quantity="other">%1$d pėdų</item>
+        <item quantity="one">%1$d pėda</item>
+        <item quantity="few">%1$d pėdos</item>
+        <item quantity="many">%1$d feet</item>
+    </plurals>
+    <plurals name="kilometer">
+        <item quantity="other">%1$d kilometrų</item>
+        <item quantity="one">%1$d kilometras</item>
+        <item quantity="few">%1$d kilometrai</item>
+        <item quantity="many">%1$d kilometers</item>
+    </plurals>
+    <plurals name="meter">
+        <item quantity="other">%1$d metrų</item>
+        <item quantity="one">%1$d metras</item>
+        <item quantity="few">%1$d metrai</item>
+        <item quantity="many">%1$d meters</item>
+    </plurals>
+    <plurals name="mile">
+        <item quantity="other">%1$d mylių</item>
+        <item quantity="one">%1$d mylia</item>
+        <item quantity="few">%1$d mylios</item>
+        <item quantity="many">%1$d miles</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">Sekėjų</item>
+        <item quantity="one">Sekėjas</item>
+        <item quantity="few">Sekėjai</item>
+        <item quantity="many">Followers</item>
+    </plurals>
+    <plurals name="profile_last_online_days_ago">
+        <item quantity="other">Aktyvus prieš %d dienų</item>
+        <item quantity="one">Aktyvus prieš %d dieną</item>
+        <item quantity="few">Aktyvus prieš %d dienas</item>
+        <item quantity="many">Online %d days ago</item>
+    </plurals>
+    <plurals name="profile_last_online_hours_ago">
+        <item quantity="other">Aktyvus prieš %d valandų</item>
+        <item quantity="one">Aktyvus prieš %d valandą</item>
+        <item quantity="few">Aktyvus prieš %d valandas</item>
+        <item quantity="many">Online %d hours ago</item>
+    </plurals>
+    <plurals name="profile_last_online_minutes_ago">
+        <item quantity="other">Aktyvus prieš %d minučių</item>
+        <item quantity="one">Aktyvus prieš %d minutę</item>
+        <item quantity="few">Aktyvus prieš %d minutes</item>
+        <item quantity="many">Online %d minutes ago</item>
+    </plurals>
+    <plurals name="profile_photos_count">
+        <item quantity="other">Nuotraukų</item>
+        <item quantity="one">Nuotrauka</item>
+        <item quantity="few">Nuotraukos</item>
+        <item quantity="many">Photos</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_enough_credits">
+        <item quantity="other">Jūs perkate %1$d pakvietimo kreditų. Nemokamai gausite %2$s mainais.</item>
+        <item quantity="one">Jūs perkate %1$d pakvietimo kreditą. Nemokamai gausite %2$s mainais.</item>
+        <item quantity="few">Jūs perkate %1$d pakvietimo kreditus. Nemokamai gausite %2$s mainais.</item>
+        <item quantity="many">You are about to redeem %1$d invite credits. You will get Free %2$s in exchange.</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_redeem_subtitle">
+        <item quantity="other">%d kreditų</item>
+        <item quantity="one">%d kreditas</item>
+        <item quantity="few">%d kreditai</item>
+        <item quantity="many">%d credits</item>
+    </plurals>
+    <plurals name="story_likes_count">
+        <item quantity="other">Mėgsta</item>
+        <item quantity="one">Mėgsta</item>
+        <item quantity="few">Mėgsta</item>
+        <item quantity="many">Likes</item>
+    </plurals>
+</resources>

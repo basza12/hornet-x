@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="house_ad_ctas">
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+    </string-array>
+    <string-array name="house_ad_titles">
+        <item>Prova Premium filter</item>
+        <item>Se vem som har kollat in dig</item>
+        <item>Skippa annonser, skaffa premium</item>
+        <item>Bli osynlig.</item>
+    </string-array>
+</resources>

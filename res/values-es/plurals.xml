@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="discover_place_reactions_button">
+        <item quantity="other">%d tíos</item>
+        <item quantity="one">1 tío</item>
+    </plurals>
+    <plurals name="feed_reactions_text_liked_by_me">
+        <item quantity="other">Os gusta a [%1$d guys](/activities/%2$s/reactions) y a ti</item>
+        <item quantity="one">Os gusta a [1 guy](/activities/%2$s/reactions) y a ti</item>
+    </plurals>
+    <plurals name="feed_reactions_text_not_liked_by_me">
+        <item quantity="other">Les gusta a [%1$d guys](/activities/%2$s/reactions)</item>
+        <item quantity="one">Le gusta a [1 guy](/activities/%2$s/reactions)</item>
+    </plurals>
+    <plurals name="feet">
+        <item quantity="other">%1$d pies</item>
+        <item quantity="one">%1$d pie</item>
+    </plurals>
+    <plurals name="kilometer">
+        <item quantity="other">%1$d kilómetros</item>
+        <item quantity="one">%1$d kilómetro</item>
+    </plurals>
+    <plurals name="meter">
+        <item quantity="other">%1$d metros</item>
+        <item quantity="one">%1$d metro</item>
+    </plurals>
+    <plurals name="mile">
+        <item quantity="other">%1$d millas</item>
+        <item quantity="one">%1$d milla</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">Seguidores</item>
+        <item quantity="one">Seguidores</item>
+    </plurals>
+    <plurals name="profile_last_online_days_ago">
+        <item quantity="other">En línea %d días atrás</item>
+        <item quantity="one">En línea %d día atrás</item>
+    </plurals>
+    <plurals name="profile_last_online_hours_ago">
+        <item quantity="other">En línea %d horas atrás</item>
+        <item quantity="one">En línea %d hora atrás</item>
+    </plurals>
+    <plurals name="profile_last_online_minutes_ago">
+        <item quantity="other">En línea %d minutos atrás</item>
+        <item quantity="one">En línea %d minutos atrás</item>
+    </plurals>
+    <plurals name="profile_photos_count">
+        <item quantity="other">Fotos</item>
+        <item quantity="one">Foto</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_enough_credits">
+        <item quantity="other">Estas a punto de canjear %1$d tu crédito por invitaciones. Obtendrás Premium %2$s a cambio.</item>
+        <item quantity="one">Estas a punto de canjear tu crédito por invitaciones. Obtendrás Premium a cambio.</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_redeem_subtitle">
+        <item quantity="other">%d crédito</item>
+        <item quantity="one">%d crédito</item>
+    </plurals>
+    <plurals name="story_likes_count">
+        <item quantity="other">Me gustan</item>
+        <item quantity="one">Me gusta</item>
+    </plurals>
+</resources>

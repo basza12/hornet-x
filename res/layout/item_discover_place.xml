@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rootView" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/content_wrapper" android:paddingLeft="?android:listPreferredItemPaddingLeft" android:paddingTop="@dimen/spacing_normal" android:paddingRight="?android:listPreferredItemPaddingRight" android:paddingBottom="@dimen/spacing_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.hornet.android.widget.SquareImageView android:layout_gravity="center_vertical" android:id="@id/placeImageView" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginRight="@dimen/spacing_normal" android:scaleType="centerCrop" android:layout_weight="0.0" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="@color/body_text_1" android:ellipsize="end" android:id="@id/placeTitleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_normal" android:maxLines="1" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/body_text_2" android:ellipsize="end" android:id="@id/placeCategoryTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_thin" android:layout_marginBottom="@dimen/spacing_thin" android:maxLines="1" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <TextView android:textSize="12.0sp" android:textColor="@color/body_text_2" android:gravity="end" android:layout_gravity="end" android:id="@id/placeDistanceTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_thin" android:minWidth="50.0dip" android:maxLines="1" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/body_text_2" android:ellipsize="none" android:gravity="end" android:layout_gravity="end" android:id="@id/placeDateTimeTextView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_thin" android:minWidth="50.0dip" android:maxLines="1" />
+            <FrameLayout android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+                <RatingBar android:id="@id/placeRatingView" android:layout_width="wrap_content" android:layout_height="14.0dip" android:numStars="5" android:stepSize="0.2" android:isIndicator="true" style="?android:ratingBarStyleSmall" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/place_address_divider" android:background="@color/search_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" android:layout_below="@id/content_wrapper" android:layout_alignParentBottom="true" />
+</RelativeLayout>

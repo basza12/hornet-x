@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="discover_place_reactions_button">
+        <item quantity="other">%d guys</item>
+        <item quantity="one">1 guy</item>
+    </plurals>
+    <plurals name="feed_reactions_text_liked_by_me">
+        <item quantity="other">You and [%1$d guys](/activities/%2$s/reactions) like this</item>
+        <item quantity="one">You and [1 guy](/activities/%2$s/reactions) like this</item>
+    </plurals>
+    <plurals name="feed_reactions_text_not_liked_by_me">
+        <item quantity="other">[%1$d guys](/activities/%2$s/reactions) like this</item>
+        <item quantity="one">[1 guy](/activities/%2$s/reactions) likes this</item>
+    </plurals>
+    <plurals name="feet">
+        <item quantity="other">%1$d feet</item>
+        <item quantity="one">%1$d foot</item>
+    </plurals>
+    <plurals name="kilometer">
+        <item quantity="other">%1$d kilometers</item>
+        <item quantity="one">%1$d kilometer</item>
+    </plurals>
+    <plurals name="meter">
+        <item quantity="other">%1$d meters</item>
+        <item quantity="one">%1$d meter</item>
+    </plurals>
+    <plurals name="mile">
+        <item quantity="other">%1$d miles</item>
+        <item quantity="one">%1$d mile</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">Followers</item>
+        <item quantity="one">Follower</item>
+    </plurals>
+    <plurals name="profile_last_online_days_ago">
+        <item quantity="other">Online %d days ago</item>
+        <item quantity="one">Online %d day ago</item>
+    </plurals>
+    <plurals name="profile_last_online_hours_ago">
+        <item quantity="other">Online %d hours ago</item>
+        <item quantity="one">Online %d hour ago</item>
+    </plurals>
+    <plurals name="profile_last_online_minutes_ago">
+        <item quantity="other">Online %d minutes ago</item>
+        <item quantity="one">Online %d minute ago</item>
+    </plurals>
+    <plurals name="profile_photos_count">
+        <item quantity="other">Photos</item>
+        <item quantity="one">Photo</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_enough_credits">
+        <item quantity="other">You are about to redeem %1$d invite credits. You will get Free %2$s in exchange.</item>
+        <item quantity="one">Tutubusin mo na ang iyong Invite Credit. Kapalit nito ay makukuha mo ang aming Premium version.</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_redeem_subtitle">
+        <item quantity="other">%d mga ipon</item>
+        <item quantity="one">%d ipon</item>
+    </plurals>
+    <plurals name="story_likes_count">
+        <item quantity="other">Likes</item>
+        <item quantity="one">Like</item>
+    </plurals>
+</resources>

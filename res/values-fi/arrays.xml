@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="house_ad_ctas">
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+    </string-array>
+    <string-array name="house_ad_titles">
+        <item>Kokeile Premium suodattimia</item>
+        <item>Katso, ketkä ovat tarkastelleet sinua</item>
+        <item>Haluatko mainoksista eroon? Hanki Premium</item>
+        <item>Tule näkymättömäksi.</item>
+    </string-array>
+</resources>

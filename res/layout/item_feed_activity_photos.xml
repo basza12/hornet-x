@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hornet.android.widget.ForegroundAwareImageView android:id="@id/photos_1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" app:compatForeground="?selectableItemBackground" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/photos_2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+        <com.hornet.android.widget.SquareImageView android:id="@id/photos_2_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="1.0px" android:scaleType="centerCrop" android:layout_weight="1.0" app:compatForeground="?selectableItemBackground" />
+        <com.hornet.android.widget.SquareImageView android:id="@id/photos_2_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="1.0px" android:scaleType="centerCrop" android:layout_weight="1.0" app:compatForeground="?selectableItemBackground" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/photos_3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="3.0">
+        <com.hornet.android.widget.SquareImageView android:id="@id/photos_3_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="1.0px" android:scaleType="centerCrop" android:layout_weight="2.0" app:compatForeground="?selectableItemBackground" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.hornet.android.widget.SquareImageView android:id="@id/photos_3_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0px" android:layout_marginBottom="1.0px" android:scaleType="centerCrop" app:compatForeground="?selectableItemBackground" />
+            <com.hornet.android.widget.SquareImageView android:id="@id/photos_3_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0px" android:layout_marginTop="1.0px" android:scaleType="centerCrop" app:compatForeground="?selectableItemBackground" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/photos_4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+            <com.hornet.android.widget.SquareImageView android:id="@id/photos_4_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="1.0px" android:layout_marginBottom="1.0px" android:scaleType="centerCrop" android:layout_weight="1.0" app:compatForeground="?selectableItemBackground" />
+            <com.hornet.android.widget.SquareImageView android:id="@id/photos_4_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="1.0px" android:layout_marginBottom="1.0px" android:scaleType="centerCrop" android:layout_weight="1.0" app:compatForeground="?selectableItemBackground" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+            <com.hornet.android.widget.SquareImageView android:id="@id/photos_4_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="1.0px" android:layout_marginRight="1.0px" android:scaleType="centerCrop" android:layout_weight="1.0" app:compatForeground="?selectableItemBackground" />
+            <com.hornet.android.widget.SquareImageView android:id="@id/photos_4_4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="1.0px" android:layout_marginTop="1.0px" android:scaleType="centerCrop" android:layout_weight="1.0" app:compatForeground="?selectableItemBackground" />
+        </LinearLayout>
+    </LinearLayout>
+    <HorizontalScrollView android:id="@id/photos_5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="90.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="horizontal" android:id="@id/photos_5_list" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.hornet.android.widget.SquareImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="1.0px" android:scaleType="centerCrop" app:compatForeground="?selectableItemBackground" />
+            <com.hornet.android.widget.SquareImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="1.0px" android:layout_marginRight="1.0px" android:scaleType="centerCrop" app:compatForeground="?selectableItemBackground" />
+            <com.hornet.android.widget.SquareImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="1.0px" android:layout_marginRight="1.0px" android:scaleType="centerCrop" app:compatForeground="?selectableItemBackground" />
+            <com.hornet.android.widget.SquareImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="1.0px" android:layout_marginRight="1.0px" android:scaleType="centerCrop" app:compatForeground="?selectableItemBackground" />
+            <com.hornet.android.widget.SquareImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="1.0px" android:scaleType="centerCrop" app:compatForeground="?selectableItemBackground" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</merge>

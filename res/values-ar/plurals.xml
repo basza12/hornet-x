@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="discover_place_reactions_button">
+        <item quantity="other">%d رجال</item>
+        <item quantity="zero">صفر</item>
+        <item quantity="one">1 رجل</item>
+        <item quantity="two">رجلين</item>
+        <item quantity="few">%d guys</item>
+        <item quantity="many">%d guys</item>
+    </plurals>
+    <plurals name="feed_reactions_text_liked_by_me">
+        <item quantity="other">You and [%1$d guys](/activities/%2$s/reactions) like this</item>
+        <item quantity="zero">أنتَ ورجل واحد (/activities/%2$s/reactions) أعجبكما هذا</item>
+        <item quantity="one">أنتَ و%1$d رجل (/activities/%2$s/reactions) أعجبكم هذا</item>
+        <item quantity="two">You and [%1$d guys](/activities/%2$s/reactions) like this</item>
+        <item quantity="few">You and [%1$d guys](/activities/%2$s/reactions) like this</item>
+        <item quantity="many">You and [%1$d guys](/activities/%2$s/reactions) like this</item>
+    </plurals>
+    <plurals name="feed_reactions_text_not_liked_by_me">
+        <item quantity="other">[%1$d guys](/activities/%2$s/reactions) like this</item>
+        <item quantity="zero">رجل واحد (/activities/%2$s/reactions) أُعجب بهذا</item>
+        <item quantity="one">%1$d رجال (/activities/%2$s/reactions) أُعجبوا بهذا</item>
+        <item quantity="two">[%1$d guys](/activities/%2$s/reactions) like this</item>
+        <item quantity="few">[%1$d guys](/activities/%2$s/reactions) like this</item>
+        <item quantity="many">[%1$d guys](/activities/%2$s/reactions) like this</item>
+    </plurals>
+    <plurals name="feet">
+        <item quantity="other">%1$d أقدام</item>
+        <item quantity="zero">%1$d أقدام</item>
+        <item quantity="one">%1$d أقدام</item>
+        <item quantity="two">%1$d أقدام</item>
+        <item quantity="few">%1$d أقدام</item>
+        <item quantity="many">%1$d أقدام</item>
+    </plurals>
+    <plurals name="kilometer">
+        <item quantity="other">%1$d كلم</item>
+        <item quantity="zero">%1$d كلم</item>
+        <item quantity="one">%1$d كلم</item>
+        <item quantity="two">%1$d كلم</item>
+        <item quantity="few">%1$d كلم</item>
+        <item quantity="many">%1$d كلم</item>
+    </plurals>
+    <plurals name="meter">
+        <item quantity="other">%1$d متر</item>
+        <item quantity="zero">%1$d متر</item>
+        <item quantity="one">%1$d متر</item>
+        <item quantity="two">%1$d متر</item>
+        <item quantity="few">%1$d متر</item>
+        <item quantity="many">%1$d متر</item>
+    </plurals>
+    <plurals name="mile">
+        <item quantity="other">%1$d أميال</item>
+        <item quantity="zero">%1$d أميال</item>
+        <item quantity="one">%1$d أميال</item>
+        <item quantity="two">%1$d أميال</item>
+        <item quantity="few">%1$d أميال</item>
+        <item quantity="many">%1$d أميال</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">Followers</item>
+        <item quantity="zero">Followers</item>
+        <item quantity="one">Follower</item>
+        <item quantity="two">Followers</item>
+        <item quantity="few">Followers</item>
+        <item quantity="many">Followers</item>
+    </plurals>
+    <plurals name="profile_last_online_days_ago">
+        <item quantity="other">Online %d days ago</item>
+        <item quantity="zero">Online %d days ago</item>
+        <item quantity="one">Online %d day ago</item>
+        <item quantity="two">Online %d days ago</item>
+        <item quantity="few">Online %d days ago</item>
+        <item quantity="many">Online %d days ago</item>
+    </plurals>
+    <plurals name="profile_last_online_hours_ago">
+        <item quantity="other">Online %d hours ago</item>
+        <item quantity="zero">Online %d hours ago</item>
+        <item quantity="one">Online %d hour ago</item>
+        <item quantity="two">Online %d hours ago</item>
+        <item quantity="few">Online %d hours ago</item>
+        <item quantity="many">Online %d hours ago</item>
+    </plurals>
+    <plurals name="profile_last_online_minutes_ago">
+        <item quantity="other">Online %d minutes ago</item>
+        <item quantity="zero">Online %d minutes ago</item>
+        <item quantity="one">Online %d minute ago</item>
+        <item quantity="two">Online %d minutes ago</item>
+        <item quantity="few">Online %d minutes ago</item>
+        <item quantity="many">Online %d minutes ago</item>
+    </plurals>
+    <plurals name="profile_photos_count">
+        <item quantity="other">Photos</item>
+        <item quantity="zero">Photos</item>
+        <item quantity="one">Photo</item>
+        <item quantity="two">Photos</item>
+        <item quantity="few">Photos</item>
+        <item quantity="many">Photos</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_enough_credits">
+        <item quantity="other">أنت على وشك استرداد قيمة الرصيد %1$d من رصيد الدعوات. سوف تحصل مجانا %2$s في المقابل.</item>
+        <item quantity="zero">أنت على وشك استرداد قيمة الرصيد %1$d من رصيد الدعوات. سوف تحصل مجانا %2$s في المقابل.</item>
+        <item quantity="one">أنت على وشك استرداد قيمة الرصيد %1$d من رصيد الدعوات. سوف تحصل مجانا %2$s في المقابل.</item>
+        <item quantity="two">أنت على وشك استرداد قيمة الرصيد %1$d من رصيد الدعوات. سوف تحصل مجانا %2$s في المقابل.</item>
+        <item quantity="few">أنت على وشك استرداد قيمة الرصيد %1$d من رصيد الدعوات. سوف تحصل مجانا %2$s في المقابل.</item>
+        <item quantity="many">أنت على وشك استرداد قيمة الرصيد %1$d من رصيد الدعوات. سوف تحصل مجانا %2$s في المقابل.</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_redeem_subtitle">
+        <item quantity="other">الأرصدة %d</item>
+        <item quantity="zero">الأرصدة %d</item>
+        <item quantity="one">الأرصدة %d</item>
+        <item quantity="two">الأرصدة %d</item>
+        <item quantity="few">الأرصدة %d</item>
+        <item quantity="many">الأرصدة %d</item>
+    </plurals>
+    <plurals name="story_likes_count">
+        <item quantity="other">Likes</item>
+        <item quantity="zero">Likes</item>
+        <item quantity="one">Like</item>
+        <item quantity="two">Likes</item>
+        <item quantity="few">Likes</item>
+        <item quantity="many">Likes</item>
+    </plurals>
+</resources>

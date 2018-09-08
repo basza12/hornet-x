@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView android:id="@id/activity_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_card_margin" android:layout_marginTop="@dimen/activity_card_margin" android:layout_marginRight="@dimen/activity_card_margin" android:layout_marginBottom="@dimen/activity_card_margin" app:cardBackgroundColor="@color/activity_card_background" app:cardCornerRadius="@dimen/activity_card_corner_radius" app:cardElevation="@dimen/activity_card_elevation">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/item_feed_activity_header" />
+            <include layout="@layout/item_feed_activity_photos" />
+            <include layout="@layout/item_feed_activity_members" />
+            <include layout="@layout/item_feed_activity_cta" />
+            <include layout="@layout/item_feed_activity_reactions" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView android:id="@id/get_free_premium_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" app:cardBackgroundColor="@color/activity_card_background" app:cardCornerRadius="0.0dip" app:cardElevation="@dimen/activity_card_elevation">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/get_free_premium_account_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="64.0sp" android:textColor="@color/hornet_gui_cyan" android:layout_gravity="center_horizontal" android:id="@id/get_free_premium_account_credits" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textColor="@color/body_text_1" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/profile_settings_get_free_premium_credit_count" />
+                <View android:background="@color/filters_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+                <TextView android:textColor="@color/body_text_2" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_normal" android:text="@string/profile_settings_get_free_premium_description" android:singleLine="false" />
+                <Button android:textColor="@color/hornet_gui_cyan" android:layout_gravity="center_horizontal" android:id="@id/get_free_premium_account_share_url" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAllCaps="false" style="?android:borderlessButtonStyle" />
+            </LinearLayout>
+            <ProgressBar android:layout_gravity="center" android:id="@id/progressIndicatorView" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyle" />
+        </FrameLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.RecyclerView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/terms_of_service_button" android:layout_below="@id/get_free_premium_status" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" app:layoutManager="LinearLayoutManager" />
+    <Button android:textColor="@color/hornet_gui_cyan" android:id="@id/terms_of_service_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_normal" android:layout_marginRight="@dimen/spacing_normal" android:text="@string/profile_settings_get_free_premium_tos" android:layout_alignParentLeft="false" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="?android:borderlessButtonStyle" />
+</RelativeLayout>

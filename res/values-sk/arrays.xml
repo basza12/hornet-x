@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="house_ad_ctas">
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+    </string-array>
+    <string-array name="house_ad_titles">
+        <item>Skús prémiové filtre</item>
+        <item>Zisti, kto si ťa pozrel</item>
+        <item>Zbav sa reklám, získaj prémiu</item>
+        <item>Stať sa neviditeľným.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/activity_cta" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/search_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+    <Button android:textColor="@color/hornet_gui_cyan" android:layout_gravity="start" android:id="@id/activity_cta_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_thin" android:layout_marginBottom="@dimen/spacing_thin" android:minWidth="100.0dip" style="?android:borderlessButtonStyle" />
+</LinearLayout>

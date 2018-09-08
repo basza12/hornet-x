@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="activity_title">Activity</string>
+    <string name="ad_info_text">Ad</string>
+    <string name="app_upgrade_message">Upgrading app from previous version</string>
+    <string name="asset_statements">"[{
+ \"relation\": [\"delegate_permission/common.handle_all_urls\"],
+ \"target\": {
+ \"namespace\": \"web\",
+ \"site\": \"https://hornetapp.com\",
+ }
+}]"</string>
+    <string name="block_user">Do you want to block this member?</string>
+    <string name="blocked_members_delete">Unblock</string>
+    <string name="blocked_members_delete_all">Unblock all</string>
+    <string name="blocked_members_done">Done</string>
+    <string name="button_create_account">Create free account</string>
+    <string name="button_create_later">Create account later</string>
+    <string name="button_login">Login</string>
+    <string name="button_signup_faceboook">Sign up with Facebook</string>
+    <string name="camera_failed_to_create_target_file">Something went wrong and camera can’t be used.</string>
+    <string name="camera_permission_rationale">Camera permission is needed to show the camera as a photo source.</string>
+    <string name="camera_permission_rationale_title">Permission to use the camera</string>
+    <string name="chat_attach_menu_title">Send an attachment</string>
+    <string name="chat_clear_all_conversations_failed">Clear all conversations failed</string>
+    <string name="chat_clear_conversation_failed">Clear conversation failed</string>
+    <string name="chat_delete">Clear</string>
+    <string name="chat_delete_all">Clear all</string>
+    <string name="chat_done">Done</string>
+    <string name="chat_heart_limit_reached">You have to wait until tomorrow before you can send another heart to this person</string>
+    <string name="chat_list_clear_failed">Chat clear failed.</string>
+    <string name="chat_mark_all_as_read">Mark all as read</string>
+    <string name="chat_message_state_failed">Sending failed, tap to retry</string>
+    <string name="chat_message_state_sending">Sending…</string>
+    <string name="chat_messaging_choose_photo_from_library">Choose from library</string>
+    <string name="chat_messaging_clear_chat">Clear chat</string>
+    <string name="chat_messaging_forward_favorite">Hey, check out this guy I found.</string>
+    <string name="chat_messaging_loading_problem">Cannot load messages, try again later or contact feedback@gethornet.com if this keeps happening</string>
+    <string name="chat_messaging_message_send_failed">Message sending failed.</string>
+    <string name="chat_messaging_message_type_fav_forward">Hey check out this guy I found</string>
+    <string name="chat_messaging_message_type_heart">Heart</string>
+    <string name="chat_messaging_message_type_location">Shared location</string>
+    <string name="chat_messaging_message_type_photo_access_request">Private photo access request</string>
+    <string name="chat_messaging_message_type_photo_access_response">Private photo access response</string>
+    <string name="chat_messaging_message_type_shared_photo">Shared photo</string>
+    <string name="chat_messaging_photo_access_grant">Grant Photos Access</string>
+    <string name="chat_messaging_photo_access_reject">Revoke Photos Access</string>
+    <string name="chat_messaging_photo_access_request">"I requested access to %1$s's private photos"</string>
+    <string name="chat_messaging_photo_access_request_button_grant">Grant</string>
+    <string name="chat_messaging_photo_access_request_button_granted">Granted</string>
+    <string name="chat_messaging_photo_access_request_button_reject">Revoke</string>
+    <string name="chat_messaging_photo_access_request_button_rejected">Revoked</string>
+    <string name="chat_messaging_photo_access_request_grant">I granted %1$s access to my private photos</string>
+    <string name="chat_messaging_photo_access_request_grant_noname">I granted him access to my private photos</string>
+    <string name="chat_messaging_photo_access_request_granted">%1$s granted you access to his private photos</string>
+    <string name="chat_messaging_photo_access_request_granted_noname">He granted you access to his private photos</string>
+    <string name="chat_messaging_photo_access_request_noname">I requested access to his private photos</string>
+    <string name="chat_messaging_photo_access_request_owner">%1$s wants access to your private photos</string>
+    <string name="chat_messaging_photo_access_request_owner_noname">I would like to see your private photos</string>
+    <string name="chat_messaging_photo_access_request_reject">I revoked %1$s access to my private photos</string>
+    <string name="chat_messaging_photo_access_request_reject_noname">I revoked him access to my private photos</string>
+    <string name="chat_messaging_photo_access_request_rejected">%1$s revoked you access to his private photos</string>
+    <string name="chat_messaging_photo_access_request_rejected_noname">He revoked you access to his private photos</string>
+    <string name="chat_messaging_photo_crop_title">Crop photo</string>
+    <string name="chat_messaging_photo_saved">Photo saved to your gallery.</string>
+    <string name="chat_messaging_photo_saving_image_failed">Saving image failed.</string>
+    <string name="chat_messaging_photo_source">Photo source</string>
+    <string name="chat_messaging_revoke">Revoke</string>
+    <string name="chat_messaging_sending_message">Sending message…</string>
+    <string name="chat_messaging_take_photo">Take photo</string>
+    <string name="chat_no_display_name"><i>The Hornet Guy</i></string>
+    <string name="chat_no_more_heart_messages_today">You can’t send him more hearts today</string>
+    <string name="chat_open_in_maps">Open in app</string>
+    <string name="chat_permission_cta_grant_access">Grant</string>
+    <string name="chat_permission_cta_revoke_access">Revoke</string>
+    <string name="chat_permission_cta_view_photos">View</string>
+    <string name="chat_permission_request">I would like access to your private photos.</string>
+    <string name="chat_permission_response_granted">I grant you access to my private photos.</string>
+    <string name="chat_permission_response_revoked">I revoked your access to my private photos.</string>
+    <string name="chat_permission_toolbar_grant_access">Grant Access to My Private Photos</string>
+    <string name="chat_permission_toolbar_revoke_access">Revoke Access to My Private Photos</string>
+    <string name="chat_permission_wait">Already requested! Please wait for a response from the other guy.</string>
+    <string name="chat_plus_button_dialog_grant_photos_access">Grant Photos Access</string>
+    <string name="chat_plus_button_dialog_revoke_photos_access">Revoke Photos Access</string>
+    <string name="chat_plus_button_dialog_send_heart">Send a Heart</string>
+    <string name="chat_plus_button_dialog_send_location">Send a Location</string>
+    <string name="chat_plus_button_dialog_send_photo">Send a Photo</string>
+    <string name="chat_plus_button_dialog_title">Send options</string>
+    <string name="chat_plus_drawer_camera_icon_desc">Take a photo icon</string>
+    <string name="chat_plus_drawer_camera_label">Camera</string>
+    <string name="chat_plus_drawer_gallery_icon_desc">Choose a photo from gallery icon</string>
+    <string name="chat_plus_drawer_gallery_label">Gallery</string>
+    <string name="chat_plus_drawer_location_icon_desc">Share a location icon</string>
+    <string name="chat_plus_drawer_location_label">Location</string>
+    <string name="chat_plus_drawer_minimise_icon_desc">Minimize drawer icon</string>
+    <string name="chat_plus_drawer_send_icon_desc">Send selected photos icon</string>
+    <string name="chat_plus_drawer_send_label">Send (%1$d)</string>
+    <string name="chat_prm_granted">"You granted access to
+your private photos"</string>
+    <string name="chat_prm_photos">See photos</string>
+    <string name="chat_prm_response">"You got access to
+my private photos"</string>
+    <string name="chat_prm_response_rejected">"You have no more access
+to my private photos"</string>
+    <string name="chat_prm_revoke">Revoke</string>
+    <string name="chat_prm_revoked">"You revoked access
+to your private photos"</string>
+    <string name="chat_recent_photo_limit">You can only send %1$d photos at one time</string>
+    <string name="chat_send_recent_photos">Send recent photo</string>
+    <string name="chat_stickers_click_on_me_1">Click on me</string>
+    <string name="chat_stickers_click_on_me_2">Sent cool stickers</string>
+    <string name="chat_stickers_grant_access">Grant photo access</string>
+    <string name="chat_stickers_report_acces">Block member</string>
+    <string name="chat_stickers_retry">Retry</string>
+    <string name="chat_stickers_revoke_access">Revoke photo access</string>
+    <string name="chat_stickers_send_location">Send a Location</string>
+    <string name="chat_stickers_send_photo">Send a Photo</string>
+    <string name="chat_title">Chat</string>
+    <string name="chat_type_message">Type message</string>
+    <string name="chat_verification_button_change">Change email</string>
+    <string name="chat_verification_button_resend">Resend verification</string>
+    <string name="chat_verification_button_sent">Verification sent</string>
+    <string name="chat_verification_main_text">To continue chatting, please verify your account by clicking on the link in the email we sent to %1$s when you joined Hornet.</string>
+    <string name="comma">", "</string>
+    <string name="continue_label">Continue</string>
+    <string name="date_and_time">%1$s %2$s</string>
+    <string name="delete_all_members_error">Cannot delete all members, please try again</string>
+    <string name="delete_member_error">Cannot delete member, please try again</string>
+    <string name="discover_category_title_for_events">Event</string>
+    <string name="discover_event_failed_to_load">The event’s details failed to load</string>
+    <string name="discover_event_share_via">Share event via</string>
+    <string name="discover_followed_event">You’re now following this event</string>
+    <string name="discover_followed_place">You’re now following this place</string>
+    <string name="discover_followed_story">You’ve liked this story</string>
+    <string name="discover_guys_title">Guys</string>
+    <string name="discover_learn_more">Learn more</string>
+    <string name="discover_not_available">Discovering is temporarily unavailable</string>
+    <string name="discover_place_claim_as_owner">Claim as Owner</string>
+    <string name="discover_place_facebook">Facebook</string>
+    <string name="discover_place_failed_to_load">The place’s details failed to load</string>
+    <string name="discover_place_image_description">Photo of the place</string>
+    <string name="discover_place_instagram">Instagram</string>
+    <string name="discover_place_location">Location</string>
+    <string name="discover_place_open_details">More Details</string>
+    <string name="discover_place_phone">Phone</string>
+    <string name="discover_place_share_via">Share place via</string>
+    <string name="discover_place_suggest_edit">Suggest Edit</string>
+    <string name="discover_place_title">Place</string>
+    <string name="discover_place_twitter">Twitter</string>
+    <string name="discover_place_website">Website</string>
+    <string name="discover_stories_latest">Latest stories</string>
+    <string name="discover_stories_title">Stories</string>
+    <string name="discover_stories_top">Top stories</string>
+    <string name="discover_stories_unknown">Stories (%s)</string>
+    <string name="discover_story_expand">Show full story</string>
+    <string name="discover_story_failed_to_load">The story’s details failed to load</string>
+    <string name="discover_story_image_description">Header photo for the story</string>
+    <string name="discover_story_like">Like</string>
+    <string name="discover_story_share_via">Share story via</string>
+    <string name="discover_story_show_posted_on_date">Posted on %s</string>
+    <string name="discover_story_title">Story</string>
+    <string name="discover_story_unlike">Unlike</string>
+    <string name="discover_unfollowed_event">You’re no longer following this event</string>
+    <string name="discover_unfollowed_place">You’re no longer following this place</string>
+    <string name="discover_unfollowed_story">You’ve unliked this story</string>
+    <string name="discover_view_all">View all</string>
+    <string name="distance_units_imperial">%1$d ft %2$d in</string>
+    <string name="distance_units_imperial_ft">%1$d ft</string>
+    <string name="distance_units_imperial_in">%1$d in</string>
+    <string name="distance_units_imperial_mi">%1$d mi</string>
+    <string name="distance_units_imperial_short">%1$s′ %2$s″</string>
+    <string name="distance_units_metric">%1$d m</string>
+    <string name="distance_units_metric_cm">%1$d cm</string>
+    <string name="distance_units_metric_km">%1$d km</string>
+    <string name="done_label">Done</string>
+    <string name="edit_interests_label">Edit interests</string>
+    <string name="error_report_empty_text">Please fill report reason</string>
+    <string name="exo_controls_fastforward_description">Fast-forward</string>
+    <string name="exo_controls_next_description">Next track</string>
+    <string name="exo_controls_pause_description">Pause</string>
+    <string name="exo_controls_play_description">Play</string>
+    <string name="exo_controls_previous_description">Previous track</string>
+    <string name="exo_controls_rewind_description">Rewind</string>
+    <string name="exo_controls_stop_description">Stop</string>
+    <string name="explore_explore_button">Explore</string>
+    <string name="explore_open_in_google_map">Open in Google Maps</string>
+    <string name="explore_pick_a_location">Pick a Location</string>
+    <string name="explore_search">Search</string>
+    <string name="explore_search_hint">Search for a place here</string>
+    <string name="explore_send_this_location">Send this Location</string>
+    <string name="explore_shared_location">Shared Location</string>
+    <string name="exploring_not_available">Exploring is temporarily unavailable</string>
+    <string name="favorites_fans">Fans</string>
+    <string name="favorites_faves">Favorites</string>
+    <string name="favorites_matches">Mutual</string>
+    <string name="favourites_not_available">Followings are temporarily unavailable</string>
+    <string name="feed_activity_delete">Delete</string>
+    <string name="feed_activity_delete_done">Activity deleted</string>
+    <string name="feed_activity_delete_failed">Failed to delete activity</string>
+    <string name="feed_activity_delete_in_progress">Deleting…</string>
+    <string name="feed_activity_options_description">More actions for the activity</string>
+    <string name="feed_moment_caption_hint">Describe your moment...</string>
+    <string name="feed_moment_share_text">Share with everyone</string>
+    <string name="feed_new_content_button">New Activity</string>
+    <string name="feed_no_posts_yet">No posts just yet</string>
+    <string name="feed_reaction_liked">Liked!</string>
+    <string name="feed_reaction_unliked">Unliked!</string>
+    <string name="feed_reactions_liked_by">Liked by</string>
+    <string name="feed_reactions_text_nobody_and_liked_by_me">You like this</string>
+    <string name="feed_reactions_text_nobody_and_not_liked_by_me">Be the first to like this</string>
+    <string name="feed_title">Feed</string>
+    <string name="feed_upload_feed_moment">Feed Moment</string>
+    <string name="feed_upload_feed_photo">Feed Photo</string>
+    <string name="feed_upload_feed_photo_pending_message">Thank you for your patience as we review your photo for approval in accordance with our photo policy.</string>
+    <string name="feed_upload_feed_photo_pending_title">Your photo is pending approval</string>
+    <string name="feed_upload_feed_photo_processing">Your photo is being processed</string>
+    <string name="feed_upload_feed_photo_uploading">Your photo is being uploaded</string>
+    <string name="feedback_leave_review">Leave review</string>
+    <string name="feedback_placeholder">Write feedback here</string>
+    <string name="feedback_rating">1 star rating - please tell us why?</string>
+    <string name="feedback_skip">Skip</string>
+    <string name="feedback_title">What went wrong?</string>
+    <string name="filter_uptodate_kys">KYS up to date</string>
+    <string name="filter_whos_online">"Who's online"</string>
+    <string name="filters_advanced_title">Advanced Filters</string>
+    <string name="filters_apply">Apply</string>
+    <string name="filters_applying">Applying filters…</string>
+    <string name="filters_applying_error">Applying filters failed</string>
+    <string name="filters_basic_title">Basic Filters</string>
+    <string name="filters_clear">Clear</string>
+    <string name="filters_clearing">Clearing filters…</string>
+    <string name="filters_clearing_error">Clearing filters failed</string>
+    <string name="filters_kys_secondary">Show guys with recent KYS</string>
+    <string name="filters_min_max_from_label">From</string>
+    <string name="filters_min_max_to_label">To</string>
+    <string name="filters_no_min_max_preference">No min – No max</string>
+    <string name="filters_no_preference">No preference set</string>
+    <string name="filters_online_secondary">Show guys that are online</string>
+    <string name="filters_only_online_label">Only Online</string>
+    <string name="filters_only_positive_kys_label">KYS Positive</string>
+    <string name="filters_only_positive_kys_secondary">Show only KYS positive guys</string>
+    <string name="filters_sexual_preference_label">Role</string>
+    <string name="filters_sexual_role_label">Sexual Role</string>
+    <string name="filters_up_to_date_kys_label">Up-to-date KYS</string>
+    <string name="first_time_login_facebook">Login with Facebook</string>
+    <string name="gallery_permission_rationale">Storage read permission is needed to read photos from your gallery.</string>
+    <string name="gallery_permission_rationale_title">Permission to read storage</string>
+    <string name="general_filter_kys_positive">KYS Positive</string>
+    <string name="general_not_available">Temporarily unavailable</string>
+    <string name="geocoding_no_results">We could not find said location</string>
+    <string name="geocoding_not_available">Geocoding not available</string>
+    <string name="global_account">Account</string>
+    <string name="global_added">Added</string>
+    <string name="global_blocked_list">Blocked list</string>
+    <string name="global_chats">Chats</string>
+    <string name="global_copy">Copy</string>
+    <string name="global_delete_failed">Delete failed.</string>
+    <string name="global_deleting">Deleting…</string>
+    <string name="global_discard_changes">Discard changes</string>
+    <string name="global_discover">Discover</string>
+    <string name="global_discover_events">Events</string>
+    <string name="global_discover_places">Places</string>
+    <string name="global_email">Email</string>
+    <string name="global_error">Error</string>
+    <string name="global_error_generic">An error occurred</string>
+    <string name="global_expand_collapse_indicator_label">Expand or collapse indicator</string>
+    <string name="global_explore">Explore</string>
+    <string name="global_favorites">Favorites</string>
+    <string name="global_feedback">Feedback</string>
+    <string name="global_filters">Filters</string>
+    <string name="global_forward">Forward</string>
+    <string name="global_forward_to_favorite">Forward to Favorite</string>
+    <string name="global_invalid_email">Invalid email</string>
+    <string name="global_loading">Loading…</string>
+    <string name="global_message">Message</string>
+    <string name="global_nearby">Nearby</string>
+    <string name="global_no_max">No max</string>
+    <string name="global_no_min">No min</string>
+    <string name="global_no_space">Not enough storage</string>
+    <string name="global_no_space_required">There is not enough room on your device for Hornet (%d MB available). Please cleanup data or uninstall unused apps and run Hornet again.</string>
+    <string name="global_open_web_link_in">Choose app to open the link with</string>
+    <string name="global_password">Password</string>
+    <string name="global_password_confirmation">Password confirmation</string>
+    <string name="global_password_confirmation_do_not_match">Your passwords do not match, please try again.</string>
+    <string name="global_photo">Photo</string>
+    <string name="global_pick_source">Pick source</string>
+    <string name="global_private_photos">Private Photos</string>
+    <string name="global_private_photos_access_list">Private Photo Access List</string>
+    <string name="global_profile">Profile</string>
+    <string name="global_refresh_data">Refresh</string>
+    <string name="global_reorder_handle_label">Reorder handle</string>
+    <string name="global_retry">Retry</string>
+    <string name="global_saving">Saving…</string>
+    <string name="global_saving_failed">Saving failed.</string>
+    <string name="global_sending">Sending…</string>
+    <string name="global_sent_heart">Heart sent</string>
+    <string name="global_settings">Settings</string>
+    <string name="global_sign_up_for_free">Sign-up for free</string>
+    <string name="global_tips">Tips</string>
+    <string name="global_username">Username</string>
+    <string name="global_version">Version %s</string>
+    <string name="guys_search_title">Search guys</string>
+    <string name="house_ad_cta_1">Upgrade now</string>
+    <string name="intent_member_not_found_by_username_api_error">"Member @%s not found
+
+The user may not have a public profile, or does not exist."</string>
+    <string name="intent_member_not_found_by_username_network_error">Member @%s not found due to a network error</string>
+    <string name="kys_help_section1" formatted="false"><b>Negative:</b>"You have tested negative for HIV. 
+
+"<b>Negative, on PrEP:</b>" You have tested Negative, but are also taking a drug called a “Pre-Exposure Prophylaxis”. (Also known by its brand name, Truvada). PrEP is greater than 90% effective at preventing HIV when the pill is taken daily. 
+
+"<b>Positive:</b>" You have tested positive for HIV. 
+
+"<b>Positive, undetectable:</b> You have tested Positive for HIV, but you are taking antiretroviral therapy drugs resulting in an undetectable “viral load”. Studies have shown that HIV Positive people on this type of treatment can reduce the likelihood of transmitting the virus to their HIV Negative partners by as much as 96%.</string>
+    <string name="kys_help_section2">"In June 1981 the first clusters of what was to become known as AIDS were reported in young gay men in Los Angeles. Thirty years later, men who have sex with men remain the population most impacted by HIV. As many as 20% of gay men in major urban areas are living with HIV/AIDS. 
+
+HIV is a virus that weakens your body’s immune system over time.When left untreated HIV progresses in your immune system and your body can no longer fight off other disease, which medical experts call AIDS. 
+
+Early detection can make a difference in your treatment, the sooner you’re tested the better off you are and can make informed choices, for yourself and your partners. While there is no cure for HIV/AIDS, getting tested often can help you stay well by getting the right treatment early. That treatment prolongs the lives of many people infected with HIV and lowers their chance of transmitting the virus. 
+
+When treated with antiviral therapy people can live long healthy lives with an HIV diagnosis. HIV Positive members of our community are strong HIV treatment and prevention advocates. Sharing your positive status can mean strength, empowerment and being an advocate against stigma. 
+
+Knowing your status and discussing the status of your sexual partner is how to make informed choices. You can make decisions to get tested, and if positive find treatment, or if negative you may decide to take PreP to help prevent possible infection in yourself. 
+
+Getting tested is fast and rapid and there are many free testing sites around the world. Get familiar with one and get into a routine of getting tested every six months. While we should all work toward the goal of no new HIV infections, only you can take care of your own health. 
+
+We encourage you to share your HIV status in your Hornet profile, and to keep it current, for your own health benefit and others. We can all work together to prevent HIV spreading and reduce stigma."</string>
+    <string name="kys_help_title1">What do the different KYS options mean?</string>
+    <string name="kys_help_title2">More about HIV/AIDS:</string>
+    <string name="kys_reminder_cancel_button">I’ll Do It Later</string>
+    <string name="kys_reminder_months_doctor">This is a friendly reminder that it has been over %d months since your last doctor visit.</string>
+    <string name="kys_reminder_months_test">This is a friendly reminder that it has been over %d months since your last HIV test date.</string>
+    <string name="kys_reminder_positive_button">Update My Results</string>
+    <string name="kys_reminder_some_time">This is a friendly reminder that it has been some time since your last HIV test.</string>
+    <string name="kys_status_and_date">%1$s %2$s</string>
+    <string name="kys_warning_message">This is a friendly reminder that it has been 6 months since your last HIV test date</string>
+    <string name="kys_warning_update">Update my results</string>
+    <string name="list_edit_panel_delete">Delete</string>
+    <string name="list_edit_panel_delete_all">Delete All</string>
+    <string name="list_edit_panel_done">Done</string>
+    <string name="location_disabled_error_message">Your device’s location service is disabled. Please enable it, so that we can show you nearby guys correctly.</string>
+    <string name="location_fix_dialog_error_message">Please try again later, or contact feedback@gethornet.com if this keeps happening.</string>
+    <string name="location_fix_dialog_error_title">Failed to fix location issues</string>
+    <string name="location_not_available">Location is not available</string>
+    <string name="location_permissions_rationale">We need location permission for showing you nearby guys.</string>
+    <string name="location_permissions_rationale_title">Location needed</string>
+    <string name="location_snackbar_fix_action_title">Fix</string>
+    <string name="login_fill_email_and_password">Fill email and password</string>
+    <string name="login_in_progress">Signing in</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="login_wrong_email_or_password">Wrong password or e-mail, please try again, or reset your password</string>
+    <string name="member_not_found">Member @%s not found, or does not have a public profile</string>
+    <string name="navigation_account_edit">Edit Profile</string>
+    <string name="navigation_account_get">Get Account</string>
+    <string name="nearby_not_available">Nearby guys are temporarily unavailable</string>
+    <string name="new_guys_not_available">New guys are temporarily unavailable</string>
+    <string name="newsletter_opt_in_dialog_message">I’d like to receive exciting discounts, latest updates and breaking news!</string>
+    <string name="newsletter_opt_in_dialog_negative">No thanks</string>
+    <string name="newsletter_opt_in_dialog_positive">Yes, please</string>
+    <string name="newsletter_opt_in_dialog_title">Get Hornet in Your Inbox</string>
+    <string name="notifications_new">%1s new message(s)</string>
+    <string name="notifications_new_content_button">New Notifications</string>
+    <string name="notifications_summary">%1s new conversation(s)</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="onboarding_interests_complete_part1">"Awesome,
+"</string>
+    <string name="onboarding_interests_complete_part2">"We'll add your interests to
+ your profile as hashtags."</string>
+    <string name="onboarding_interests_part1">Add your interests</string>
+    <string name="onboarding_interests_part2">and find more like-minded guys</string>
+    <string name="onboarding_interests_save_failed">Failed to save interests.</string>
+    <string name="paywall_unlock_by_going_premium">Go Premium</string>
+    <string name="paywall_unlock_by_watching_reward_video">Watch a Video</string>
+    <string name="paywall_unlock_guys_title">Unlock more guys</string>
+    <string name="permissions_description">We require location permission for showing nearby guys. We require external storage permission for photo support.</string>
+    <string name="permissions_rationale_joining_string">%1$s %2$s</string>
+    <string name="permissions_rationale_joining_title">Permissions needed to continue</string>
+    <string name="photo_crop_info_message_portrait_shape">Crop your portrait</string>
+    <string name="photo_crop_info_message_square_shape">Crop a square from your photo</string>
+    <string name="photo_crop_info_message_thumbnail_shape">Crop your thumbnail</string>
+    <string name="premium_need_account_message_title">You need a Hornet account to go Premium</string>
+    <string name="private_photo_access_list_delete">Revoke</string>
+    <string name="private_photo_access_list_delete_all">Revoke all</string>
+    <string name="private_photo_access_list_done">Done</string>
+    <string name="profile_about_you">About you</string>
+    <string name="profile_about_you_hint">Enter information about you</string>
+    <string name="profile_account_change_password">Change Password</string>
+    <string name="profile_account_delete_account">Delete Account</string>
+    <string name="profile_account_delete_account_confirmation">Are you sure you want to delete your account? This will remove your profile and membership and is not recoverable.</string>
+    <string name="profile_account_deleting_your_account">Deleting your account will result in your profile being cleared and user info erased.</string>
+    <string name="profile_account_email">Email</string>
+    <string name="profile_account_email_hint">your email</string>
+    <string name="profile_account_gethornet_com_hint">set username</string>
+    <string name="profile_account_invalid_email_or_password">Invalid email or password specified, please try again.</string>
+    <string name="profile_account_password">Password</string>
+    <string name="profile_account_password_confirmation">Retype Password</string>
+    <string name="profile_account_password_hint">change password</string>
+    <string name="profile_account_public_profile">Public Profile</string>
+    <string name="profile_account_unlink">Sign Out</string>
+    <string name="profile_account_unlink_confirmation">Are you sure you would like to sign out of your account from this device?</string>
+    <string name="profile_account_url_available">URL Available</string>
+    <string name="profile_activity_failed_to_load">Loading activities of @%s failed</string>
+    <string name="profile_activity_failed_to_load_unknown_username">Loading activities of this member failed</string>
+    <string name="profile_activity_header">\@%s’s activity</string>
+    <string name="profile_activity_not_found">Member @%s has no public activity</string>
+    <string name="profile_activity_not_found_unknown_username">This member has no public activity</string>
+    <string name="profile_add_to_favourites">Add to favorites</string>
+    <string name="profile_age">Age</string>
+    <string name="profile_age_detail">%1$d years old</string>
+    <string name="profile_age_hint">Do not show</string>
+    <string name="profile_block_this_member">Block this member</string>
+    <string name="profile_currently">CURRENTLY</string>
+    <string name="profile_display_name_with_age">%1$s, %2$d</string>
+    <string name="profile_does_not_exists">Profile does not exist.</string>
+    <string name="profile_edit_account_already_linked">Account already linked.</string>
+    <string name="profile_edit_choose_a_photo_canceled">Choosing photo canceled.</string>
+    <string name="profile_edit_choose_a_photo_failed">Failed when choosing photo.</string>
+    <string name="profile_edit_choose_from_library">Choose from library</string>
+    <string name="profile_edit_create_account">Create Account</string>
+    <string name="profile_edit_create_an_account">Create an Account</string>
+    <string name="profile_edit_creating_account_failed">Creating account failed.</string>
+    <string name="profile_edit_delete_photo">Delete Photo</string>
+    <string name="profile_edit_email_already_taken">Email is already taken.</string>
+    <string name="profile_edit_forgot_my_password">Forgot My Password</string>
+    <string name="profile_edit_full_size_photo">Full size Photo</string>
+    <string name="profile_edit_icon_photo">Icon Photo</string>
+    <string name="profile_edit_kys_info_line1">"Not sure what KYS is and what it's for?"</string>
+    <string name="profile_edit_kys_info_line2">KYS allows you to optionally disclose your HIV status on your profile. Click for more information on the different options and what they mean.</string>
+    <string name="profile_edit_last_tested">Last tested</string>
+    <string name="profile_edit_link_this_account">Sign In with this Account</string>
+    <string name="profile_edit_linking_account_failed">Login failed.</string>
+    <string name="profile_edit_make_photo_private">Make Photo Private</string>
+    <string name="profile_edit_make_photo_public">Make Photo Public</string>
+    <string name="profile_edit_make_profile_photo">Make Profile Photo</string>
+    <string name="profile_edit_new_account1">Having an account means that you can always get access to your profile. Access your profile from multiple devices, recover profiles from lost or stolen phones.</string>
+    <string name="profile_edit_new_account2">We will use this to send you your access details and recovery information.</string>
+    <string name="profile_edit_photo">Edit photo</string>
+    <string name="profile_edit_photo_text">Resize your photo by pinching it to size inside the red zone, move it in place by holding the photo and sliding it around. No photos of nudity or any sexual references are allowed.</string>
+    <string name="profile_edit_reset_password">Reset Password</string>
+    <string name="profile_edit_reset_password1">Because we encrypt your password, we can’t send it to you, but we can reset it, allowing you to change it.</string>
+    <string name="profile_edit_reseting_password_failed">Failed when resetting password.</string>
+    <string name="profile_edit_sd_card_required">"External Storage (SD Card) is required.
+
+Current state: %1$s"</string>
+    <string name="profile_edit_share_profile">Share my profile</string>
+    <string name="profile_edit_take_a_photo">Take a Photo</string>
+    <string name="profile_edit_take_a_photo_canceled">Taking photo canceled.</string>
+    <string name="profile_edit_take_a_photo_failed">Failed when taking photo.</string>
+    <string name="profile_enter_a_name_hint">Enter a name</string>
+    <string name="profile_ethnicity">Ethnicity</string>
+    <string name="profile_ethnicity_hint">Do not show</string>
+    <string name="profile_failed_to_follow_member">An error occurred and @%s could not be followed.</string>
+    <string name="profile_failed_to_load">The member’s details failed to load</string>
+    <string name="profile_failed_to_unfollow_member">An error occurred and @%s could not be unfollowed.</string>
+    <string name="profile_favourites">Following</string>
+    <string name="profile_feed">Profile</string>
+    <string name="profile_follow">Follow</string>
+    <string name="profile_followed_member">You’re now following @%s</string>
+    <string name="profile_followers">Followers</string>
+    <string name="profile_following">Following</string>
+    <string name="profile_follows_you_label">Follows you</string>
+    <string name="profile_gallery">Gallery</string>
+    <string name="profile_gallery_empty">"This guy is shy
+and has not uploaded any public photos yet"</string>
+    <string name="profile_gallery_more_link">+%d</string>
+    <string name="profile_global_timeline_failed_to_load">Loading of the feed failed</string>
+    <string name="profile_handle">\@%s</string>
+    <string name="profile_headline">Headline</string>
+    <string name="profile_headline_hint">Enter a headline</string>
+    <string name="profile_height">Height</string>
+    <string name="profile_height_hint">Do not show</string>
+    <string name="profile_identity">Role</string>
+    <string name="profile_identity_hint">Do not show</string>
+    <string name="profile_know_your_status">KNOW YOUR STATUS</string>
+    <string name="profile_kys">KYS</string>
+    <string name="profile_kys_detail_with_date">%1$s, %2$s</string>
+    <string name="profile_kys_hint">Do not show</string>
+    <string name="profile_last_online_label">Activity</string>
+    <string name="profile_last_online_offline">Offline</string>
+    <string name="profile_last_online_recently">Online</string>
+    <string name="profile_looking_for">Looking For</string>
+    <string name="profile_looking_for_heading">LOOKING FOR</string>
+    <string name="profile_looking_for_hint">Do not show</string>
+    <string name="profile_matches">Matches</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_not_public_to_share">This member does not have a public profile</string>
+    <string name="profile_not_set">Not set</string>
+    <string name="profile_note">Note</string>
+    <string name="profile_notifications_failed_to_load">Loading of notifications failed</string>
+    <string name="profile_open_private_gallery">Open Private Gallery</string>
+    <string name="profile_open_private_gallery_pending">Pending Private Gallery Access Request</string>
+    <string name="profile_open_private_gallery_request">Request Access to Private Gallery</string>
+    <string name="profile_own_activity_failed_to_load">Loading your activities failed</string>
+    <string name="profile_photo_guidelines">Photo Guidelines</string>
+    <string name="profile_photo_private">Private</string>
+    <string name="profile_photo_public">Public</string>
+    <string name="profile_photos">Photos</string>
+    <string name="profile_photos_more">More</string>
+    <string name="profile_popup_menu_block">Block this member</string>
+    <string name="profile_popup_menu_note">Write note</string>
+    <string name="profile_popup_menu_report">Report this member</string>
+    <string name="profile_popup_menu_share">Share this member</string>
+    <string name="profile_preferred_language">Language</string>
+    <string name="profile_private_gallery_title">Private Gallery</string>
+    <string name="profile_private_photo_access_rejected">Access rejected</string>
+    <string name="profile_private_photos_requested">Private photos requested</string>
+    <string name="profile_relationship">Relationship</string>
+    <string name="profile_relationship_hint">Do not show</string>
+    <string name="profile_relationship_status">Relationship status</string>
+    <string name="profile_remove_from_favourites">Remove from favorites</string>
+    <string name="profile_report">You have to give a reason (at least 10 characters) before you can submit this report.</string>
+    <string name="profile_report_hint">Enter report description</string>
+    <string name="profile_report_this_member">Report this member</string>
+    <string name="profile_request_access">Request access</string>
+    <string name="profile_request_access_pending">Waiting for his approval.</string>
+    <string name="profile_send_heart">Send Heart</string>
+    <string name="profile_settings_faq">FAQs</string>
+    <string name="profile_settings_get_free_premium">Get Free Premium</string>
+    <string name="profile_settings_get_free_premium_credit_count">Your invitations bonus</string>
+    <string name="profile_settings_get_free_premium_description">Get<b> 1 credit</b> for every guy that joins Hornet using your unique invitation code</string>
+    <string name="profile_settings_get_free_premium_error_refreshing_account">There was an error refreshing your account, please login again</string>
+    <string name="profile_settings_get_free_premium_link_copied">Copied to Clipboard</string>
+    <string name="profile_settings_get_free_premium_not_enough_credits">"You don't have enough credits to redeem Free %s"</string>
+    <string name="profile_settings_get_free_premium_not_enough_credits_or_network_error">"You either don't have enough credits to redeem Free %s, or a network error occurred"</string>
+    <string name="profile_settings_get_free_premium_redeem_title">Redeem</string>
+    <string name="profile_settings_get_free_premium_share">Share your link</string>
+    <string name="profile_settings_get_free_premium_share_text">"Use my invite code and get a free Hornet Premium account! Claim it now! 
+
+%1$s"</string>
+    <string name="profile_settings_get_free_premium_share_title">Get Free Premium</string>
+    <string name="profile_settings_get_free_premium_success">Successfully redeemed your Free %s! Enjoy it!</string>
+    <string name="profile_settings_get_free_premium_title">Invitations</string>
+    <string name="profile_settings_get_free_premium_tos">Terms and Conditions</string>
+    <string name="profile_settings_grid_add_photo">Add Photo</string>
+    <string name="profile_settings_grid_main_photo">Main Photo</string>
+    <string name="profile_settings_hashtag_suggestions_adding_exceeds">"Can't add hashtag #%s to \"about you\", it would be too long"</string>
+    <string name="profile_settings_hashtag_suggestions_label">Add tags to your profile text:</string>
+    <string name="profile_settings_hashtag_suggestions_na">N/A</string>
+    <string name="profile_share">Share</string>
+    <string name="profile_share_favorites">Forward to a Favorite</string>
+    <string name="profile_share_intent_title">Found this guy on Hornet</string>
+    <string name="profile_share_mail">Mail to a friend</string>
+    <string name="profile_share_mail_text">"Hey! 
+
+I found this guy on Hornet and thought you might like him. You can check him out on your device here: 
+
+http://hrnt.me/%1$s 
+
+Don't have Hornet? Then download it here and join in the fun! 
+
+Android: %3$s 
+
+iOS: http://bit.ly/askhrnt 
+
+Copyright © %2$s Hornet Networks Ltd."</string>
+    <string name="profile_share_sms">SMS to a friend</string>
+    <string name="profile_share_sms_text">Hey! I found this guy on Hornet and thought you might like him, check him out http://hrnt.me/%1$s</string>
+    <string name="profile_share_via">Share link via</string>
+    <string name="profile_show_distance">Show Distance</string>
+    <string name="profile_stats">STATS</string>
+    <string name="profile_stickers_failed_null">Sending failed</string>
+    <string name="profile_unfollow">Unfollow</string>
+    <string name="profile_unfollowed_member">You’re no longer following @%s</string>
+    <string name="profile_unit_of_measure">Unit of Measure</string>
+    <string name="profile_walkthrough_add_photo_button">Add photo</string>
+    <string name="profile_walkthrough_add_photo_from_facebook_button">Use Facebook photo</string>
+    <string name="profile_walkthrough_add_photo_from_google_button">Use Google photo</string>
+    <string name="profile_walkthrough_age_error_format">Age must be a whole number</string>
+    <string name="profile_walkthrough_age_error_max">Age must be at most 199</string>
+    <string name="profile_walkthrough_age_error_min">Age must be at least 18</string>
+    <string name="profile_walkthrough_do_later">Do this later</string>
+    <string name="profile_walkthrough_next_button">Next</string>
+    <string name="profile_walkthrough_no_google_photo">You don’t seem to have a Google profile photo</string>
+    <string name="profile_walkthrough_step_1">Step 1</string>
+    <string name="profile_walkthrough_step_1_subtitle">"A little about you.
+Don’t be shy!"</string>
+    <string name="profile_walkthrough_step_2">Step 2</string>
+    <string name="profile_walkthrough_step_2_subtitle">Add a photo, so guys can see you!</string>
+    <string name="profile_walkthrough_step_3">Done!</string>
+    <string name="profile_walkthrough_step_3_subtitle">"Congratulations!
+Basic info completed."</string>
+    <string name="profile_weight">Weight</string>
+    <string name="profile_weight_hint">Do not show</string>
+    <string name="profile_years_old">years old</string>
+    <string name="progile_edit_password_reseted">A new password has been sent to your e-mail address.</string>
+    <string name="rate_description">How much do you love this new version?</string>
+    <string name="rate_never">Never</string>
+    <string name="rate_title">Tell us what you think</string>
+    <string name="rating_description">That’s great to hear! We’d really appreciate a quick review</string>
+    <string name="rating_title">Thanks for the love!</string>
+    <string name="remove_all_photo_permission">Do you want to revoke access from all users?</string>
+    <string name="remove_photo_permission">Do you want to revoke access from this user?</string>
+    <string name="report_reason">Report reason</string>
+    <string name="report_sending">Sending your report</string>
+    <string name="report_sending_failed">An error occurred while sending your report</string>
+    <string name="report_sent">Your report was sent</string>
+    <string name="report_single_activity">Report this</string>
+    <string name="report_title">Report</string>
+    <string name="search_bookmark_added">Bookmark added</string>
+    <string name="search_bookmark_removed">Bookmark removed</string>
+    <string name="search_bookmarks">Bookmarks</string>
+    <string name="search_empty_text">No results</string>
+    <string name="search_filter_above">above %s</string>
+    <string name="search_filter_below">below %s</string>
+    <string name="search_filter_looking_for">looking for %s</string>
+    <string name="search_filters_applied_label">Filters on</string>
+    <string name="search_filters_none_applied_label">Filters off</string>
+    <string name="search_filters_title">Set your filters</string>
+    <string name="search_find_more_guys_cta">Find More Guys</string>
+    <string name="search_hashtag_or_username_query_no_filters">%s guys</string>
+    <string name="search_hashtag_or_username_query_only_online">Online %s guys</string>
+    <string name="search_hint">\#hashtag or @username</string>
+    <string name="search_hint_voice">Search hashtag or username</string>
+    <string name="search_input_hint">\#hashtag or @username</string>
+    <string name="search_label">Hornet Users</string>
+    <string name="search_load_more">Load more</string>
+    <string name="search_load_more_failed_message">Loading results failed</string>
+    <string name="search_location_query_display_text_location">Searching guys near %s</string>
+    <string name="search_location_query_display_text_nearby">Searching guys nearby</string>
+    <string name="search_location_query_no_filters">Guys near %s</string>
+    <string name="search_location_query_only_online">Online guys near %s</string>
+    <string name="search_location_query_unnamed">Unnamed location</string>
+    <string name="search_location_query_unnamed_location">unnamed location</string>
+    <string name="search_location_title">Explore the world</string>
+    <string name="search_menu_title">Search</string>
+    <string name="search_new_guys_label">New guys in your area</string>
+    <string name="search_new_guys_query_no_filters">New guys nearby</string>
+    <string name="search_new_guys_query_only_online">Online new guys nearby</string>
+    <string name="search_no_query_no_filters">All guys nearby</string>
+    <string name="search_no_query_only_online">Online guys nearby</string>
+    <string name="search_no_query_with_filters">Guys nearby</string>
+    <string name="search_popular_subtitle">Popular</string>
+    <string name="search_suggestions_subtitle">Suggestions</string>
+    <string name="search_username_title">%s…</string>
+    <string name="search_who_checked_you_out_label">Guys who checked you out</string>
+    <string name="search_who_checked_you_out_query_no_filters">Guys who checked you out</string>
+    <string name="search_who_checked_you_out_query_only_online">Online guys who checked you out</string>
+    <string name="settings_account_account_delete_failed">Failed to delete account.</string>
+    <string name="settings_account_create_nag_from_list"><i>Get a Hornet account</i></string>
+    <string name="settings_account_did_not_save_password">Password failed to save</string>
+    <string name="settings_account_empty_password">Password must not be empty</string>
+    <string name="settings_account_logging_out">Logging out…</string>
+    <string name="settings_account_logout_failed">Failed to logout.</string>
+    <string name="settings_account_public_url_copied_to_clipboard">URL copied to clipboard</string>
+    <string name="settings_account_public_url_title">Hornet public profile URL</string>
+    <string name="settings_account_saved_password">Password changed</string>
+    <string name="settings_feedback_email">"Leave your comment here:
+
+
+
+
+ Profile ID: %1$s 
+ Account ID: %2$s 
+ Device ID: %3$s 
+ Device Info: %4$s - Android version %5$s
+ App Version ID: %6$s 
+"</string>
+    <string name="settings_feedback_subtitle">Get in touch</string>
+    <string name="settings_help_title">Help</string>
+    <string name="settings_jobs">Jobs at Hornet</string>
+    <string name="settings_notifications_chat_priority">Priority</string>
+    <string name="settings_notifications_chat_priority_default">Default</string>
+    <string name="settings_notifications_chat_priority_high">High</string>
+    <string name="settings_notifications_chat_priority_low">Low</string>
+    <string name="settings_notifications_chat_priority_max">Max</string>
+    <string name="settings_notifications_chat_sound">Sound</string>
+    <string name="settings_notifications_chat_sound_default">Default</string>
+    <string name="settings_notifications_chat_sound_silent">Silent</string>
+    <string name="settings_notifications_chat_title">Push notifications</string>
+    <string name="settings_notifications_chat_use_hornet_sound">Use Hornet sound</string>
+    <string name="settings_notifications_chat_use_led">Use LED</string>
+    <string name="settings_notifications_chat_vibrate">Vibrate</string>
+    <string name="settings_notifications_chat_vibrate_default">Default</string>
+    <string name="settings_notifications_chat_vibrate_long">Long</string>
+    <string name="settings_notifications_chat_vibrate_off">Disabled</string>
+    <string name="settings_notifications_chat_vibrate_only_if_silent">Only if silent</string>
+    <string name="settings_notifications_chat_vibrate_short">Short</string>
+    <string name="settings_notifications_in_app_title">In-app notifications</string>
+    <string name="settings_notifications_push_chat_message">… someone sends me a new chat message</string>
+    <string name="settings_notifications_push_follow">… someone follows me</string>
+    <string name="settings_notifications_push_likes_to_profile_or_photo">… someone likes my profile update or photo</string>
+    <string name="settings_notifications_push_private_photo_requests">… someone sends me a photo access request or grants me access to his photos</string>
+    <string name="settings_notifications_push_stings_or_stickers">… someone stings me or sends me a sticker</string>
+    <string name="settings_notifications_push_title">Notify me when…</string>
+    <string name="settings_notifications_push_value_everyone">From everyone</string>
+    <string name="settings_notifications_push_value_follow">From guys I follow</string>
+    <string name="settings_notifications_push_value_nobody">Off</string>
+    <string name="settings_notifications_title">Notifications &amp; Sounds</string>
+    <string name="settings_photos_title">Photos</string>
+    <string name="settings_premium">Premium</string>
+    <string name="settings_premium_error_billing_init">Billing system initialization failed</string>
+    <string name="settings_premium_error_billing_unsupported">Billing is not supported on your device</string>
+    <string name="settings_premium_error_contact_support_extra_message_line">"
+
+If the issue persists, please try again later or contact support."</string>
+    <string name="settings_premium_error_pre_purchase">An error occurred while preparing your purchase</string>
+    <string name="settings_premium_error_processing_purchase">An error occurred while processing your purchase</string>
+    <string name="settings_premium_error_reading_products_list">An error occurred while getting list of membership options</string>
+    <string name="settings_premium_extend">Extend Membership</string>
+    <string name="settings_premium_feature_generic">Premium has never been better</string>
+    <string name="settings_premium_feature_invisible_mode">Want to be invisible?</string>
+    <string name="settings_premium_feature_remove_ads">Remove ads forever</string>
+    <string name="settings_premium_feature_unlimited_filters">Search guys with all our filters</string>
+    <string name="settings_premium_feature_unlimited_grid">Check out as many guys as you want</string>
+    <string name="settings_premium_feature_unlimited_photos">Upload more photos to your profile</string>
+    <string name="settings_premium_feature_who_checked_you_out">See who checked you out</string>
+    <string name="settings_premium_member">Premium Member</string>
+    <string name="settings_premium_membership_expires">Membership expires on %s</string>
+    <string name="settings_premium_premium_buy">Purchase</string>
+    <string name="settings_premium_purchase_processing">Processing your purchase</string>
+    <string name="settings_premium_purchase_subtitle_payment">One time payment %s.</string>
+    <string name="settings_premium_purchase_successful_title">Purchase successful</string>
+    <string name="settings_premium_restore">Restore Purchases</string>
+    <string name="settings_premium_restored_n_purchases">Restored %d purchases</string>
+    <string name="settings_premium_restored_nothing">No purchase was restored</string>
+    <string name="settings_premium_restoring_in_progress">Restoring purchases</string>
+    <string name="settings_premium_status_become_a_full">Become a Premium Member</string>
+    <string name="settings_premium_status_you_are_a_full">You’re a Premium Member</string>
+    <string name="settings_premium_subscription_per_month">/mo</string>
+    <string name="settings_premium_subscription_renews">Subscription renews on %s</string>
+    <string name="settings_premium_subscription_subscribe">Subscribe</string>
+    <string name="settings_premium_subscription_subtitle">Cancel at any time.</string>
+    <string name="settings_premium_subscription_subtitle_payment_annual">"Yearly renewable payment %s.
+"</string>
+    <string name="settings_premium_subscription_subtitle_payment_monthly">"Monthly renewable payment %s.
+"</string>
+    <string name="settings_premium_subscription_subtitle_payment_quarterly">"Quarterly renewable payment %s.
+"</string>
+    <string name="settings_premium_subscription_subtitle_save">Save %.0f%%.</string>
+    <string name="settings_premium_tease_line">Unlimited photos, no ads, and more!</string>
+    <string name="settings_premium_title">Premium Membership</string>
+    <string name="settings_premium_trial_start">Start Free Trial</string>
+    <string name="settings_premium_view_features">View all premium features</string>
+    <string name="settings_privacy_activities_share_title">Share with friends</string>
+    <string name="settings_privacy_activities_title">Activities</string>
+    <string name="settings_privacy_email_newsletter_title">Receive Hornet Newsletters</string>
+    <string name="settings_privacy_email_title">Email Preferences</string>
+    <string name="settings_privacy_location_title">Location</string>
+    <string name="settings_privacy_profile_personal_data">Request my personal data</string>
+    <string name="settings_privacy_profile_personal_data_email_body">"Thank you for requesting your data from Hornet.
+
+Please send this email without any changes. It is already addressed to our support team and contains the information we need to find your data.
+
+The details below allow us to find your data and ensure that it is you making this request.
+
+We will respond to the address you send this email from."</string>
+    <string name="settings_privacy_profile_personal_data_email_subject">Request my personal data (%1$s)</string>
+    <string name="settings_privacy_profile_title">Profile</string>
+    <string name="settings_privacy_title">Privacy</string>
+    <string name="settings_profile_edit">Edit profile</string>
+    <string name="settings_profile_invisible">Invisible</string>
+    <string name="settings_profile_subtitle">Edit public profile</string>
+    <string name="settings_translate_hornet_subtitle">Care to help us?</string>
+    <string name="settings_translate_hornet_title">Translate Hornet</string>
+    <string name="sign_up_terms">By signing up for an account, I confirm that I have read and agree to the [Hornet Terms of Service](%1$s) and [Privacy Policy](%2$s).</string>
+    <string name="sign_up_with_google">Sign up with Google</string>
+    <string name="signup_hint">"Enter your email address to
+get started on Hornet"</string>
+    <string name="signup_title">Sign up</string>
+    <string name="splash_account_suspended_contact">Contact</string>
+    <string name="splash_account_suspended_email_address">feedback@gethornet.com</string>
+    <string name="splash_account_suspended_email_title">Hornet Account Suspended</string>
+    <string name="splash_account_suspended_text">"Your account has been suspended, likely due to a violation of Hornet's terms of service. If you feel this is in error please contact us below."</string>
+    <string name="splash_account_suspended_title">Account Suspended</string>
+    <string name="splash_location_service_disabled_text">"In order to use this application, the location services need to be switched on.
+
+ Please go to the Settings screen on your device and enable it, so we can show you all the hot guys around you!"</string>
+    <string name="sponsored_info_text">Sponsored</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="suggested_not_available">The feature is temporarily unavailable</string>
+    <string name="term_of_use_cancel">Review</string>
+    <string name="term_of_use_ok">Accept</string>
+    <string name="term_of_use_title">Terms of Service</string>
+    <string name="unblock_all_user">Do you want to unblock all members?</string>
+    <string name="unblock_user">Do you want to unblock this member?</string>
+    <string name="username_in_use">Username already in use</string>
+    <string name="username_invalid">Invalid username</string>
+    <string name="username_toast">Username copied to clipboard</string>
+    <string name="viewed_me_not_available">Who checked you out temporarily unavailable</string>
+    <string name="weight_units_imperial">%1$d lb</string>
+    <string name="weight_units_metric">%1$d kg</string>
+</resources>

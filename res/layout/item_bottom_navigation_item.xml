@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:duplicateParentState="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="@dimen/design_bottom_navigation_margin" android:layout_marginBottom="@dimen/design_bottom_navigation_margin">
+        <ImageView android:id="@id/iconImageView" android:duplicateParentState="true" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+        <ImageView android:layout_gravity="end|center|top" android:id="@id/unreadBadgeDotView" android:duplicateParentState="true" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginTop="-4.0dip" android:layout_marginRight="-4.0dip" android:src="@drawable/ic_navigation_badge" android:scaleX="0.0" android:scaleY="0.0" />
+    </FrameLayout>
+    <android.support.design.internal.BaselineLayout android:layout_gravity="bottom|center" android:paddingBottom="10.0dip" android:duplicateParentState="true" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/design_bottom_navigation_text_size" android:id="@id/smallLabelTextView" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="@dimen/design_bottom_navigation_active_text_size" android:id="@id/largeLabelTextView" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="invisible" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </android.support.design.internal.BaselineLayout>
+</merge>

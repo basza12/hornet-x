@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/settings_notifications_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_card_margin" android:layout_marginBottom="@dimen/activity_card_margin" android:animateLayoutChanges="@bool/animate_layout_changes_in_notifications_and_sounds">
+        <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_card_margin" android:layout_marginBottom="@dimen/activity_card_margin" app:cardBackgroundColor="@color/activity_card_background" app:cardCornerRadius="0.0dip" app:cardElevation="@dimen/activity_card_elevation">
+            <LinearLayout android:orientation="vertical" android:id="@id/settings_notifications_global_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="@bool/animate_layout_changes_in_notifications_and_sounds">
+                <TextView android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_notifications_push_title" style="@style/AppTheme.SettingsSubtitleStyle" />
+                <LinearLayout android:orientation="vertical" android:id="@id/settings_notifications_push_likes_to_profile_or_photo_group" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_notifications_push_likes_to_profile_or_photo" style="@style/AppTheme.SettingsLabelStyle" />
+                    <TextView android:id="@id/settings_notifications_push_likes_to_profile_or_photo_value" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AppTheme.SettingsValueStyle" />
+                </LinearLayout>
+                <View android:background="@color/filters_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+                <LinearLayout android:orientation="vertical" android:id="@id/settings_notifications_push_follow_group" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_notifications_push_follow" style="@style/AppTheme.SettingsLabelStyle" />
+                    <TextView android:id="@id/settings_notifications_push_follow_value" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AppTheme.SettingsValueStyle" />
+                </LinearLayout>
+                <View android:background="@color/filters_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+                <LinearLayout android:orientation="vertical" android:id="@id/settings_notifications_push_chat_message_group" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_notifications_push_chat_message" style="@style/AppTheme.SettingsLabelStyle" />
+                    <TextView android:id="@id/settings_notifications_push_chat_message_value" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AppTheme.SettingsValueStyle" />
+                </LinearLayout>
+                <View android:background="@color/filters_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+                <LinearLayout android:orientation="vertical" android:id="@id/settings_notifications_push_stings_or_stickers_group" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_notifications_push_stings_or_stickers" style="@style/AppTheme.SettingsLabelStyle" />
+                    <TextView android:id="@id/settings_notifications_push_stings_or_stickers_value" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AppTheme.SettingsValueStyle" />
+                </LinearLayout>
+                <View android:background="@color/filters_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+                <LinearLayout android:orientation="vertical" android:id="@id/settings_notifications_push_private_photo_requests_group" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_notifications_push_private_photo_requests" style="@style/AppTheme.SettingsLabelStyle" />
+                    <TextView android:id="@id/settings_notifications_push_private_photo_requests_value" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AppTheme.SettingsValueStyle" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_card_margin" android:layout_marginBottom="@dimen/activity_card_margin" app:cardBackgroundColor="@color/activity_card_background" app:cardCornerRadius="0.0dip" app:cardElevation="@dimen/activity_card_elevation">
+            <LinearLayout android:orientation="vertical" android:id="@id/settings_notifications_chat_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="@bool/animate_layout_changes_in_notifications_and_sounds">
+                <TextView android:layout_gravity="start" android:id="@id/settings_notifications_chat_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_notifications_chat_title" style="@style/AppTheme.SettingsSubtitleStyle" />
+                <LinearLayout android:orientation="vertical" android:id="@id/settings_notifications_chat_vibrate_group" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/settings_notifications_chat_vibrate_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_notifications_chat_vibrate" style="@style/AppTheme.SettingsLabelStyle" />
+                    <TextView android:id="@id/settings_notifications_chat_vibrate_value" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AppTheme.SettingsValueStyle" />
+                </LinearLayout>
+                <View android:background="@color/filters_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="?android:listPreferredItemPaddingRight" android:layout_marginEnd="?android:listPreferredItemPaddingEnd">
+                    <TextView android:id="@id/settings_notifications_chat_use_hornet_sound_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_notifications_chat_use_hornet_sound" android:layout_toLeftOf="@id/settings_notifications_chat_use_hornet_sound_wrapper" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_toStartOf="@id/settings_notifications_chat_use_hornet_sound_wrapper" android:layout_alignParentStart="true" style="@style/AppTheme.SettingsLabelStyle" />
+                    <FrameLayout android:id="@id/settings_notifications_chat_use_hornet_sound_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_thin" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/spacing_thin" android:layout_alignParentEnd="true">
+                        <android.support.v7.widget.SwitchCompat android:id="@id/settings_notifications_chat_use_hornet_sound_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </FrameLayout>
+                </RelativeLayout>
+                <View android:id="@id/settings_notifications_chat_sound_group_divider" android:background="@color/filters_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+                <LinearLayout android:orientation="vertical" android:id="@id/settings_notifications_chat_sound_group" android:background="?android:selectableItemBackground" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/settings_notifications_chat_sound_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_notifications_chat_sound" style="@style/AppTheme.SettingsLabelStyle" />
+                    <TextView android:id="@id/settings_notifications_chat_sound_value" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AppTheme.SettingsValueStyle" />
+                </LinearLayout>
+                <View android:background="@color/filters_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="?android:listPreferredItemPaddingRight" android:layout_marginEnd="?android:listPreferredItemPaddingEnd">
+                    <TextView android:id="@id/settings_notifications_chat_use_led_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_notifications_chat_use_led" android:layout_toLeftOf="@id/settings_notifications_chat_use_led_wrapper" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_toStartOf="@id/settings_notifications_chat_use_led_wrapper" android:layout_alignParentStart="true" style="@style/AppTheme.SettingsLabelStyle" />
+                    <FrameLayout android:id="@id/settings_notifications_chat_use_led_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_thin" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/spacing_thin" android:layout_alignParentEnd="true">
+                        <android.support.v7.widget.SwitchCompat android:id="@id/settings_notifications_chat_use_led_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </FrameLayout>
+                </RelativeLayout>
+                <View android:background="@color/filters_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+                <LinearLayout android:orientation="vertical" android:id="@id/settings_notifications_chat_priority_group" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/settings_notifications_chat_priority_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_notifications_chat_priority" style="@style/AppTheme.SettingsLabelStyle" />
+                    <TextView android:id="@id/settings_notifications_chat_priority_value" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AppTheme.SettingsValueStyle" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_card_margin" android:layout_marginBottom="@dimen/activity_card_margin" app:cardBackgroundColor="@color/activity_card_background" app:cardCornerRadius="0.0dip" app:cardElevation="@dimen/activity_card_elevation">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+                <TextView android:layout_gravity="start" android:id="@id/settings_notifications_in_app_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_notifications_in_app_title" style="@style/AppTheme.SettingsSubtitleStyle" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="?android:listPreferredItemPaddingRight" android:layout_marginEnd="?android:listPreferredItemPaddingEnd">
+                    <TextView android:id="@id/settings_notifications_in_app_vibrate_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_notifications_in_app_vibrate" android:layout_toLeftOf="@id/settings_notifications_in_app_vibrate_wrapper" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_toStartOf="@id/settings_notifications_in_app_vibrate_wrapper" android:layout_alignParentStart="true" style="@style/AppTheme.SettingsLabelStyle" />
+                    <FrameLayout android:id="@id/settings_notifications_in_app_vibrate_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_thin" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/spacing_thin" android:layout_alignParentEnd="true">
+                        <android.support.v7.widget.SwitchCompat android:id="@id/settings_notifications_in_app_vibrate_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </FrameLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="100.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hornet_logo_white" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

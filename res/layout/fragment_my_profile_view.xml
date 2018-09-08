@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/activity_card_background" app:cardCornerRadius="0.0dip" app:cardElevation="@dimen/activity_card_elevation">
+        <RelativeLayout android:padding="@dimen/padding_thin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.hornet.android.views.BezelImageView android:id="@id/myProfilePhotoView" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginRight="@dimen/spacing_normal" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:maskDrawable="@drawable/circle_mask" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/myProfileTotals" android:layout_width="wrap_content" android:layout_height="40.0dip" android:baselineAligned="false" android:weightSum="3.0" android:layout_toRightOf="@id/myProfilePhotoView" android:layout_alignParentRight="true">
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/myProfileFavouritesFakeButton" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:id="@id/myProfileFavourites" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/hornet_gui_cyan" android:layout_gravity="center_horizontal" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_favourites" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/myProfileFollowersFakeButton" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:id="@id/myProfileFollowers" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/hornet_gui_cyan" android:layout_gravity="center_horizontal" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_followers" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/myProfileMatchesFakeButton" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:id="@id/myProfileMatches" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/hornet_gui_cyan" android:layout_gravity="center_horizontal" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_matches" />
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_toRightOf="@id/myProfilePhotoView" android:layout_below="@id/myProfileTotals" android:layout_alignParentRight="true">
+                <Button android:textColor="@color/hornet_gui_cyan" android:layout_gravity="center" android:id="@id/myProfileEdit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_profile_edit" style="?android:borderlessButtonStyle" />
+            </FrameLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/swipeRefreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.RecyclerView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="LinearLayoutManager" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

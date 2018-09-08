@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="discover_place_reactions_button">
+        <item quantity="other">%d caras</item>
+        <item quantity="one">1 cara</item>
+    </plurals>
+    <plurals name="feed_reactions_text_liked_by_me">
+        <item quantity="other">Você e [%1$d caras](/activities/%2$s/reactions) curtiram isso</item>
+        <item quantity="one">Você e [1 cara](/activities/%2$s/reactions) curtiram isso</item>
+    </plurals>
+    <plurals name="feed_reactions_text_not_liked_by_me">
+        <item quantity="other">[%1$d caras](/activities/%2$s/reactions) curtiram isso</item>
+        <item quantity="one">[1 cara](/activities/%2$s/reactions) curtiu isso</item>
+    </plurals>
+    <plurals name="feet">
+        <item quantity="other">%1$d pés</item>
+        <item quantity="one">%1$d pé</item>
+    </plurals>
+    <plurals name="kilometer">
+        <item quantity="other">%1$d quilômetros</item>
+        <item quantity="one">%1$d quilômetro</item>
+    </plurals>
+    <plurals name="meter">
+        <item quantity="other">%1$d metros</item>
+        <item quantity="one">%1$d metro</item>
+    </plurals>
+    <plurals name="mile">
+        <item quantity="other">%1$d milhas</item>
+        <item quantity="one">%1$d milha</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">Seguidores</item>
+        <item quantity="one">Seguidor</item>
+    </plurals>
+    <plurals name="profile_last_online_days_ago">
+        <item quantity="other">Online há %d dias</item>
+        <item quantity="one">Online há %d dia</item>
+    </plurals>
+    <plurals name="profile_last_online_hours_ago">
+        <item quantity="other">Online há %d horas</item>
+        <item quantity="one">Online há %d hora</item>
+    </plurals>
+    <plurals name="profile_last_online_minutes_ago">
+        <item quantity="other">Online há %d minutos</item>
+        <item quantity="one">Online há %d minuto</item>
+    </plurals>
+    <plurals name="profile_photos_count">
+        <item quantity="other">Fotos</item>
+        <item quantity="one">Foto</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_enough_credits">
+        <item quantity="other">Você está prestes a resgatar %1$d créditos de convite. Você receberá %2$s grátis em troca.</item>
+        <item quantity="one">Você está prestes a resgatar %1$d crédito de convite. Você receberá %2$s grátis em troca.</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_redeem_subtitle">
+        <item quantity="other">%d créditos</item>
+        <item quantity="one">%d crédito</item>
+    </plurals>
+    <plurals name="story_likes_count">
+        <item quantity="other">Curtidas</item>
+        <item quantity="one">Curtida</item>
+    </plurals>
+</resources>

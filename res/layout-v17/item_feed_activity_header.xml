@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/activity_title" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/padding_thin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.hornet.android.views.BezelImageView android:id="@id/thumbnail" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="@dimen/spacing_normal" android:scaleType="centerCrop" android:layout_weight="0.0" android:layout_marginEnd="@dimen/spacing_normal" app:maskDrawable="@drawable/circle_mask" />
+        <com.hornet.android.widget.ForegroundAwareLinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/header_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="@color/body_text_1" android:textColorLink="@color/hornet_gui_cyan" android:id="@id/title" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/body_text_2" android:id="@id/created_at" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.hornet.android.widget.ForegroundAwareLinearLayout>
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/activity_options" android:background="?android:selectableItemBackground" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="@dimen/spacing_normal" android:src="@drawable/ic_more_horiz_black_24dp" android:tint="@color/md_grey_unknown" android:layout_weight="0.0" android:contentDescription="@string/feed_activity_options_description" android:layout_marginStart="@dimen/spacing_normal" />
+        <com.hornet.android.widget.ForegroundAwareImageView android:layout_gravity="center_vertical" android:id="@id/thumbnail_photo" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="@dimen/spacing_normal" android:layout_weight="0.0" android:layout_marginEnd="@dimen/spacing_normal" app:compatForeground="?android:selectableItemBackground" />
+    </LinearLayout>
+    <TextView android:textSize="15.0sp" android:textColor="@color/body_text_1" android:id="@id/body" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_normal" android:layout_marginRight="@dimen/spacing_normal" android:layout_marginBottom="@dimen/spacing_normal" />
+</LinearLayout>

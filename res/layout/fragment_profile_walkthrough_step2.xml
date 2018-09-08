@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/profile_walkthrough_step2_subtitle_font_size" android:textColor="@android:color/white" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/profile_walkthrough_step2_subtitle_bottom_margin" android:text="@string/profile_walkthrough_step_2_subtitle" style="@style/TextAppearance.AppCompat.Subhead.Inverse" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:background="@color/profile_walkthrough_transparent_dark_grey" android:layout_width="240.0dip" android:layout_height="240.0dip" android:layout_marginBottom="@dimen/profile_walkthrough_step2_icon_bottom_margin">
+        <ImageButton android:id="@id/image_button_add_photo" android:background="?android:selectableItemBackground" android:layout_width="240.0dip" android:layout_height="240.0dip" android:src="@drawable/ic_add_a_photo_white_48dp" />
+    </FrameLayout>
+    <Button android:theme="@style/AppTheme.RaisedButtonStyleColoredHornetOrange" android:layout_gravity="center_horizontal" android:id="@id/button_add_photo" android:layout_width="300.0dip" android:layout_height="wrap_content" android:text="@string/profile_walkthrough_add_photo_button" />
+    <Button android:theme="@style/AppTheme.RaisedButtonStyleColoredFacebookBlue" android:layout_gravity="center_horizontal" android:id="@id/button_add_photo_from_facebook" android:visibility="gone" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/login_buttons_margin" android:text="@string/profile_walkthrough_add_photo_from_facebook_button" />
+    <Button android:theme="@style/AppTheme.RaisedButtonStyleColoredGoogleWhite" android:layout_gravity="center_horizontal" android:id="@id/button_add_photo_from_google" android:visibility="gone" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/login_buttons_margin" android:text="@string/profile_walkthrough_add_photo_from_google_button" />
+</LinearLayout>

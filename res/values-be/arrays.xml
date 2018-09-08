@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="house_ad_ctas">
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+    </string-array>
+    <string-array name="house_ad_titles">
+        <item>Паспрабуйце прэміум фільтры</item>
+        <item>Глядзіце, хто глядзеў на Вас</item>
+        <item>Пазбаўцеся ад рэкламы, паспрабуйце прэміум</item>
+        <item>Стаць нябачным.</item>
+    </string-array>
+</resources>

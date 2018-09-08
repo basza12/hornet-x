@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/search_results_load_more" android:background="?android:selectableItemBackground" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:layout_gravity="center" android:id="@id/progress_pending" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_load_more" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressIndicatorView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleSmall" />
+</FrameLayout>

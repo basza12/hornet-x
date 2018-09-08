@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hornet.android.widget.ForegroundAwareLinearLayout android:orientation="horizontal" android:paddingLeft="0.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:compatForeground="?android:selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/sideIndicator" android:layout_width="6.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/subscriptionBackground" android:paddingLeft="17.0dip" android:paddingTop="@dimen/premium_subscription_item_padding" android:paddingRight="16.0dip" android:paddingBottom="@dimen/premium_subscription_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="17.0dip" android:paddingEnd="16.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="20.0dip">
+            <TextView android:textSize="18.0sp" android:ellipsize="marquee" android:id="@id/subscriptionTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+            <TextView android:textSize="18.0sp" android:id="@id/subscriptionPrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="0.0" />
+            <TextView android:textSize="18.0sp" android:id="@id/subscriptionDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_premium_subscription_per_month" android:maxLines="1" android:layout_weight="0.0" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/premium_text_2" android:id="@id/subscriptionSubtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" />
+    </LinearLayout>
+</com.hornet.android.widget.ForegroundAwareLinearLayout>

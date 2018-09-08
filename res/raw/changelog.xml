@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog bulletedList="true">
+    <changelogversion changeDate="November 30,2015" versionName="18">
+        <changelogtext>Profileview</changelogtext>
+        <changelogtext>Added link support</changelogtext>
+        <changelogtext>Added profile view from chat</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="November 7,2015" versionName="15">
+        <changelogtext>Fixes for Android M</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="November 5,2015" versionName="14">
+        <changelogtext>Added profile view(in progress)</changelogtext>
+        <changelogtext>Reworked chat list and badge to use new cache</changelogtext>
+        <changelogtext>Added prefetching for chat</changelogtext>
+        <changelogtext>Fixed minor things in main activity(filter button, explore)</changelogtext>
+        <changelogtext>Fixed crash in location preview</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="October 22,2015" versionName="13">
+        <changelogtext>Chat messages caching</changelogtext>
+        <changelogtext>Stickers prefetching</changelogtext>
+        <changelogtext>Stickers sending</changelogtext>
+        <changelogtext>Chat location view(via any app)</changelogtext>
+        <changelogtext>Reworked chat kernel and BaseChatMessage</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="October 8,2015" versionName="12">
+        <changelogtext>New settings activity</changelogtext>
+        <changelogtext>New stickers</changelogtext>
+        <changelogtext>Request for private photos</changelogtext>
+        <changelogtext>Bug fix</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="September 17,2015" versionName="11">
+        <changelogtext>New Navigation</changelogtext>
+        <changelogtext>Unread badge</changelogtext>
+        <changelogtext>Push notifications(broken)</changelogtext>
+        <changelogtext>Fixed fragments initialization</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="September 3,2015" versionName="10">
+        <changelogtext>Added location message view</changelogtext>
+        <changelogtext>Added push notification</changelogtext>
+        <changelogtext>Fixed bugs</changelogtext>
+        <changelogtext>Added hook support</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="August 31,2015" versionName="9">
+        <changelogtext>Added location message</changelogtext>
+        <changelogtext>Added custom image preview</changelogtext>
+        <changelogtext>Fixed bugs</changelogtext>
+        <changelogtext>Photo share done</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="August 17,2015" versionName="8">
+        <changelogtext>Added chat</changelogtext>
+        <changelogtext>Added session restart</changelogtext>
+        <changelogtext>Fixed bugs</changelogtext>
+        <changelogtext>Photo share in progress</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="August 5,2015" versionName="7">
+        <changelogtext>Fully reworked filter kernel</changelogtext>
+        <changelogtext>Removed transitions</changelogtext>
+        <changelogtext>Fixed asana bugs</changelogtext>
+        <changelogtext>Explore</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="June 28,2015" versionName="6">
+        <changelogtext>New [b]awesome[/b] design!</changelogtext>
+        <changelogtext>Reset password</changelogtext>
+        <changelogtext>Cool transitions</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="June 15,2015" versionName="5">
+        <changelogtext>Lookup data</changelogtext>
+        <changelogtext>Filters(Non-premium only)</changelogtext>
+        <changelogtext>per page changed to 50</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="June 15,2015" versionName="4">
+        <changelogtext>Filter kernel(in progress)</changelogtext>
+        <changelogtext>New guys</changelogtext>
+        <changelogtext>Explore map</changelogtext>
+        <changelogtext>Explore grid</changelogtext>
+        <changelogtext>Optimization for saving state of all screens</changelogtext>
+        <changelogtext>Animated logo</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="May 31,2015" versionName="3">
+        <changelogtext>Changed layout for landscape(5 spans)</changelogtext>
+        <changelogtext>Added saving content on rotate for nearby</changelogtext>
+        <changelogtext>Added [b]this awesome changelog[/b]</changelogtext>
+        <changelogtext>Started filters</changelogtext>
+        <changelogtext>FAB and actionbar is hiding on scroll down</changelogtext>
+    </changelogversion>
+    <changelogversion changeDate="May 29,2015" versionName="2">
+        <changelogtext>Added location header</changelogtext>
+        <changelogtext>Added location provider fallback if fused provider is missing(happened on my device when changed
+            firmware to stock samsung)
+        </changelogtext>
+        <changelogtext>Added location updates(nearby should load and refresh faster)</changelogtext>
+    </changelogversion>
+
+    <changelogversion changeDate="May 28,2015" versionName="1">
+        <changelogtext>Initial release.</changelogtext>
+    </changelogversion>
+
+</changelog>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="discover_place_reactions_button">
+        <item quantity="other">%d 個人</item>
+    </plurals>
+    <plurals name="feed_reactions_text_liked_by_me">
+        <item quantity="other">你和 [%1$d 個人](/activities/%2$s/reactions) 按了讚</item>
+    </plurals>
+    <plurals name="feed_reactions_text_not_liked_by_me">
+        <item quantity="other">[%1$d 個人](/activities/%2$s/reactions) 按了讚</item>
+    </plurals>
+    <plurals name="feet">
+        <item quantity="other">%1$d 英尺</item>
+    </plurals>
+    <plurals name="kilometer">
+        <item quantity="other">%1$d 公里</item>
+    </plurals>
+    <plurals name="meter">
+        <item quantity="other">%1$d 公尺</item>
+    </plurals>
+    <plurals name="mile">
+        <item quantity="other">%1$d 英里</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">粉絲</item>
+    </plurals>
+    <plurals name="profile_last_online_days_ago">
+        <item quantity="other">%d 天前在線</item>
+    </plurals>
+    <plurals name="profile_last_online_hours_ago">
+        <item quantity="other">%d 小時前在線</item>
+    </plurals>
+    <plurals name="profile_last_online_minutes_ago">
+        <item quantity="other">%d 分鐘前在線</item>
+    </plurals>
+    <plurals name="profile_photos_count">
+        <item quantity="other">照片</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_enough_credits">
+        <item quantity="other">您將要換取 %1$d 邀請積分。作為交換，你會得到免費的 %2$s。</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_redeem_subtitle">
+        <item quantity="other">%d 積分</item>
+    </plurals>
+    <plurals name="story_likes_count">
+        <item quantity="other">讚</item>
+    </plurals>
+</resources>

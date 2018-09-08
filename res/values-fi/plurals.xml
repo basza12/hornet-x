@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="discover_place_reactions_button">
+        <item quantity="other">%d miestä</item>
+        <item quantity="one">1 mies</item>
+    </plurals>
+    <plurals name="feed_reactions_text_liked_by_me">
+        <item quantity="other">Sinä ja [%1$d guys](activities/%2$s/reactions) tykkäätte tästä</item>
+        <item quantity="one">Sinä ja [1 guy](/activities/%2$s/reactions) tykkäätte tästä</item>
+    </plurals>
+    <plurals name="feed_reactions_text_not_liked_by_me">
+        <item quantity="other">[%1$d guys](/activities/%2$s/reactions) tykkäsivät tästä</item>
+        <item quantity="one">[1 guy](/activities/%2$s/reactions) tykkäsi tästä</item>
+    </plurals>
+    <plurals name="feet">
+        <item quantity="other">%1$d jalkaa</item>
+        <item quantity="one">%1$d jalka</item>
+    </plurals>
+    <plurals name="kilometer">
+        <item quantity="other">%1$d kilometriä</item>
+        <item quantity="one">%1$d kilometri</item>
+    </plurals>
+    <plurals name="meter">
+        <item quantity="other">%1$d metriä</item>
+        <item quantity="one">%1$d metri</item>
+    </plurals>
+    <plurals name="mile">
+        <item quantity="other">%1$d mailia</item>
+        <item quantity="one">%1$d maili</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">Followers</item>
+        <item quantity="one">Follower</item>
+    </plurals>
+    <plurals name="profile_last_online_days_ago">
+        <item quantity="other">Online %d days ago</item>
+        <item quantity="one">Online %d day ago</item>
+    </plurals>
+    <plurals name="profile_last_online_hours_ago">
+        <item quantity="other">Online %d hours ago</item>
+        <item quantity="one">Online %d hour ago</item>
+    </plurals>
+    <plurals name="profile_last_online_minutes_ago">
+        <item quantity="other">Online %d minutes ago</item>
+        <item quantity="one">Online %d minute ago</item>
+    </plurals>
+    <plurals name="profile_photos_count">
+        <item quantity="other">Photos</item>
+        <item quantity="one">Photo</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_enough_credits">
+        <item quantity="other">Olet lunastamassa %1$d kutsupisteen. Saat vaihdossa ilmaisen %2$s.</item>
+        <item quantity="one">Olet lunastamassa %1$d kutsupisteen. Saat vaihdossa ilmaisen %2$s.</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_redeem_subtitle">
+        <item quantity="other">%d piste</item>
+        <item quantity="one">%d piste</item>
+    </plurals>
+    <plurals name="story_likes_count">
+        <item quantity="other">Likes</item>
+        <item quantity="one">Like</item>
+    </plurals>
+</resources>

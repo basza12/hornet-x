@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/hornet_chat_outgoing_bg" />
+    <corners android:radius="@dimen/chat_message_corner_radius_outer" android:topLeftRadius="@dimen/chat_message_corner_radius_outer" android:topRightRadius="@dimen/chat_message_corner_radius_outer" android:bottomLeftRadius="@dimen/chat_message_corner_radius_outer" android:bottomRightRadius="@dimen/chat_message_corner_radius_inner" />
+</shape>

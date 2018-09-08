@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="22.0dip" android:layout_marginRight="40.0dip" android:layout_alignParentTop="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/buttonBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/back_arrow" />
+        <TextView android:textSize="19.0sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_login" android:textAllCaps="true" android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/padding_signup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="42.0dip">
+        <TextView android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/signup_hint" android:fontFamily="sans-serif-light" />
+        <android.support.design.widget.TextInputLayout android:textColorHint="@color/login_field_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/login_middle_margin" app:counterEnabled="false" app:errorEnabled="false" app:hintAnimationEnabled="true">
+            <android.support.design.widget.TextInputEditText android:textColor="@android:color/white" android:id="@id/editEmail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/global_email" android:inputType="textEmailAddress" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout android:textColorHint="@color/login_field_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:counterEnabled="false" app:errorEnabled="false" app:hintAnimationEnabled="true" app:passwordToggleEnabled="true">
+            <android.support.design.widget.TextInputEditText android:textColor="@android:color/white" android:id="@id/editPassword" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/global_password" android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
+        <Button android:theme="@style/AppTheme.RaisedButtonStyleColoredHornetOrange" android:id="@id/buttonLogin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/login_buttons_margin" android:minHeight="50.0dip" android:text="@string/button_login" android:drawableLeft="@drawable/button_ic_hornet" android:drawableStart="@drawable/button_ic_hornet" />
+        <Button android:theme="@style/AppTheme.RaisedButtonStyleColoredFacebookBlue" android:id="@id/buttonFacebookLogin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/login_buttons_margin" android:minHeight="50.0dip" android:text="@string/first_time_login_facebook" android:drawableLeft="@drawable/button_ic_facebook" android:drawableStart="@drawable/button_ic_facebook" />
+        <Button android:theme="@style/AppTheme.RaisedButtonStyleColoredGoogleWhite" android:id="@id/buttonGoogleLogin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/login_buttons_margin" android:minHeight="50.0dip" android:text="@string/login_with_google" android:drawableLeft="@drawable/button_ic_google" android:drawableStart="@drawable/button_ic_google" />
+    </LinearLayout>
+    <FrameLayout android:background="#50000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip" android:layout_alignParentBottom="true">
+        <Button android:textColor="@android:color/white" android:gravity="center" android:id="@id/buttonResetPassword" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/profile_edit_forgot_my_password" style="?android:borderlessButtonStyle" />
+    </FrameLayout>
+</RelativeLayout>

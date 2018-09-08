@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_buttons_margin">10.0dip</dimen>
+    <dimen name="login_middle_margin">70.0dip</dimen>
+    <dimen name="login_tos_margin">8.0dip</dimen>
+    <dimen name="profile_walkthrough_step2_icon_bottom_margin">30.0dip</dimen>
+</resources>

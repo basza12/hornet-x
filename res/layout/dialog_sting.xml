@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="@dimen/padding_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="2.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hornet.android.widget.ForegroundAwareLinearLayout android:orientation="vertical" android:id="@id/button_send_heart" android:padding="@dimen/padding_thin" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:compatForeground="?android:selectableItemBackground">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/button_send_heart_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_heartsting" android:scaleType="centerCrop" />
+        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Caption" android:layout_gravity="center_horizontal" android:id="@id/button_send_heart_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_send_heart" />
+    </com.hornet.android.widget.ForegroundAwareLinearLayout>
+    <com.hornet.android.widget.ForegroundAwareLinearLayout android:orientation="vertical" android:id="@id/button_send_sting" android:padding="@dimen/padding_thin" android:focusable="true" android:visibility="invisible" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:compatForeground="?android:selectableItemBackground">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/button_send_sting_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_sting" android:scaleType="centerCrop" />
+        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Caption" android:layout_gravity="center_horizontal" android:id="@id/button_send_sting_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Send Sting" />
+    </com.hornet.android.widget.ForegroundAwareLinearLayout>
+</LinearLayout>

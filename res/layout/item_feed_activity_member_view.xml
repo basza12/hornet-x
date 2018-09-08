@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hornet.android.views.BezelImageView android:layout_width="82.0dip" android:layout_height="82.0dip" android:layout_margin="@dimen/spacing_thin" android:scaleType="centerCrop" app:maskDrawable="@drawable/circle_mask"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

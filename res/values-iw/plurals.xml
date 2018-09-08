@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="discover_place_reactions_button">
+        <item quantity="other">%d בחורים</item>
+        <item quantity="one">בחור אחד</item>
+        <item quantity="two">%d בחורים</item>
+        <item quantity="many">%d בחורים</item>
+    </plurals>
+    <plurals name="feed_reactions_text_liked_by_me">
+        <item quantity="other">אתה ו [1 בחור] (/ פעילויות /%2$s/ תגובות) ככה</item>
+        <item quantity="one">אתה ו [1 בחור] (/ פעילויות /%2$s/ תגובות) ככה</item>
+        <item quantity="two">אתה ו [1 בחור] (/ פעילויות /%2$s/ תגובות) ככה</item>
+        <item quantity="many">אתה ו [1 בחור] (/ פעילויות /%2$s/ תגובות) ככה</item>
+    </plurals>
+    <plurals name="feed_reactions_text_not_liked_by_me">
+        <item quantity="other">[%1$d בחורים] (/ פעילויות /%2$s/ תגובות) ככה</item>
+        <item quantity="one">[1 guy] (/ activities /%2$s/ תגובות) אוהב את זה</item>
+        <item quantity="two">[%1$d בחורים] (/ פעילויות /%2$s/ תגובות) ככה</item>
+        <item quantity="many">[%1$d בחורים] (/ פעילויות /%2$s/ תגובות) ככה</item>
+    </plurals>
+    <plurals name="feet">
+        <item quantity="other">%1$d רגל</item>
+        <item quantity="one">%1$d רגל</item>
+        <item quantity="two">%1$d רגל</item>
+        <item quantity="many">%1$d רגל</item>
+    </plurals>
+    <plurals name="kilometer">
+        <item quantity="other">%1$d ק\"מ</item>
+        <item quantity="one">%1$d ק\"מ</item>
+        <item quantity="two">%1$d ק\"מ</item>
+        <item quantity="many">%1$d ק\"מ</item>
+    </plurals>
+    <plurals name="meter">
+        <item quantity="other">%1$d מטר</item>
+        <item quantity="one">%1$d מטר</item>
+        <item quantity="two">%1$d מטר</item>
+        <item quantity="many">%1$d מטר</item>
+    </plurals>
+    <plurals name="mile">
+        <item quantity="other">%1$d קילומטר</item>
+        <item quantity="one">%1$d קילומטר</item>
+        <item quantity="two">%1$d קילומטר</item>
+        <item quantity="many">%1$d קילומטר</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">עוקבים</item>
+        <item quantity="one">חָסִיד</item>
+        <item quantity="two">עוקבים</item>
+        <item quantity="many">עוקבים</item>
+    </plurals>
+    <plurals name="profile_last_online_days_ago">
+        <item quantity="other">באינטרנט% d לפני יום</item>
+        <item quantity="one">באינטרנט% d לפני יום</item>
+        <item quantity="two">באינטרנט% d לפני יום</item>
+        <item quantity="many">באינטרנט% d לפני יום</item>
+    </plurals>
+    <plurals name="profile_last_online_hours_ago">
+        <item quantity="other">Çevrimiçi% d לפני שעה</item>
+        <item quantity="one">Çevrimiçi% d לפני שעה</item>
+        <item quantity="two">Çevrimiçi% d לפני שעה</item>
+        <item quantity="many">Çevrimiçi% d לפני שעה</item>
+    </plurals>
+    <plurals name="profile_last_online_minutes_ago">
+        <item quantity="other">%d דקות</item>
+        <item quantity="one">%d דקות</item>
+        <item quantity="two">%d דקות</item>
+        <item quantity="many">%d דקות</item>
+    </plurals>
+    <plurals name="profile_photos_count">
+        <item quantity="other">תמונות</item>
+        <item quantity="one">תמונה</item>
+        <item quantity="two">תמונה</item>
+        <item quantity="many">תמונות</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_enough_credits">
+        <item quantity="other">אתה עומד לפדות %1$d הזמנות זיכוי. אתה תקבל חינם %2$s בתמורה.</item>
+        <item quantity="one">אתה עומד לפדות את האשראי %1$d להזמנה. אתה תקבל חינם %2$s בתמורה.</item>
+        <item quantity="two">אתה עומד לפדות %1$d הזמנות זיכוי. אתה תקבל חינם %2$s בתמורה.</item>
+        <item quantity="many">אתה עומד לפדות %1$d הזמנות זיכוי. אתה תקבל חינם %2$s בתמורה.</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_redeem_subtitle">
+        <item quantity="other">%d זיכויים</item>
+        <item quantity="one">אשראי %d</item>
+        <item quantity="two">אשראי %d</item>
+        <item quantity="many">%d זיכויים</item>
+    </plurals>
+    <plurals name="story_likes_count">
+        <item quantity="other">אוהב</item>
+        <item quantity="one">כמו</item>
+        <item quantity="two">אוהב</item>
+        <item quantity="many">אוהב</item>
+    </plurals>
+</resources>

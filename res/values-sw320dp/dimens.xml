@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="premium_subscription_item_padding">10.0dip</dimen>
+    <dimen name="button_padding">0.0dip</dimen>
+    <dimen name="button_text_big">12.0sp</dimen>
+    <dimen name="my_profile">10.0sp</dimen>
+    <dimen name="sticker_row_height">105.0dip</dimen>
+    <dimen name="stickers_height">250.0dip</dimen>
+    <dimen name="stickers_height_margin">-251.0dip</dimen>
+    <dimen name="stickers_height_profile">270.0dip</dimen>
+    <dimen name="stickers_height_profile_margin">-271.0dip</dimen>
+</resources>

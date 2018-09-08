@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="house_ad_ctas">
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+    </string-array>
+    <string-array name="house_ad_titles">
+        <item>Prova i filtri Premium</item>
+        <item>Guarda chi ha visitato il tuo profilo</item>
+        <item>Elimina la pubblicità, passa a Premium</item>
+        <item>Diventa invisibile.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="chat_padding_bottom">15.0dip</dimen>
+    <dimen name="chat_padding_top">18.0dip</dimen>
+    <dimen name="chat_thumbnail_size">90.0dip</dimen>
+    <dimen name="discover_place_splash_width">350.0dip</dimen>
+    <dimen name="navigation_account_height">204.0dip</dimen>
+    <dimen name="navigation_account_image">64.0dip</dimen>
+    <dimen name="navigation_drawer_width">304.0dip</dimen>
+    <dimen name="padding_signup">44.0dip</dimen>
+    <dimen name="padding_signup_terms">22.0dip</dimen>
+    <dimen name="premium_subscription_item_padding">20.0dip</dimen>
+    <dimen name="profile_preview_display_name_size">24.0sp</dimen>
+    <dimen name="profile_preview_second_line_size">13.0sp</dimen>
+    <dimen name="profile_walkthrough_step2_subtitle_font_size">20.0sp</dimen>
+    <dimen name="spacing_thick">24.0dip</dimen>
+    <dimen name="spacing_thick_with_statusbar">44.0dip</dimen>
+</resources>

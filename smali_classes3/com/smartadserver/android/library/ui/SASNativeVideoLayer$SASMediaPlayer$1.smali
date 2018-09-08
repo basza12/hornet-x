@@ -1,0 +1,51 @@
+.class Lcom/smartadserver/android/library/ui/SASNativeVideoLayer$SASMediaPlayer$1;
+.super Ljava/lang/Object;
+.source "SASNativeVideoLayer.java"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/smartadserver/android/library/ui/SASNativeVideoLayer$SASMediaPlayer;->performPauseTasks()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$1:Lcom/smartadserver/android/library/ui/SASNativeVideoLayer$SASMediaPlayer;
+
+
+# direct methods
+.method constructor <init>(Lcom/smartadserver/android/library/ui/SASNativeVideoLayer$SASMediaPlayer;)V
+    .locals 0
+
+    .line 252
+    iput-object p1, p0, Lcom/smartadserver/android/library/ui/SASNativeVideoLayer$SASMediaPlayer$1;->this$1:Lcom/smartadserver/android/library/ui/SASNativeVideoLayer$SASMediaPlayer;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 2
+
+    .line 255
+    iget-object v0, p0, Lcom/smartadserver/android/library/ui/SASNativeVideoLayer$SASMediaPlayer$1;->this$1:Lcom/smartadserver/android/library/ui/SASNativeVideoLayer$SASMediaPlayer;
+
+    iget-object v0, v0, Lcom/smartadserver/android/library/ui/SASNativeVideoLayer$SASMediaPlayer;->this$0:Lcom/smartadserver/android/library/ui/SASNativeVideoLayer;
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lcom/smartadserver/android/library/ui/SASNativeVideoLayer;->access$100(Lcom/smartadserver/android/library/ui/SASNativeVideoLayer;Z)V
+
+    return-void
+.end method

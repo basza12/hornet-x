@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_settings_white_24dp" android:id="@id/menu_settings" android:title="@string/global_settings" app:showAsAction="ifRoom" />
+    <item android:id="@id/menu_refresh" android:title="@string/global_refresh_data" app:showAsAction="never" />
+</menu>

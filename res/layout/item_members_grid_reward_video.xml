@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/spacing_thick" android:paddingBottom="@dimen/spacing_thick" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@android:color/black" android:id="@id/rewardTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paywall_unlock_guys_title" android:fontFamily="sans-serif-medium" />
+    <Button android:theme="@style/AppTheme.RaisedButtonStyleColoredHornetOrange" android:id="@id/rewardAction" android:paddingLeft="64.0dip" android:paddingRight="64.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="50.0dip" />
+    <ProgressBar android:id="@id/rewardProgress" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+</LinearLayout>

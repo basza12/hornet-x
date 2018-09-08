@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_chat_their_access_locked" android:id="@id/action_toggle_access" android:title="@string/chat_permission_toolbar_grant_access" app:showAsAction="ifRoom" />
+    <item android:id="@id/action_open_private_gallery" android:title="@string/profile_open_private_gallery" app:showAsAction="never" />
+    <item android:id="@id/action_refresh_chat" android:title="@string/global_refresh_data" app:showAsAction="never" />
+    <item android:id="@id/action_remove_chat" android:title="@string/chat_messaging_clear_chat" app:showAsAction="never" />
+</menu>

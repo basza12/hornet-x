@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.FixedCoordinatorLayout android:id="@id/rootView" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:id="@id/appBarLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/material_app_bar_elevation">
+        <android.support.v7.widget.Toolbar android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_scrollFlags="enterAlways|scroll|snap" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+    <RelativeLayout android:id="@id/contentWrapper" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.hornet.android.widget.ContentLoadingProgressView android:id="@id/contentLoadingProgressIndicatorView" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="4.0dip" app:hideWithInvisibility="true">
+            <ProgressBar android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="4.0dip" android:indeterminate="true" style="?android:progressBarStyleHorizontal" />
+        </com.hornet.android.widget.ContentLoadingProgressView>
+    </RelativeLayout>
+    <android.support.design.widget.FloatingActionButton android:layout_gravity="end|center|top" android:id="@id/fab" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" app:backgroundTint="@android:color/white" app:elevation="@dimen/material_fab_resting_elevation" app:layout_anchor="@id/paddingView" app:layout_anchorGravity="end|center|top" app:layout_behavior="com.hornet.android.widget.ScrollAwareFloatingActionButtonBehavior" app:pressedTranslationZ="@dimen/material_fab_pressed_translation_z" app:rippleColor="@color/hornet_gui_cyan" />
+    <View android:id="@id/paddingView" android:layout_width="fill_parent" android:layout_height="16.0dip" app:layout_anchor="@id/adContainer" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/adContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_anchor="@id/navigationView" app:layout_dodgeInsetEdges="bottom" />
+    <include layout="@layout/partial_bottom_navigation_view" />
+</android.support.design.widget.FixedCoordinatorLayout>

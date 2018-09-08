@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rootView" android:background="?android:selectableItemBackground" android:paddingLeft="?android:listPreferredItemPaddingLeft" android:paddingTop="@dimen/spacing_normal" android:paddingRight="?android:listPreferredItemPaddingRight" android:paddingBottom="@dimen/spacing_normal" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/photo_wrapper" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <com.hornet.android.views.BezelImageView android:layout_gravity="center|left" android:id="@id/photo" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_user_list_placeholder_circle" android:scaleType="centerCrop" android:contentDescription="@string/global_photo" app:maskDrawable="@drawable/circle_mask" />
+    </FrameLayout>
+    <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="@android:color/black" android:id="@id/display_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/action_button" android:layout_toRightOf="@id/photo_wrapper" android:layout_centerVertical="true" />
+    <ImageButton android:id="@id/action_button" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="?android:listPreferredItemPaddingLeft" android:src="@drawable/ic_delete_black_24dp" android:tint="@color/md_red_500" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/list_edit_panel_delete" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:paddingLeft="16.0dip" android:paddingTop="14.0dip" android:paddingRight="16.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="1.0dip" android:layout_weight="0.0">
+        <include layout="@layout/partial_chat_inbox_avatar" />
+        <ImageView android:layout_gravity="start|center|top" android:id="@id/chatInboxOnlineIndicatorImageView" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="4.0dip" android:contentDescription="@string/profile_last_online_recently" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true">
+            <TextView android:textSize="16.0sp" android:textColor="@color/hornet_almost_black" android:ellipsize="end" android:gravity="top" android:id="@id/chatInboxNameTextView" android:layout_width="0.0px" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/hornet_dark_grey" android:gravity="top" android:id="@id/chatInboxDateTimeTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_weight="0.0" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/native_ad_info_text" android:id="@id/chatInboxAdDisclosureView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="10.0dip" android:text="@string/sponsored_info_text" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:baselineAligned="false">
+            <android.support.text.emoji.widget.EmojiAppCompatTextView android:textSize="15.0sp" android:textColor="@color/hornet_dark_grey" android:ellipsize="end" android:id="@id/chatInboxLastMessageTextView" android:layout_width="0.0px" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+            <TextView android:textSize="11.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/chatInboxUnreadIndicatorTextView" android:background="@drawable/bg_orange_unread_indicator" android:layout_width="wrap_content" android:layout_height="18.0sp" android:layout_marginLeft="16.0dip" android:minWidth="18.0sp" android:layout_weight="0.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

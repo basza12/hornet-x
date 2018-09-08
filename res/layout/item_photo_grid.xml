@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hornet.android.widget.SquareLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hornet.android.widget.SquareImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_add_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_add_photo" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/hornet_gui_cyan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/profile_settings_grid_add_photo" />
+    </LinearLayout>
+    <TextView android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/text_main" android:background="@color/background_black_transparent" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/profile_settings_grid_main_photo" android:layout_alignParentBottom="true" />
+</com.hornet.android.widget.SquareLayout>

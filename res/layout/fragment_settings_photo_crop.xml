@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.theartofdev.edmodo.cropper.CropImageView android:id="@id/crop_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cropAspectRatioX="9" app:cropAspectRatioY="16" app:cropAutoZoomEnabled="true" app:cropBackgroundColor="#c8000000" app:cropBorderCornerColor="@color/hornet_gui_cyan" app:cropFixAspectRatio="true" app:cropGuidelines="on" app:cropInitialCropWindowPaddingRatio="0.05" app:cropMultiTouchEnabled="false" app:cropScaleType="centerCrop" app:cropShape="rectangle" />
+    <android.support.design.widget.FloatingActionButton android:id="@id/fab_crop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:src="@drawable/ic_done_black_24dp" android:tint="@color/hornet_gui_cyan" app:layout_anchor="@id/crop_view" app:layout_anchorGravity="end|bottom|center" app:rippleColor="@color/hornet_gui_cyan" />
+</android.support.design.widget.CoordinatorLayout>

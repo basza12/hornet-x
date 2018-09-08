@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/white" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/verification_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_thin" android:layout_marginBottom="@dimen/spacing_thin">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/padding_normal">
+                <ImageView android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginRight="@dimen/padding_normal" android:src="@drawable/ic_verification" android:layout_marginEnd="@dimen/padding_normal" />
+                <TextView android:id="@id/mainText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_verification_main_text" />
+            </LinearLayout>
+            <View android:background="@color/hornet_almost_white" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/padding_normal">
+                <ProgressBar android:textSize="13.0sp" android:id="@id/progress" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="@dimen/verification_button_padding" android:layout_marginStart="@dimen/verification_button_padding" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/hornet_gui_cyan" android:id="@id/buttonPrimary" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/verification_button_padding" android:layout_marginRight="@dimen/padding_normal" android:text="@string/chat_verification_button_resend" android:textAllCaps="true" android:layout_marginStart="@dimen/verification_button_padding" android:layout_marginEnd="@dimen/padding_normal" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/hornet_ca_grey" android:gravity="end" android:id="@id/buttonSecondary" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/chat_verification_button_change" android:textAllCaps="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

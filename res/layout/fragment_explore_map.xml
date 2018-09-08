@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/rootView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/header" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:id="@id/locationSearchButton" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_search" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/explore_search" />
+        <EditText android:id="@id/locationSearchEditText" android:background="@android:color/white" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginRight="@dimen/spacing_normal" android:hint="@string/explore_search_hint" android:maxLines="1" android:layout_toLeftOf="@id/locationSearchButton" android:layout_alignParentTop="true" android:inputType="text" android:imeOptions="actionSearch" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/mapContainerLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header">
+        <FrameLayout android:id="@id/mapContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_marker" android:layout_centerInParent="true" android:contentDescription="@string/explore_pick_a_location" />
+    </RelativeLayout>
+</RelativeLayout>

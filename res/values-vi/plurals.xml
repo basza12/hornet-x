@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="discover_place_reactions_button">
+        <item quantity="other">%d chàng trai</item>
+    </plurals>
+    <plurals name="feed_reactions_text_liked_by_me">
+        <item quantity="other">Bạn và [%1$d chàng trai](/activities/%2$s/reactions) thích điều này</item>
+    </plurals>
+    <plurals name="feed_reactions_text_not_liked_by_me">
+        <item quantity="other">[%1$d chàng trai](/activities/%2$s/reactions) thích điều này</item>
+    </plurals>
+    <plurals name="feet">
+        <item quantity="other">%1$d ft</item>
+    </plurals>
+    <plurals name="kilometer">
+        <item quantity="other">%1$d km</item>
+    </plurals>
+    <plurals name="meter">
+        <item quantity="other">%1$d mét</item>
+    </plurals>
+    <plurals name="mile">
+        <item quantity="other">%1$d dặm</item>
+    </plurals>
+    <plurals name="profile_followers_count">
+        <item quantity="other">Người theo dõi</item>
+    </plurals>
+    <plurals name="profile_last_online_days_ago">
+        <item quantity="other">Trực tuyến %d ngày trước</item>
+    </plurals>
+    <plurals name="profile_last_online_hours_ago">
+        <item quantity="other">Trực tuyến %d tiếng trước</item>
+    </plurals>
+    <plurals name="profile_last_online_minutes_ago">
+        <item quantity="other">Trực tuyến %d phút trước</item>
+    </plurals>
+    <plurals name="profile_photos_count">
+        <item quantity="other">Ảnh</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_enough_credits">
+        <item quantity="other">Bạn kích hoạt %1$d lời mời tín dụng. Bạn sẽ nhận được %2$s trong khi giao dịch.</item>
+    </plurals>
+    <plurals name="profile_settings_get_free_premium_redeem_subtitle">
+        <item quantity="other">%d khoản tín dụng</item>
+    </plurals>
+    <plurals name="story_likes_count">
+        <item quantity="other">lượt thích</item>
+    </plurals>
+</resources>

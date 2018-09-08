@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="fraction" name="filters_scrim_alpha">@fraction/search_scrim_alpha</item>
+    <item type="fraction" name="search_scrim_alpha">1.0</item>
+</resources>

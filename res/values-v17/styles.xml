@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.SettingsLabelStyle" parent="">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/body_text_1</item>
+        <item name="android:layout_marginTop">16.0dip</item>
+        <item name="android:layout_marginBottom">16.0dip</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginStart">?android:listPreferredItemPaddingStart</item>
+        <item name="android:layout_marginEnd">?android:listPreferredItemPaddingEnd</item>
+    </style>
+    <style name="AppTheme.SettingsSubtitleStyle" parent="">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/hornet_gui_cyan</item>
+        <item name="android:layout_marginTop">16.0dip</item>
+        <item name="android:layout_marginBottom">16.0dip</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginStart">?android:listPreferredItemPaddingStart</item>
+        <item name="android:layout_marginEnd">?android:listPreferredItemPaddingEnd</item>
+    </style>
+    <style name="AppTheme.SettingsTextButtonStyle" parent="@style/Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:paddingLeft">?android:listPreferredItemPaddingLeft</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingRight">?android:listPreferredItemPaddingRight</item>
+        <item name="android:paddingBottom">4.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:paddingStart">?android:listPreferredItemPaddingStart</item>
+        <item name="android:paddingEnd">?android:listPreferredItemPaddingEnd</item>
+    </style>
+    <style name="AppTheme.SettingsValueStyle" parent="">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/body_text_2</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginBottom">16.0dip</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginStart">?android:listPreferredItemPaddingStart</item>
+        <item name="android:layout_marginEnd">?android:listPreferredItemPaddingEnd</item>
+    </style>
+    <style name="ProfileViewChatFab">
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+        <item name="android:layout_marginEnd">@dimen/profile_chat_fab_margin</item>
+    </style>
+    <style name="ProfileViewThumbnailFab">
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+        <item name="android:layout_marginStart">@dimen/profile_chat_fab_margin</item>
+        <item name="android:layout_marginEnd">0.0dip</item>
+    </style>
+    <style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="@style/Base.DialogWindowTitle.AppCompat">
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" parent="@android:style/Widget">
+        <item name="android:layout_gravity">start|center</item>
+        <item name="android:paddingEnd">8.0dip</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.DialogTitle.Icon" parent="@android:style/Widget">
+        <item name="android:layout_marginEnd">8.0dip</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem" parent="@android:style/Widget">
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup" parent="@android:style/Widget">
+        <item name="android:layout_marginStart">16.0dip</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.Text" parent="@android:style/Widget">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown" parent="@android:style/Widget">
+        <item name="android:paddingStart">@dimen/abc_dropdownitem_text_padding_left</item>
+        <item name="android:paddingEnd">4.0dip</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1" parent="@android:style/Widget">
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2" parent="@android:style/Widget">
+        <item name="android:layout_toStartOf">@id/edit_query</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Query" parent="@android:style/Widget">
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Text" parent="@style/Base.Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:layout_toStartOf">@android:id/icon2</item>
+        <item name="android:layout_toEndOf">@android:id/icon1</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.SearchView.MagIcon" parent="@android:style/Widget">
+        <item name="android:layout_marginStart">@dimen/abc_dropdownitem_text_padding_left</item>
+    </style>
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton" parent="@android:style/Widget">
+        <item name="android:paddingStart">12.0dip</item>
+        <item name="android:paddingEnd">12.0dip</item>
+    </style>
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton.Overflow" parent="@style/Base.Widget.AppCompat.ActionButton">
+        <item name="android:paddingStart">@dimen/abc_action_bar_overflow_padding_start_material</item>
+        <item name="android:paddingEnd">@dimen/abc_action_bar_overflow_padding_end_material</item>
+    </style>
+    <style name="ProfileViewExpandFab">
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+        <item name="android:layout_marginStart">0.0dip</item>
+        <item name="android:layout_marginEnd">@dimen/profile_expand_fab_margin</item>
+    </style>
+</resources>

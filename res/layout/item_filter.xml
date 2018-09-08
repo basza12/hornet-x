@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/switch_wrapper" android:layout_alignParentLeft="true">
+        <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:layout_gravity="start" android:id="@id/text_main" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="15.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/text_gray" android:ellipsize="end" android:layout_gravity="start" android:id="@id/text_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/switch_wrapper" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <android.support.v7.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@id/switch1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/switch_off" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_premium_crown_yellow" android:contentDescription="@string/settings_premium_status_become_a_full" />
+    </FrameLayout>
+</merge>

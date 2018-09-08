@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/profile_walkthrough_step1_top_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <TextView android:textSize="@dimen/profile_walkthrough_step2_subtitle_font_size" android:textColor="@android:color/white" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/profile_walkthrough_step1_subtitle_bottom_margin" android:text="@string/profile_walkthrough_step_1_subtitle" style="@style/TextAppearance.AppCompat.Subhead.Inverse" />
+    <android.support.design.widget.TextInputLayout android:textColorHint="@color/profile_walkthrough_hint" android:layout_gravity="center_horizontal" android:id="@id/display_name_layout" android:layout_width="240.0dip" android:layout_height="wrap_content" app:errorEnabled="true">
+        <android.support.design.widget.TextInputEditText android:textColor="@android:color/white" android:id="@id/display_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/profile_name" android:inputType="textPersonName|textCapWords" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:textColorHint="@color/profile_walkthrough_hint" android:layout_gravity="center_horizontal" android:id="@id/username_layout" android:layout_width="240.0dip" android:layout_height="wrap_content" app:errorEnabled="true">
+        <android.support.design.widget.TextInputEditText android:textColor="@android:color/white" android:id="@id/username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/global_username" android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:textColorHint="@color/profile_walkthrough_hint" android:layout_gravity="center_horizontal" android:id="@id/age_layout" android:layout_width="240.0dip" android:layout_height="wrap_content" app:errorEnabled="true">
+        <android.support.design.widget.TextInputEditText android:textColor="@android:color/white" android:id="@id/age" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/profile_age" android:maxLength="3" android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+    <Button android:theme="@style/AppTheme.RaisedButtonStyleColoredHornetOrange" android:layout_gravity="center_horizontal" android:id="@id/button_next" android:layout_width="240.0dip" android:layout_height="wrap_content" android:text="@string/profile_walkthrough_next_button" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="house_ad_ctas">
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+        <item>@string/house_ad_cta_1</item>
+    </string-array>
+    <string-array name="house_ad_titles">
+        <item>נסה מסננים פרימיום</item>
+        <item>ראה מי בדק אותך</item>
+        <item>קבל rids של מודעות, לקבל פרמיה</item>
+        <item>הפוך בלתי נראה.</item>
+    </string-array>
+</resources>

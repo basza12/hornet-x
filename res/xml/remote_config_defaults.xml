@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>hpb</key>
+        <value>{ ab_group: android-fallback, enabled: true, screens: [ timeline, notifications, guys, inbox, profile, stories, chat ] }</value>
+    </entry>
+    <entry>
+        <key>htb</key>
+        <value>{ ab_group: android-fallback, enabled: true, screens: [ timeline, notifications, guys, inbox, profile, stories, chat ] }</value>
+    </entry>
+    <entry>
+        <key>hng</key>
+        <value>{ ab_group: android-fallback, enabled: true, position_repeat: 8, screens: [ guys, new_guys, fans, favorites, matches ] }</value>
+    </entry>
+    <entry>
+        <key>hpi</key>
+        <value>{ ab_group: android-fallback, enabled: true, position_repeat: 10, screens: [ block, member_browser ] }</value>
+    </entry>
+    <entry>
+        <key>hti</key>
+        <value>{ ab_group: android-fallback, enabled: true, position_repeat: 10, screens: [ block, member_browser ] }</value>
+    </entry>
+    <entry>
+        <key>hnd</key>
+        <value>{ enabled: true, position_fixed: 0, screens: [ discover ] }</value>
+    </entry>
+    <entry>
+        <key>hns</key>
+        <value>{ ab_group: android-fallback, enabled: true, position_fixed: 2, screens: [ profile, social_profile ] }</value>
+    </entry>
+    <entry>
+        <key>hnf</key>
+        <value>{ ab_group: android-fallback, enabled: true, position_repeat: 10, screens: [ timeline ] }</value>
+    </entry>
+    <entry>
+        <key>paywall_grid</key>
+        <value>{ ab_group: android-fallback, nearby: { after: 85, position_fixed: 54, rewarded_video: false }, explore: { after: 85, position_fixed: 54, rewarded_video: false }, guys: { after: 85, position_fixed: 54, rewarded_video: false }, new_guys: { after: 3, position_fixed: 1, rewarded_video: false }, who_checked_you_out: { after: 0, position_fixed: 0, rewarded_video: false } }</value>
+    </entry>
+    <entry>
+        <key>purchases</key>
+        <value>{ab_group:android-fallback,products:[premium_1_year_renewable,premium_3_months_renewable,premium_1_month_renewable]}</value>
+    </entry>
+    <entry>
+        <key>hai</key>
+        <value>{ ab_group: android-fallback, enabled: true, position_repeat: 0, screens: [ all ] }</value>
+    </entry>
+    <entry>
+        <key>hnt</key>
+        <value>{ ab_group: android-fallback, enabled: true, position_fixed: 0, screens: [ story ] }</value>
+    </entry>
+    <entry>
+        <key>hnp</key>
+        <value>{ ab_group: android-fallback, enabled: false, position_fixed: 0, screens: [ guys, new_guys, fans, favorites, matches ] }</value>
+    </entry>
+    <entry>
+        <key>paywall-search</key>
+        <value>{ ab_group: android-fallback, who_checked_you_out: { after: 0, force_paywall: false }, new_guys: { after: null, force_paywall: false }, suggested_guys: { after: null, force_paywall: false } }</value>
+    </entry>
+    <entry>
+        <key>ads</key>
+        <value>{ ab_group: android-fallback, hng: [ dfp ], hns: [ dfp ], hnt: [dfp, dfp, addapptr], hnf: [dfp], hnp: [dfp], hpb: [dfp],ad_free_days:3 }</value>
+    </entry>
+    <entry>
+        <key>advertising</key>
+        <value>{ ab_group: android-fallback, ad_free_days: 0 }</value>
+    </entry>
+    <entry>
+        <key>config</key>
+        <value>{ photo_focus: false}</value>
+    </entry>
+</defaultsMap>
