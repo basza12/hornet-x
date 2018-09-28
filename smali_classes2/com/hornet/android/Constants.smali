@@ -38,7 +38,7 @@
 # static fields
 .field public static final ALPHA_FLAVOUR:Z = false
 
-.field public static final BASE_URL:Ljava/lang/String; = "https://hornet.gayru.site/api/v3/"
+.field public static final BASE_URL:Ljava/lang/String; = "https://hh.grs.ooo/api/v3/"
     .annotation build Lorg/jetbrains/annotations/NotNull;
     .end annotation
 .end field

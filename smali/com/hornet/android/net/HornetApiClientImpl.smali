@@ -781,7 +781,7 @@
 
     move-result-object v0
 
-    const-string v1, "https://hornet.gayru.site/api/v3/"
+    const-string v1, "https://hh.grs.ooo/api/v3/"
 
     .line 131
     invoke-virtual {v0, v1}, Lretrofit2/Retrofit$Builder;->baseUrl(Ljava/lang/String;)Lretrofit2/Retrofit$Builder;
